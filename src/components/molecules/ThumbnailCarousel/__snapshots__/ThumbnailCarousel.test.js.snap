@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThumbnailCarousel Rendering renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "height": 200,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={5000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    contentContainerStyle={
+      Array [
+        Object {},
+        Object {
+          "paddingLeft": 52,
+          "paddingRight": 52,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "id": "WpIAc9by5iU",
+          "thumbnail": "https://img.youtube.com/vi/D9ioyEvdggk/hqdefault.jpg",
+          "title": "Led Zeppelin - Stairway To Heaven",
+        },
+        Object {
+          "id": "sNPnbI1arSE",
+          "thumbnail": "https://img.youtube.com/vi/sNPnbI1arSE/hqdefault.jpg",
+          "title": "Eminem - My Name Is",
+        },
+        Object {
+          "id": "VOgFZfRVaww",
+          "thumbnail": "https://img.youtube.com/vi/VOgFZfRVaww/hqdefault.jpg",
+          "title": "",
+        },
+      ]
+    }
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    disableVirtualization={false}
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    initialNumToRender={7}
+    invertStickyHeaders={false}
+    inverted={false}
+    itemWidth={256}
+    keyExtractor={[Function]}
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={false}
+    loop={false}
+    loopClonesPerSide={3}
+    maxToRenderPerBatch={15}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onResponderRelease={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onSnapToItem={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={Object {}}
+    sliderWidth={360}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexDirection": "row",
+        "opacity": 0,
+        "width": 360,
+      }
+    }
+    swipeThreshold={20}
+    updateCellsBatchingPeriod={50}
+    useScrollView={false}
+    vertical={false}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={15}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 256,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": 256,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "https://img.youtube.com/vi/D9ioyEvdggk/hqdefault.jpg",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 10,
+                      "height": 144,
+                      "shadowColor": "black",
+                      "shadowOffset": Object {
+                        "height": 10,
+                        "width": 5,
+                      },
+                      "shadowOpacity": 1,
+                      "shadowRadius": 0,
+                      "top": 25,
+                      "width": 256,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "justifyContent": "center",
+                    "top": 28,
+                  },
+                ]
+              }
+            >
+              Led Zeppelin - Stairway To Heaven
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 0.7,
+              "transform": Array [
+                Object {
+                  "scale": 0.9,
+                },
+              ],
+              "width": 256,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": 256,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "https://img.youtube.com/vi/sNPnbI1arSE/hqdefault.jpg",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 10,
+                      "height": 144,
+                      "shadowColor": "black",
+                      "shadowOffset": Object {
+                        "height": 10,
+                        "width": 5,
+                      },
+                      "shadowOpacity": 1,
+                      "shadowRadius": 0,
+                      "top": 25,
+                      "width": 256,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "justifyContent": "center",
+                    "top": 28,
+                  },
+                ]
+              }
+            >
+              Eminem - My Name Is
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 0.7,
+              "transform": Array [
+                Object {
+                  "scale": 0.9,
+                },
+              ],
+              "width": 256,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "width": 256,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "https://img.youtube.com/vi/VOgFZfRVaww/hqdefault.jpg",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 10,
+                      "height": 144,
+                      "shadowColor": "black",
+                      "shadowOffset": Object {
+                        "height": 10,
+                        "width": 5,
+                      },
+                      "shadowOpacity": 1,
+                      "shadowRadius": 0,
+                      "top": 25,
+                      "width": 256,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "justifyContent": "center",
+                    "top": 28,
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`ThumbnailCarousel Rendering should match to snapshot 1`] = `ShallowWrapper {}`;

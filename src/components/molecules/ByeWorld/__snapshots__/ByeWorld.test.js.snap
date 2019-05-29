@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ByeWorld Rendering renders correctly 1`] = `
+<View>
+  <Text>
+    Bye World
+  </Text>
+</View>
+`;
+
+exports[`ByeWorld Rendering should match to snapshot 1`] = `ShallowWrapper {}`;

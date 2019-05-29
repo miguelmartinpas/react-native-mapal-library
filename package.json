@@ -1,0 +1,80 @@
+{
+  "name": "react-native-mapal-library",
+  "version": "1.0.11",
+  "description": "react-native-mapal-library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage=false",
+    "test:coverage": "jest --coverage=true",
+    "test:watch": "jest --watch --coverage=false",
+    "test:debug": "jest -o --watch --coverage=false",
+    "update:snapshots": "jest -u --coverage=false",
+    "lint": "eslint --ext .js src",
+    "docker:build": "docker build --build-arg ssh_prv_key=\"$(cat ~/.ssh/id_rsa)\" --build-arg ssh_pub_key=\"$(cat ~/.ssh/id_rsa.pub)\" -t Mapaldocker .",
+    "docker:run": "docker run -p 19000:19000  -p 19001:19001  -p 19002:19002 -v $(pwd):/home/node/app -v $(pwd)/src:/home/node/app/storybook/src --name Mapal-library-docker -itd Mapaldocker",
+    "docker:sh": "docker exec -it Mapal-library-docker bash",
+    "docker:start": "docker start Mapal-library-docker",
+    "docker:stop": "docker stop Mapal-library-docker",
+    "build": "rm -rf dist; mkdir -p dist; babel ./src --out-file ./dist/build.js"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverage": true,
+    "coverageDirectory": "test/results/coverage/jest",
+    "coverageReporters": [
+      "html"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>node_modules/react-native/jest/preprocessor.js"
+    },
+    "setupFiles": [
+      "<rootDir>/jest/setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native)"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/jest"
+    ]
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "prettier": "^1.17.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-svg": "^9.4.0",
+    "styled-components": "^4.2.0"
+  }
+}

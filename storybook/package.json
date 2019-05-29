@@ -1,0 +1,53 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start -c",
+    "sync": "sync-folders --watch ../src .",
+    "start:sync": "concurrently \"sync-folders --watch ../src .\" \"expo start -c\"",
+    "clean": "rm -rf ./src",
+    "clean:all": "rm -rf ./src; rm -rf ./node_modules; rm -rf ../node_modules",
+    "android": "expo start -c --android",
+    "ios": "expo start -c --ios",
+    "eject": "expo eject -c ",
+    "lint": "eslint --ext .js storybook",
+    "storybook": "storybook start"
+  },
+  "dependencies": {
+    "@storybook/addon-actions": "^4.1.18",
+    "@storybook/addon-links": "^4.1.18",
+    "@storybook/react-native": "^4.1.18",
+    "expo": "^32.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-svg": "^9.4.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addons": "^4.1.18",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "babel-runtime": "^6.26.0",
+    "concurrently": "^4.1.0",
+    "core-js": "^2.6.5",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "i": "^0.3.6",
+    "prettier": "^1.17.0",
+    "react-dom": "^16.8.6",
+    "react-native-storybook-loader": "^1.8.0",
+    "react-test-renderer": "^16.8.6",
+    "sync-folders": "^2.0.0"
+  },
+  "private": true
+}
