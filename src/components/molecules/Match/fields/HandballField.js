@@ -106,7 +106,7 @@ const HandballField = () => {
           </G>
           <Path
             id="ml78-Possession1"
-            fill="red"
+            fill="black"
             opacity="0"
             d="M1.7,2.0 L188.7,2.0 L198.7,2.0 L201.7,7.0 C201.7,7.0 245.0,83.0 244.7,89.0 C244.4,95.0 203.0,173.0 201.7,175.0 L199.7,178.0 L188.7,178.0 L1.7,178.0 1.7,2.0 Z"
             class=""
@@ -114,7 +114,7 @@ const HandballField = () => {
           />
           <Path
             id="ml78-Possession2"
-            fill="yellow"
+            fill="black"
             opacity="0"
             d="M398.3,2 L211.3,2 L201.3,2 L198.3,7 C198.3,7 155,83 155.3,89 C155.6,95 197,173 198.3,175 L200.3,178 L211.3,178 L398.3,178 398.3,2 Z"
             class=""

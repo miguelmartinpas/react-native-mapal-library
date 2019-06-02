@@ -32,4 +32,5 @@ storiesOf('Match', module)
   .add('to Football Field Storybook', () => <Match type="football" />)
   .add('to Basketball Court Storybook', () => <Match type="basketball" />)
   .add('to Handball Field Storybook', () => <Match type="handball" />)
-  .add('to Tennis Court Storybook', () => <Match type="tennis" />);
+  .add('to Tennis Court Storybook', () => <Match type="tennis" />)
+  .add('to Rugby Field Storybook', () => <Match type="rugby" />);

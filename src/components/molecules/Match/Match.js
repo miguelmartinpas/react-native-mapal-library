@@ -5,6 +5,7 @@ import FootballField from './fields/FootballField';
 import BasketballCourt from './fields/BasketballCourt';
 import TennisCourt from './fields/TennisCourt';
 import HandballField from './fields/HandballField';
+import RugbyField from './fields/RugbyField';
 
 const Match = props => {
   console.log('Match', props);
@@ -21,6 +22,9 @@ const Match = props => {
       break;
     case 'handball':
       Component = HandballField;
+      break;
+    case 'rugby':
+      Component = RugbyField;
       break;
     default:
       Component = FootballField;
