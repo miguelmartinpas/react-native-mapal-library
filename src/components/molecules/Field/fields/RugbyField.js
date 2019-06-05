@@ -120,7 +120,7 @@ const RugbyField = () => {
         </G>
         <G
           id="ml8-WideKickRadial"
-          opacity="1"
+          opacity="0"
           transform="translate(80.11999999999999, 84.60000000000001) rotate(0)"
           class=""
           style="transform: translateX(80.12px) translateY(84.6px) rotateZ(-180deg);"
@@ -129,7 +129,7 @@ const RugbyField = () => {
             id="ml8-WideKickRadialOuter"
             fill="#254000"
             d="M127.84905,99.5918919 C149.24925,72.1067568 162,37.5459459 162,0 C162,-37.5189189 149.2641,-72.0554054 127.8963,-99.5310811 L0,0.0486486486 L127.84905,99.5918919 L127.84905,99.5918919 Z"
-            opacity="0.22"
+            opacity="0"
             class=""
             style="opacity: 0; transform: scaleX(0) scaleY(0);"
           />
@@ -137,7 +137,7 @@ const RugbyField = () => {
             id="ml8-WideKickRadialCentre"
             fill="#254000"
             d="M84.13875,65.5594595 C98.2341,47.4635135 106.65,24.7216216 106.65,1.42108547e-14 C106.65,-24.6945946 98.24895,-47.4121622 84.18735,-65.4986486 L0,0.0486486486 L84.13875,65.5594595 L84.13875,65.5594595 Z"
-            opacity="0.44"
+            opacity="0"
             class=""
             style="opacity: 0; transform: scaleX(0) scaleY(0);"
           />
@@ -145,7 +145,7 @@ const RugbyField = () => {
             id="ml8-WideKickRadialInner"
             fill="#254000"
             d="M41.52465,32.3797297 C48.4893,23.4445946 52.65,12.2121622 52.65,7.10542736e-15 C52.65,-12.1851351 48.5082,-23.3932432 41.57325,-32.3202703 L0,0.0486486486 L41.52465,32.3797297 L41.52465,32.3797297 Z"
-            opacity="0.66"
+            opacity="0"
             class=""
             style="opacity: 0; transform: scaleX(0) scaleY(0);"
           />
