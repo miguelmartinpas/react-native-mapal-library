@@ -7,7 +7,7 @@ import { storiesOf } from '@storybook/react-native';
 import HelloWorld from './HelloWorld';
 import ByeWorld from './ByeWorld';
 import ThumbnailCarousel from './ThumbnailCarousel';
-import Match from './Match';
+import Field from './Field';
 
 const Container = styled.View`
   flex: 1;
@@ -26,11 +26,11 @@ storiesOf('ThumbnailCarousel', module).add('to Storybook', () => (
   <ThumbnailCarousel />
 ));
 
-storiesOf('Match', module)
+storiesOf('Field', module)
   .addDecorator(story => <Container>{story()}</Container>)
-  .add('to Football Field Storybook by default', () => <Match />)
-  .add('to Football Field Storybook', () => <Match type="football" />)
-  .add('to Basketball Court Storybook', () => <Match type="basketball" />)
-  .add('to Handball Field Storybook', () => <Match type="handball" />)
-  .add('to Tennis Court Storybook', () => <Match type="tennis" />)
-  .add('to Rugby Field Storybook', () => <Match type="rugby" />);
+  .add('to Football Field Storybook by default', () => <Field />)
+  .add('to Football Field Storybook', () => <Field type="football" />)
+  .add('to Basketball Court Storybook', () => <Field type="basketball" />)
+  .add('to Handball Field Storybook', () => <Field type="handball" />)
+  .add('to Tennis Court Storybook', () => <Field type="tennis" />)
+  .add('to Rugby Field Storybook', () => <Field type="rugby" />);
