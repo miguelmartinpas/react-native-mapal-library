@@ -1,3 +1,7 @@
+body, input {
+    font-family: Verdana,Geneva,Arial,sans-serif;
+}
+
 .ml110-Anims_Line {
   width: 3px;
   height: 100px;

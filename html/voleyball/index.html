@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../common/marcador.css" />
+  </head>
+  <body>
+    <div class="lv-MatchLiveView ">
+      <div class="lv-MatchLiveView_Container ">
+        <div class="ml91-MatchLiveVolleyballModule ">
+          <div class="ml91-ScoreHeader ">
+            <div class="ml91-ScoreHeader_Column ml91-ScoreHeader_Column-left ">
+              <div class="ml91-ScoreHeader_Team ">
+                <div class="ml91-ScoreHeader_TeamBorder "></div>
+                <div class="ml91-ScoreHeader_TeamText ">Rusia</div>
+              </div>
+              <div class="ml91-ScoreHeader_ScoreContainer "><div class="ml91-ScoreHeader_Score ">19</div></div>
+            </div>
+            <div class="ml91-ScoreHeader_Column ml91-ScoreHeader_Column-right ">
+              <div class="ml91-ScoreHeader_ScoreContainer "><div class="ml91-ScoreHeader_Score ">14</div></div>
+              <div class="ml91-ScoreHeader_Team ">
+                <div class="ml91-ScoreHeader_TeamBorder "></div>
+                <div class="ml91-ScoreHeader_TeamText ">Portugal</div>
+              </div>
+            </div>
+            <div class="ml91-ScoreHeader_TimerOuterWrapper ">
+              <div class="ml91-ScoreHeader_Timer ml91-ScoreHeader_TimerFadeOut ">
+                <div class="ml91-ScoreHeader_TimerInnerWrapper ml91-ScoreHeader_TimerInnerWrapper-show ">
+                  <span
+                    class="ml91-ScoreHeader_AdditionalText ml91-ScoreHeader_TextFadeOut ml91-ScoreHeader_Timer-empty "
+                  ></span
+                  ><span class="ml91-ScoreHeader_Clock ml91-ScoreHeader_ClockFadeOut ">00:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml91-MatchLiveVolleyballModule_PitchContainer ">
+            <div class="ml91-MatchLiveVolleyballModule_SVGPitchContainer ">
+              <svg
+                class="ml91-MatchLiveVolleyballModule_PitchSVG"
+                width="400px"
+                height="180px"
+                viewBox="0 0 400 180"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <!--<defs><rect id="path-1" x="22" y="770" width="400" height="180"></rect></defs>-->
+                <g id="Assets_Colours" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="bg">
+                    <!-- these have been changed from <use> --><!-- they were using rect#path-1 --><!--<use fill="#B36E60" fill-rule="evenodd" xlink:href="#path-1"></use><use fill="none" xlink:href="#path-1"></use><use fill="none" xlink:href="#path-1"></use>-->
+                    <rect fill="#B36E60" fill-rule="evenodd" x="0" y="0" width="400" height="180"></rect>
+                    <rect fill="none" x="0" y="0" width="400" height="180"></rect>
+                    <rect fill="none" x="0" y="0" width="400" height="180"></rect>
+                  </g>
+                  <g id="ML-pitches" transform="translate(-22.000000, -770.000000)">
+                    <rect id="Rectangle-269" x="22" y="770" width="400" height="180"></rect>
+                    <path
+                      d="M138.57868,787 L140.588832,787 L140.588832,933 L138.57868,933 L138.57868,787 Z M303.411168,787 L305.42132,787 L305.42132,933 L303.411168,933 L303.411168,787 Z M24,785 L420,785 L420,787 L24,787 L24,785 Z M24,933 L420,933 L420,935 L24,935 L24,933 Z"
+                      id="Rectangle-169"
+                      fill="#C0887C"
+                    ></path>
+                    <rect id="Rectangle-8" fill="#684100" x="221" y="940" width="3" height="3"></rect>
+                    <rect id="Rectangle-8-Copy" fill="#684100" x="221" y="777" width="3" height="3"></rect>
+                    <rect id="Rectangle-173" fill="#D19D92" x="221" y="780" width="3" height="160"></rect>
+                    <rect
+                      id="Rectangle-257"
+                      stroke="#C0887C"
+                      stroke-width="2"
+                      x="23"
+                      y="771"
+                      width="398"
+                      height="178"
+                    ></rect>
+                    <path id="ml91-Possession1" fill="#000" opacity="0" d=""></path>
+                    <path id="ml91-Possession2" fill="#000" opacity="0" d=""></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div>
+              <div class="ml91-MatchLiveVolleyballModule_AnimWrapper ">
+                <div class="ml91-AnimatedTextBar ">
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextWrapper ml91-AnimatedTextBar_OptionalH1TextWrapper"
+                    style="opacity: 1; left: 14px; top: 143px; width: 179px; display: block; text-align: left;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H1Text ">Rusia</span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextBackupWrapper ml91-CommonAnimations_H1TextBackup"
+                    style="opacity: 0; top: 143px; display: block; width: 179px; text-align: left; left: 14px;"
+                  >
+                    <span class="ml91-AnimatedTextBar "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextGhostWrapper "
+                    style="display: none; width: 179px; text-align: left;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H1TextGhost ">Rusia</span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextWrapper"
+                    style="opacity: 0;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2Text "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextBackupWrapper "
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2TextBackup "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextGhostWrapper "
+                    style="display: none; width: 179px; text-align: left;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2TextGhost "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextWrapper ml91-AnimatedTextBar_OptionalH3TextWrapper"
+                    style="display: none; opacity: 0; left: 14px; top: 128px; width: 179px; text-align: left; color: rgb(255, 223, 27);"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3Text "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextBackupWrapper"
+                    style="display: none; opacity: 0; top: 128px; width: 179px; text-align: left; left: 14px;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3TextBackup "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextGhostWrapper "
+                    style="display: none;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3TextGhost "></span>
+                  </div>
+                  <div
+                    class="ml91-CommonAnimations_Line"
+                    style="opacity: 1; background-color: rgb(240, 240, 240); left: 6px; top: 145px; height: 14px; transform: rotateZ(0deg); display: block;"
+                  ></div>
+                </div>
+                <div class="ml91-AnimatedTextBar ">
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextWrapper ml91-AnimatedTextBar_OptionalH1TextWrapper"
+                    style="opacity: 1; left: 205px; top: 143px; width: 179px; display: block; text-align: right;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H1Text ">Portugal</span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextBackupWrapper ml91-CommonAnimations_H1TextBackup"
+                    style="opacity: 0; top: 143px; display: block; width: 179px; text-align: right; left: 205px;"
+                  >
+                    <span class="ml91-AnimatedTextBar "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H1TextGhostWrapper "
+                    style="display: none; width: 179px; text-align: right;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H1TextGhost ">Portugal</span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextWrapper"
+                    style="opacity: 0;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2Text "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextBackupWrapper "
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2TextBackup "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H2TextGhostWrapper "
+                    style="display: none; width: 179px; text-align: right;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H2TextGhost "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextWrapper ml91-AnimatedTextBar_OptionalH3TextWrapper"
+                    style="display: none; opacity: 0; left: 205px; top: 128px; width: 179px; text-align: right;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3Text "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextBackupWrapper"
+                    style="display: none; opacity: 0; top: 128px; width: 179px; text-align: right; left: 205px; color: rgb(255, 223, 27);"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3TextBackup "></span>
+                  </div>
+                  <div
+                    class="ml91-AnimatedTextBar ml91-CommonAnimations_Asset ml91-CommonAnimations_H3TextGhostWrapper "
+                    style="display: none;"
+                  >
+                    <span class="ml91-AnimatedTextBar ml91-CommonAnimations_H3TextGhost "></span>
+                  </div>
+                  <div
+                    class="ml91-CommonAnimations_Line"
+                    style="opacity: 1; background-color: rgb(10, 10, 10); left: 389px; top: 144px; height: 15px; transform: rotateZ(180deg); display: block;"
+                  ></div>
+                </div>
+                <div>
+                  <div style="" class="ml91-LastSixPoints ">
+                    <div class="ml91-LastSixPoints_Title" style="display: inline-block; opacity: 1;">
+                      Últimos 6 puntos
+                    </div>
+                    <div class="ml91-LastSixPoints_Wrapper ">
+                      <div style="color: rgb(240, 240, 240); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">28</span>
+                      </div>
+                      <div style="color: rgb(10, 10, 10); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">29</span>
+                      </div>
+                      <div style="color: rgb(10, 10, 10); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">30</span>
+                      </div>
+                      <div style="color: rgb(240, 240, 240); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">31</span>
+                      </div>
+                      <div style="color: rgb(10, 10, 10); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">32</span>
+                      </div>
+                      <div style="color: rgb(240, 240, 240); opacity: 1;" class="ml91-LastSixPoints_PointWrapper">
+                        <span class="ml91-LastSixPoints_Label ">33</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml91-AllStats ">
+            <div class="ml91-StatsLower ">
+              <div class="ml91-StatsLower_Wrapper ml91-StatsLower_One ">
+                <div style="color: rgb(240, 240, 240);" class="ml91-StatsDial ">
+                  <div>
+                    <svg
+                      class="ml91-StatsDial_SVG"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="45.334"
+                      height="40.5"
+                      viewBox="0 0 45.334 40.5"
+                    >
+                      <g fill="none" stroke="none" stroke-width="1">
+                        <path
+                          stroke="#6D6D6D"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                        ></path>
+                        <path
+                          class="ml91-StatsDial_Path"
+                          stroke="currentColor"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                          style="stroke-dasharray: 87.1951px, 87.1951px; stroke-dashoffset: 32.6982px;"
+                        ></path>
+                        <text transform="translate(3 3)">
+                          <tspan class="ml91-StatsDial_Reading" x="19.5" y="25" text-anchor="middle">5</tspan>
+                        </text>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml91-StatsDial_Text ">Mayor nº de puntos consecutivos</div>
+                </div>
+                <div style="color: rgb(240, 240, 240);" class="ml91-StatsDial ">
+                  <div>
+                    <svg
+                      class="ml91-StatsDial_SVG"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="45.334"
+                      height="40.5"
+                      viewBox="0 0 45.334 40.5"
+                    >
+                      <g fill="none" stroke="none" stroke-width="1">
+                        <path
+                          stroke="#6D6D6D"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                        ></path>
+                        <path
+                          class="ml91-StatsDial_Path"
+                          stroke="currentColor"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                          style="stroke-dasharray: 87.1951px, 87.1951px; stroke-dashoffset: 31.4871px;"
+                        ></path>
+                        <text transform="translate(3 3)">
+                          <tspan class="ml91-StatsDial_Reading" x="19.5" y="25" text-anchor="middle">23</tspan>
+                        </text>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml91-StatsDial_Text ">Puntos en el servicio</div>
+                </div>
+              </div>
+              <div class="ml91-StatsLower_Wrapper ml91-StatsLower_Two ">
+                <div style="color: rgb(10, 10, 10);" class="ml91-StatsDial ">
+                  <div>
+                    <svg
+                      class="ml91-StatsDial_SVG"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="45.334"
+                      height="40.5"
+                      viewBox="0 0 45.334 40.5"
+                    >
+                      <g fill="none" stroke="none" stroke-width="1">
+                        <path
+                          stroke="#6D6D6D"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                        ></path>
+                        <path
+                          class="ml91-StatsDial_Path"
+                          stroke="currentColor"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                          style="stroke-dasharray: 87.1951px, 87.1951px; stroke-dashoffset: -55.708px;"
+                        ></path>
+                        <text transform="translate(3 3)">
+                          <tspan class="ml91-StatsDial_Reading" x="19.5" y="25" text-anchor="middle">13</tspan>
+                        </text>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml91-StatsDial_Text ">Puntos en el servicio</div>
+                </div>
+                <div style="color: rgb(10, 10, 10);" class="ml91-StatsDial ">
+                  <div>
+                    <svg
+                      class="ml91-StatsDial_SVG"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="45.334"
+                      height="40.5"
+                      viewBox="0 0 45.334 40.5"
+                    >
+                      <g fill="none" stroke="none" stroke-width="1">
+                        <path
+                          stroke="#6D6D6D"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                        ></path>
+                        <path
+                          class="ml91-StatsDial_Path"
+                          stroke="currentColor"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          d="M9.417 35.73C6.07 32.38 4 27.754 4 22.645c0-5.11 2.07-9.734 5.417-13.082C12.765 6.216 17.39 4.146 22.5 4.146c5.108 0 9.733 2.07 13.082 5.418S41 17.537 41 22.646c0 5.108-2.07 9.733-5.418 13.082"
+                          style="stroke-dasharray: 87.1951px, 87.1951px; stroke-dashoffset: -54.497px;"
+                        ></path>
+                        <text transform="translate(3 3)">
+                          <tspan class="ml91-StatsDial_Reading" x="19.5" y="25" text-anchor="middle">3</tspan>
+                        </text>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml91-StatsDial_Text ">Mayor nº de puntos consecutivos</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipe-ScoreGridHeaderLayout ">
+      <div class="ipe-ScoreGridHeaderLayout_ExtraData "></div>
+      <div></div>
+      <div class="ipe-ScoreGridContainer ">
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_ServiceOff "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_ServiceOn "></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_4-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="28"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K4-1</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="K4-1-path-1"
+                  ></path>
+                  <mask id="K4-1-mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#K4-1-path-1"></use>
+                  </mask>
+                  <mask id="K4-1-mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#K4-1-path-1"></use>
+                  </mask>
+                  <path id="K4-1-path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="K4-1-mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#K4-1-path-4"></use>
+                  </mask>
+                  <mask id="K4-1-mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#K4-1-path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K4-1">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#F0F0F0"
+                    ></path>
+                    <path id="color2" fill="#002B87" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#K4-1-mask-2)"
+                            stroke-width="4"
+                            xlink:href="#K4-1-path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#K4-1-mask-3)"
+                            stroke-width="2"
+                            xlink:href="#K4-1-path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#K4-1-mask-5)"
+                            stroke-width="4"
+                            xlink:href="#K4-1-path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#K4-1-mask-6)"
+                            stroke-width="2"
+                            xlink:href="#K4-1-path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_4-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="28"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K4-1</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="K4-1-path-1"
+                  ></path>
+                  <mask id="K4-1-mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#K4-1-path-1"></use>
+                  </mask>
+                  <mask id="K4-1-mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#K4-1-path-1"></use>
+                  </mask>
+                  <path id="K4-1-path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="K4-1-mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#K4-1-path-4"></use>
+                  </mask>
+                  <mask id="K4-1-mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#K4-1-path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K4-1">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#0A0A0A"
+                    ></path>
+                    <path id="color2" fill="#0A0A0A" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#K4-1-mask-2)"
+                            stroke-width="4"
+                            xlink:href="#K4-1-path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#K4-1-mask-3)"
+                            stroke-width="2"
+                            xlink:href="#K4-1-path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#K4-1-mask-5)"
+                            stroke-width="4"
+                            xlink:href="#K4-1-path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#K4-1-mask-6)"
+                            stroke-width="2"
+                            xlink:href="#K4-1-path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader "></div></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">Rusia</div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">Portugal</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">1º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">25</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">19</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">2º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">25</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">22</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">3º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">23</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">19</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">4º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">5º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

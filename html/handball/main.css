@@ -1,3 +1,7 @@
+body, input {
+    font-family: Verdana,Geneva,Arial,sans-serif;
+}
+
 .ml78-Anims_Asset {
   opacity: 0;
   display: none;

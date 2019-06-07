@@ -7890,7 +7890,7 @@
   padding-bottom: 1px;
   background-color: transparent;
   border-bottom-color: #545454;
-  height: 35px;
+  height: 33px;
 }
 .ipe-BaseballContainer_Pitch {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='58' height='58'%3E%3Cdefs%3E%3CradialGradient id='a' fx='50%25' fy='50%25'%3E%3Cstop stop-color='%237A9D40' offset='0%25'/%3E%3Cstop stop-color='%235B7937' offset='100%25'/%3E%3C/radialGradient%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd' transform='translate(-60 -323)'%3E%3Crect width='41' height='41' x='68.491' y='331.491' fill='url(%23a)' transform='rotate(-45 88.99 351.99)' rx='2'/%3E%3Cpath fill='%23819668' d='M66.004 357.998S69 355.885 69 352c0-3.885-2.966-5.975-2.966-5.975l-4.62 4.605c-.78.78-.77 2.048.01 2.822l4.58 4.546zm46.022 0s-2.996-2.113-2.996-5.998c0-3.885 2.966-5.975 2.966-5.975l4.62 4.605c.78.78.77 2.048-.01 2.822l-4.58 4.546zM83.03 375.026s2.112-2.996 5.998-2.996c3.885 0 5.974 2.966 5.974 2.966l-4.605 4.62c-.778.78-2.047.77-2.822-.01l-4.545-4.58zm0-46.026s2.112 2.997 5.998 2.997c3.885 0 5.974-2.966 5.974-2.966l-4.605-4.618a1.991 1.991 0 0 0-2.822.008L83.03 329z'/%3E%3Crect width='41' height='41' x='68.491' y='331.491' stroke='%23333' transform='rotate(-45 88.99 351.99)' rx='2'/%3E%3C/g%3E%3C/svg%3E");
@@ -7934,7 +7934,7 @@
 }
 .ipe-BaseballContainer_PitchBase3:after {
   background-position: 0 -54px;
-  top: 23px;
+  top: 28px;
   left: 0;
 }
 .ipe-BaseballContainer_BlankScoreboard {
@@ -7950,6 +7950,7 @@
   position: relative;
   margin-right: 0;
   margin-left: 0;
+  margin: 0 auto;
 }
 .ie-8 .ipe-BaseballHeaderLayout {
   position: relative;
@@ -10158,6 +10159,7 @@
 }
 .ipe-BaseballHeaderLayout .ipe-ScoreGridCell_Kit {
   padding: 3px 0 0 10px;
+  height: 29px;
 }
 .ipe-ScoreGridCell_Kit + .ipe-ScoreGridCell_Kit {
   padding-top: 4px;
@@ -10223,7 +10225,7 @@
   text-align: left;
 }
 .ipe-ScoreGridColumn + .ipe-ScoreGridColumn + .ipe-ScoreGridColumn .ipe-ScoreGridCell_TextTeamName {
-  padding-left: 0;
+  padding-left: 5px;
 }
 .Hidden + .Hidden + .ipe-ScoreGridColumn .ipe-ScoreGridCell_TextTeamName {
   padding-left: 10px;

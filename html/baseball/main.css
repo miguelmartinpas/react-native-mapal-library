@@ -1,3 +1,7 @@
+body, input {
+    font-family: Verdana,Geneva,Arial,sans-serif;
+}
+
 #mlContainer {
   position: relative;
   float: left;

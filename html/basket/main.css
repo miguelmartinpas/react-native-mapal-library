@@ -220,9 +220,9 @@ body, input {
   width: 451px;
 }
 .ml18-MatchLiveBasketballModule-narrow {
-  padding-left: 4px;
-  padding-right: 4px;
-  max-width: 400px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 450px;
 }
 .ie-8 .ml18-MatchLiveBasketballModule-narrow {
   width: 286px;
@@ -446,8 +446,7 @@ body, input {
   position: relative;
 }
 .ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 25px;
   display: flex;
 }
 .ie-8 .ml18-ScoreHeader,
@@ -710,7 +709,7 @@ body, input {
   padding-top: 9px;
 }
 .ml18-MatchLiveBasketballModule-narrow .ml18-Stats {
-  padding-top: 11px;
+  padding: 10px 25px;
 }
 .ml18-Stats_NoStats {
   margin: 0 auto 10px;
