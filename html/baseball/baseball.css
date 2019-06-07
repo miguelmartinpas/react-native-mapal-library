@@ -1,0 +1,2494 @@
+#mlContainer {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #222;
+  background: #303030;
+  box-shadow: inset 0 0 10px hsla(0, 0%, 8%, 0.8);
+}
+.matchLiveWideView #mlContainer {
+  box-shadow: none;
+}
+.match-live {
+  margin: 0 auto;
+  padding: 0;
+  background: #303030;
+  color: #ddd;
+  font-size: 10px;
+}
+#match-details {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.match-live .line-up {
+  position: absolute;
+  top: 26px;
+  z-index: 44;
+  display: block;
+  width: 33px;
+  height: 16px;
+}
+#mlLineupIconT1,
+#mlLineupIconT2 {
+  background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/line-up-arrow.png);
+  background-position-x: 6px;
+  background-position-y: 9px;
+  background-repeat: no-repeat;
+}
+#mlLineupIconT1[data-lineups='off'],
+#mlLineupIconT2[data-lineups='off'] {
+  background-image: none;
+}
+.match-live .line-up span,
+.match-live .scoreBoardKit {
+  background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/line-up.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#mlLineupIconT1 svg,
+#mlLineupIconT2 svg {
+  margin: 0 3px;
+  height: 15px;
+}
+.match-live .line-up span {
+  display: block;
+  height: 15px;
+}
+.match-live .line-up.team1 {
+  left: 30%;
+}
+.match-live .line-up.team2 {
+  right: 30%;
+  -ms-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.score-board {
+  float: left;
+  clear: both;
+  padding: 0 0 2px;
+  width: 100%;
+  height: 42px;
+  color: #a5a5a5;
+}
+.score-board .team {
+  float: left;
+  overflow: hidden;
+  padding: 2px 0;
+  width: 36%;
+  color: #ddd;
+  text-transform: uppercase;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+}
+.lineup[data-lng='2'] .team,
+.lineup[data-lng='10'] .team,
+.lineup[data-lng='19'] .team,
+.lineup[data-lng='20'] .team,
+.match-live[data-lng='2'] .score-board .team,
+.match-live[data-lng='10'] .score-board .team,
+.match-live[data-lng='19'] .score-board .team,
+.match-live[data-lng='20'] .score-board .team {
+  text-transform: none;
+}
+.score-board .team.one {
+  margin-left: 5px !important;
+  text-align: left;
+}
+.score-board .team.two {
+  float: right;
+  margin-right: 5px !important;
+  text-align: right;
+}
+.score-board .clock-score {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.score-board .clock-score > span {
+  display: inline-block;
+  background: #3f3f3f;
+}
+#mlClock,
+.score-board .clock-score > span > span {
+  display: block;
+  padding: 0 4px;
+  border: 1px solid #3d3d3d;
+  background-color: #333;
+  box-shadow: 0 0 0 1px #212121;
+}
+.score-board .clock-score .score {
+  display: block;
+  min-width: 32px;
+  background: #3f3f3f;
+  background-image: linear-gradient(#3f3f3f, #303030);
+  color: #ffdf1b;
+  line-height: 22px;
+}
+.score-board .clock-score span.score > span {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+.basketball .score-board .clock-score .period,
+.handball .score-board .clock-score .clock,
+.soccer .score-board .clock-score .clock,
+.waterPolo .score-board .clock-score .clock {
+  padding: 1px 4px 2px;
+  min-height: 15px;
+  border-radius: 0 0 2px 2px;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 15px;
+}
+#arena {
+  padding: 0.5em 0 0;
+  background-position: top;
+  background-size: 97.5% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 0;
+}
+#arena .terrain {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+#arena .events {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+#arena .events li {
+  float: none;
+  clear: none;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+#arena .events div {
+  color: #fff;
+  line-height: 1.2em;
+}
+#arena .events > div {
+  font-size: 1.4em;
+}
+.match-live .events p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#arena .events .generic {
+  padding: 5px 10px;
+}
+#arena .events .icon p {
+  position: relative;
+  text-align: left;
+}
+#arena .events p span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+#arena .events p span.type em {
+  font-style: normal;
+}
+#arena .events p span.team,
+#arena .events p span.type em {
+  display: block;
+  color: #c1c9a3;
+  text-transform: uppercase;
+}
+.match-live[data-lng='2'] #arena .events p span.team,
+.match-live[data-lng='10'] #arena .events p span.team,
+.match-live[data-lng='19'] #arena .events p span.team,
+.match-live[data-lng='20'] #arena .events p span.team {
+  text-transform: none;
+}
+#arena .events .transparent {
+  display: none !important;
+  opacity: 0;
+}
+#arena .events .opaque {
+  display: block;
+  opacity: 1;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+#arena .events canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 98;
+}
+#arena .events .possession {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transition-property: width;
+}
+#arena .events .possession.team1,
+#arena .events .possession.team2 {
+  position: relative;
+  z-index: 99;
+}
+#arena .events .possession.team1 {
+  text-align: right;
+}
+#arena .events .possession.team2 {
+  text-align: left;
+}
+.match-live .icons {
+  position: relative;
+  float: left;
+  clear: both;
+  padding: 2px 0 3px;
+  width: 100%;
+  border-bottom: 1px solid #222;
+  font-size: 12px;
+}
+.inplay-scoreboard {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+.inplay-scoreboard .icons {
+  position: static;
+  margin: -21px 0 0;
+  background: none;
+}
+.match-live .icons:after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #3f3f3f;
+  content: '';
+}
+.match-live .icons .team {
+  float: left;
+  width: 40%;
+}
+.match-live .icons .team.two {
+  float: right;
+  text-align: right;
+}
+.match-live .icons .team.one .card.red {
+  margin-left: 8px;
+}
+.match-live .icons .team.two .corners {
+  margin-right: 8px;
+}
+#summary .graphs {
+  padding: 10px 0 0;
+  height: 90%;
+  color: #a5a5a5;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+}
+#summary .graphs,
+#summary .graphs li {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+#summary .graphs li.teamPercent {
+  padding: 0;
+}
+#summary .graphs li span {
+  display: inline-block;
+  vertical-align: top;
+}
+#summary .graphs li .title {
+  overflow: hidden;
+  padding: 0 0 1px;
+  width: 70%;
+  color: #bbb;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#summary .graphs li .left,
+#summary .graphs li .right {
+  color: #ddd;
+}
+#summary .graphs li .left {
+  float: left;
+  padding-left: 5px;
+}
+#summary .graphs li .right {
+  float: right;
+  padding-right: 5px;
+}
+#summary .graphs li .bar {
+  clear: both;
+  margin: 0 5px;
+  min-height: 4px;
+  height: 15%;
+  border: 1px solid #202020;
+  border-radius: 1px;
+  background: #657c14;
+  box-shadow: 1px 1px 0 hsla(0, 0%, 100%, 0.05), -1px -1px 0 hsla(0, 0%, 100%, 0.05),
+    inset 0 1px 0 hsla(0, 0%, 100%, 0.4);
+}
+#summary .graphs li .bar span {
+  float: right;
+  height: 100%;
+  border-radius: 0;
+  background: #c7b127;
+  box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.4);
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  transition-property: width;
+}
+#summary .graphs li.split {
+  float: left;
+  clear: none;
+  width: 50%;
+}
+#summary #noStats {
+  display: block;
+  margin-top: 50px;
+  width: 100%;
+  height: 75%;
+  text-align: center;
+  font-size: 1.3em;
+}
+#summary #noStats > div {
+  width: 100%;
+}
+.lineup {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  margin: 0 5px;
+  border: 1px solid #202020;
+  border-radius: 4px;
+  background: #bbb;
+  color: #525252;
+  text-shadow: 0 1px 0 #c8c8c8;
+}
+.lineup .team {
+  display: block;
+  padding: 0 5px;
+  height: 34px;
+  border-bottom: 1px solid #898989;
+  border-radius: 4px 4px 0 0;
+  background: #aaa;
+  box-shadow: inset 0 0 1px #bcbcbc;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1.889;
+}
+.lineup .close {
+  float: right;
+  margin: 2px -2px 0 0;
+  padding: 0 10px;
+  min-width: 43px;
+  border: 1px solid #929292;
+  border-radius: 5px;
+  background: silver;
+  box-shadow: inset 0 0 1px #d1d1d1;
+  color: #545454;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0 1px 0 #d7d7d7;
+  font-size: 0.833em;
+  line-height: 1.867;
+}
+.lineup div {
+  float: left;
+  width: 50%;
+  font-size: 1em;
+}
+.lineup ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lineup .title,
+.lineup li {
+  position: relative;
+  display: block;
+  clear: both;
+  padding: 0 5px;
+  min-height: 2em;
+  font-size: 1.3em;
+  line-height: 2;
+}
+.lineup li {
+  padding-right: 30%;
+}
+.lineup .title:after,
+.lineup li:after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #d1d1d1;
+  background: #9c9c9c;
+  content: '';
+}
+.lineup li:last-child {
+  padding-top: 2px;
+}
+.lineup li:last-child:after {
+  display: none;
+}
+.lineup .starting li:last-child {
+  border-radius: 0 0 0 4px;
+}
+.lineup .subs li:last-child {
+  border-radius: 0 0 4px 0;
+}
+.lineup .title {
+  color: #333;
+  font-weight: 700;
+}
+.lineup .starting li:first-child,
+.lineup .title {
+  border-top: 1px solid #d1d1d1;
+}
+.lineup .starting li {
+  border-right: 1px solid #9c9c9c;
+  border-left: 1px solid #cacaca;
+}
+.lineup .subs li {
+  border-right: 1px solid #cacaca;
+}
+.lineup li > span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  padding-left: 14px;
+  height: 2em;
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.923em;
+  line-height: 26px;
+}
+.lineup li > span .card {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.lineup li > span .card:before {
+  width: 8px;
+  height: 12px;
+}
+.lineup li .icon.sub {
+  display: inline-block;
+  margin-right: 4px;
+  width: 10px;
+  height: 7px;
+  background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/sub-on.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.lineup li .icon.sub.off {
+  background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/sub-off.png);
+}
+.clock-score .ScoreWrapper {
+  border-radius: 0 0 2px 2px;
+}
+.StatsSelectIcon {
+  padding: 2px 4px;
+  border: 1px solid #515151;
+  border-radius: 0 0 2px 2px;
+  background-color: #333;
+  box-shadow: 0 0 0 1px #212121;
+  min-width: 32px;
+  height: 14px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  background-image: url(https://www.bet365.com/grfx/v2/arrows/lores/LoResStatsOverview.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  margin: 0 4px 0 0;
+  padding: 0 0 0 14px;
+  min-height: 16px;
+  line-height: 16px;
+}
+.card:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 10px;
+  height: 14px;
+  border: 1px solid #202020;
+  border-radius: 1px;
+  content: '';
+}
+.card.yellow:before {
+  background: #d1c10a;
+}
+.card.red:before {
+  background: #ae0a33;
+}
+@media (min-width: 360px) {
+  .mobile .match-live.basketball,
+  .mobile .match-live.horseracing,
+  .mobile .match-live.soccer {
+    font-size: 11px;
+  }
+  .mobile .match-live.handball,
+  .mobile .match-live.volleyball,
+  .mobile .match-live.waterPolo {
+    font-size: 17px;
+  }
+  .matchLiveNarrowView .mobile .match-live.basketball #arena,
+  .matchLiveNarrowView .mobile .match-live.handball #arena,
+  .matchLiveNarrowView .mobile .match-live.horseracing #arena,
+  .matchLiveNarrowView .mobile .match-live.soccer #arena,
+  .matchLiveNarrowView .mobile .match-live.volleyball #arena,
+  .matchLiveNarrowView .mobile .match-live.waterPolo #arena {
+    background-size: 350px auto;
+  }
+  .matchLiveNarrowView .mobile .match-live.basketball #arena .terrain,
+  .matchLiveNarrowView .mobile .match-live.handball #arena .terrain,
+  .matchLiveNarrowView .mobile .match-live.soccer #arena .terrain,
+  .matchLiveNarrowView .mobile .match-live.volleyball #arena .terrain,
+  .matchLiveNarrowView .mobile .match-live.waterPolo #arena .terrain {
+    width: 350px;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .match-live p:before {
+    background-size: 100%;
+  }
+  #mlLineupIconT1,
+  #mlLineupIconT2 {
+    background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/@2x/line-up-arrow@2x.png);
+    background-size: 7px 5px;
+  }
+  .match-live .line-up span,
+  .match-live .scoreBoardKit {
+    background-image: url(https://www.bet365.com/matchlive/sports/1/grfx/@2x/line-up@2x.png);
+    background-size: 23px 15px;
+  }
+  .StatsSelectIcon {
+    background-image: url(https://www.bet365.com/grfx/v2/arrows/hires/HiResStatsOverview.png);
+    background-size: 11px 8px;
+  }
+}
+.ml16-BaseballFieldView_Action {
+  -webkit-animation: action 2s ease-in infinite;
+  animation: action 2s ease-in infinite;
+}
+.ml16-BaseballFieldView_Mound20 {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.ml16-BaseballFieldView_Mound40 {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=40)';
+}
+.ml16-BaseballFieldView_Mound0 {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+}
+.ml16-batsmanF1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF1.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsmanF1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsmanF2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF2.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsmanF2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsmanF3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF3.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsmanF3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsmanF4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF4.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsmanF4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsmanF4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcherF1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF1.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcherF1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcherF2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF2.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcherF2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcherF3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF3.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcherF3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcherF4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF4.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcherF4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcherF4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-white-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F1.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-white-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-white-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F2.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-white-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-white-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F3.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-white-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-white-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F4.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-white-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-white-F4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-grey-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F1.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-grey-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-grey-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F2.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-grey-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-grey-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F3.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-grey-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-pitcher-grey-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F4.png', sizingMethod='scale')";
+  height: 46px;
+  width: 45px;
+}
+.ml16-BaseballFieldView_leftHandedBatter .ml16-pitcher-grey-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/pitcher-grey-F4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-grey-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F1.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-grey-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-grey-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F3.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-grey-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-grey-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F2.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-grey-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-grey-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F4.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-grey-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-grey-F4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-white-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F1.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-white-F1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F1.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-white-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F3.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-white-F3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F3.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-white-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F2.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-white-F2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F2.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-batsman-white-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F4.png', sizingMethod='scale')";
+}
+.ml16-BaseballFieldView_leftHanded .ml16-batsman-white-F4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/grfx/batsman-white-F4.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+}
+.ml16-BaseballFieldView_StatCountAsset {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #3b2a1e;
+  border-radius: 50%;
+}
+.ml16-BaseballFieldView_StatCountAsset.ml16-BaseballFieldView_StatCountAsset-active {
+  background-color: #ffdf1b;
+  width: 7px;
+  height: 7px;
+}
+.ml16-BaseballFieldView_StatCountAsset + .ml16-BaseballFieldView_StatCountAsset {
+  margin-left: 4px;
+}
+.ml16-BaseballFieldView_LeftHandedPitcher #pitcherInfo {
+  left: 80%;
+}
+.ml16-BaseballFieldView_leftHandedBatter #pitcherInfo {
+  left: -18%;
+}
+.ml16-BaseballFieldView_leftHandedBatter #pitcherInfo.ml16-BaseballFieldView_LeftHandedPitcher {
+  left: 0;
+}
+.ml16-BaseballFieldView_leftHanded #batterInfo {
+  left: 66%;
+}
+.ml16-BaseballFieldView_notBatting {
+  opacity: 0.5;
+}
+.ie-8 .ml16-BaseballFieldView_notBatting {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+}
+.ml16-BaseballFieldView_Transparent {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.6s 0s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.ie-8 .ml16-BaseballFieldView_Transparent {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+}
+.ml16-BaseballFieldView_Opaque {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity, visibility;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.ie-8 .ml16-BaseballFieldView_Opaque {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Enabled=false)';
+}
+#titleWrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  text-align: left;
+  font-size: 10px;
+  line-height: 12px;
+  z-index: 40;
+}
+#awayBat {
+  transition-property: padding-left, padding-right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 5px;
+  color: #8ccfff;
+  transition: none;
+}
+.wc-InPlayPage_RightColumn-animate #awayBat,
+.wc-MyBetsPage_RightColumn-animate #awayBat,
+.wc-Page_RightColumn-animate #awayBat {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #awayBat {
+  padding-left: 6px;
+  padding-right: 4px;
+}
+#inning {
+  transition-property: padding-left, padding-right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  color: #fff;
+}
+.wc-InPlayPage_RightColumn-animate #inning,
+.wc-MyBetsPage_RightColumn-animate #inning,
+.wc-Page_RightColumn-animate #inning {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #inning {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#homeBat {
+  transition-property: padding-left, padding-right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 5px;
+  padding-right: 10px;
+  text-align: right;
+  color: #8ccfff;
+  transition: none;
+}
+.wc-InPlayPage_RightColumn-animate #homeBat,
+.wc-MyBetsPage_RightColumn-animate #homeBat,
+.wc-Page_RightColumn-animate #homeBat {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #homeBat {
+  padding-right: 6px;
+  padding-left: 4px;
+}
+#teamWrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  color: #fff;
+  z-index: 40;
+}
+#roadTeamName {
+  transition-property: font-size, padding-left, padding-right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: top;
+  width: 40%;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.wc-InPlayPage_RightColumn-animate #roadTeamName,
+.wc-MyBetsPage_RightColumn-animate #roadTeamName,
+.wc-Page_RightColumn-animate #roadTeamName {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #roadTeamName {
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+#homeTeamName {
+  transition-property: font-size, padding-left, padding-right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: top;
+  width: 40%;
+  padding-left: 5px;
+  padding-right: 10px;
+  text-align: right;
+}
+.wc-InPlayPage_RightColumn-animate #homeTeamName,
+.wc-MyBetsPage_RightColumn-animate #homeTeamName,
+.wc-Page_RightColumn-animate #homeTeamName {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #homeTeamName {
+  font-size: 12px;
+  padding-right: 6px;
+  padding-left: 4px;
+}
+#roadScore {
+  transition-property: padding-left;
+  display: table-cell;
+  vertical-align: top;
+  width: 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate #roadScore,
+.wc-MyBetsPage_RightColumn-animate #roadScore,
+.wc-Page_RightColumn-animate #roadScore {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #roadScore {
+  padding-left: 4px;
+}
+#homeScore {
+  transition-property: padding-right;
+  display: table-cell;
+  vertical-align: top;
+  width: 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate #homeScore,
+.wc-MyBetsPage_RightColumn-animate #homeScore,
+.wc-Page_RightColumn-animate #homeScore {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #homeScore {
+  padding-right: 4px;
+}
+.baseball {
+  transition-property: max-width;
+  max-width: 449px;
+  position: relative;
+}
+.wc-InPlayPage_RightColumn-animate .baseball,
+.wc-MyBetsPage_RightColumn-animate .baseball,
+.wc-Page_RightColumn-animate .baseball {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow .baseball {
+  max-width: 450px;
+}
+#arenaLayout {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  max-width: 320px;
+}
+#arena .events {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: none;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#arena {
+  padding-top: 0;
+  width: 100%;
+  height: 143px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/Baseball-Pitch-@1x-extended.png);
+  max-width: 480px;
+  background-size: auto;
+  position: relative;
+}
+#arena .terrain {
+  height: 100%;
+}
+.baseball .notBatting {
+  text-shadow: none;
+  opacity: 0.5;
+}
+.ie-8 .baseball .notBatting {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+}
+#statBar {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  background: #543c2c;
+  height: 40px;
+}
+#statBar .statPanel {
+  display: table-cell;
+  vertical-align: top;
+  padding: 5px 5px 7px;
+  border-left: 1px solid #6b4d39;
+  color: #ddd;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+}
+#statBar .statPanel:first-child {
+  border-left: none;
+  padding-left: 10px;
+}
+#statBar .statPanel:last-child {
+  padding-right: 10px;
+}
+#statBar .statPanel > div:first-child {
+  margin-bottom: 4px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #statBar .statPanel {
+  padding-top: 6px;
+}
+#basesLabel {
+  margin-bottom: 0 !important;
+}
+#statBar .statLabel {
+  transition-property: font-size, line-height;
+  font-size: 12px;
+  line-height: 15px;
+}
+.wc-InPlayPage_RightColumn-animate #statBar .statLabel,
+.wc-MyBetsPage_RightColumn-animate #statBar .statLabel,
+.wc-Page_RightColumn-animate #statBar .statLabel {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #statBar .statLabel {
+  font-size: 11px;
+  line-height: 12px;
+}
+#statBar .statNum {
+  transition-property: font-size, line-height;
+  color: #ffdf1b;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 0.25em;
+}
+.wc-InPlayPage_RightColumn-animate #statBar .statNum,
+.wc-MyBetsPage_RightColumn-animate #statBar .statNum,
+.wc-Page_RightColumn-animate #statBar .statNum {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #statBar .statNum {
+  font-size: 11px;
+  line-height: 12px;
+}
+#bases {
+  height: 13px;
+  width: 18px;
+  max-width: 18px;
+  margin: 0 10px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='226' height='24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23CCC' d='M34 13.997L38.097 9.9l4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23FFDF1B' d='M43.803 13.997L47.898 9.9l4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23CCC' d='M38.902 9.096L42.997 5l4.096 4.096-4.096 4.095zM6 13.997L10.097 9.9l4.096 4.097-4.096 4.095zm9.803 0L19.898 9.9l4.096 4.097-4.096 4.095zm-4.901-4.901L14.997 5l4.096 4.096-4.096 4.095z'/%3E%3Cpath fill='%23FFDF1B' d='M90 13.997L94.097 9.9l4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23CCC' d='M99.803 13.997l4.095-4.096 4.096 4.097-4.096 4.095zm-4.901-4.901L98.997 5l4.096 4.096-4.096 4.095zM62 13.997L66.097 9.9l4.096 4.097-4.096 4.095zm9.803 0L75.898 9.9l4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23FFDF1B' d='M66.902 9.096L70.997 5l4.096 4.096-4.096 4.095zM146 13.997l4.096-4.096 4.096 4.097-4.096 4.095zm9.803 0l4.095-4.096 4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23CCC' d='M150.902 9.096L154.997 5l4.096 4.096-4.096 4.095zM118 13.997l4.096-4.096 4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23FFDF1B' d='M127.803 13.997l4.095-4.096 4.096 4.097-4.096 4.095zm-4.901-4.901L126.997 5l4.096 4.096-4.096 4.095zM202 13.997l4.096-4.096 4.096 4.097-4.096 4.095zm9.803 0l4.095-4.096 4.096 4.097-4.096 4.095zm-4.901-4.901L210.997 5l4.096 4.096-4.096 4.095zM174 13.997l4.096-4.096 4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23CCC' d='M183.803 13.997l4.095-4.096 4.096 4.097-4.096 4.095z'/%3E%3Cpath fill='%23FFDF1B' d='M178.902 9.096L182.997 5l4.096 4.096-4.096 4.095z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+.ie-8 #bases {
+  background-image: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/base-sprite.png);
+}
+#bases.bases000 {
+  background-position: -6px -5px;
+}
+#bases.bases100 {
+  background-position: -34px -5px;
+}
+#bases.bases010 {
+  background-position: -62px -5px;
+}
+#bases.bases001 {
+  background-position: -90px -5px;
+}
+#bases.bases110 {
+  background-position: -118px -5px;
+}
+#bases.bases101 {
+  background-position: -146px -5px;
+}
+#bases.bases011 {
+  background-position: -174px -5px;
+}
+#bases.bases111 {
+  background-position: -202px -5px;
+}
+.statcount {
+  font-size: 0;
+}
+.statcountasset {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #281a11;
+  background-color: #3a271b;
+  border-radius: 50%;
+  margin: 6px -0.5px 0 1.5px;
+}
+.statcountasset.active {
+  border: 1px solid #222;
+  background-color: #ffdf1b;
+}
+#eventsContainer p {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.ie-8 #eventsContainer {
+  width: 100%;
+  height: 100%;
+}
+#batter,
+#pitcher,
+#pitcherSpot {
+  position: absolute;
+}
+#pitcherSpot {
+  transition-property: left;
+  top: 81px;
+  left: 143px;
+  width: 33px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.wc-InPlayPage_RightColumn-animate #pitcherSpot,
+.wc-MyBetsPage_RightColumn-animate #pitcherSpot,
+.wc-Page_RightColumn-animate #pitcherSpot {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #pitcherSpot {
+  left: 125px;
+}
+#pitcher {
+  transition-property: right, left;
+  width: 26px;
+  height: 45px;
+  bottom: 60px;
+  right: 140px;
+}
+.wc-InPlayPage_RightColumn-animate #pitcher,
+.wc-MyBetsPage_RightColumn-animate #pitcher,
+.wc-Page_RightColumn-animate #pitcher {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #pitcher {
+  right: 121px;
+}
+#pitcher.ml16-BaseballFieldView_leftHanded {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  right: auto;
+  left: 140px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #pitcher.ml16-BaseballFieldView_leftHanded {
+  left: 121px;
+}
+#pitcherImg {
+  width: 44px;
+  position: absolute;
+  top: 0;
+  left: -9px;
+}
+.leftHandedPitcher #pitcherImg {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#pitcherImg > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#batter {
+  transition-property: right, left;
+  bottom: 18px;
+  right: 180px;
+  width: 33px;
+  height: 85px;
+}
+.wc-InPlayPage_RightColumn-animate #batter,
+.wc-MyBetsPage_RightColumn-animate #batter,
+.wc-Page_RightColumn-animate #batter {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batter {
+  right: 162px;
+}
+#batter.ml16-BaseballFieldView_leftHanded {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  right: auto;
+  left: 180px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batter.ml16-BaseballFieldView_leftHanded {
+  left: 162px;
+}
+#batterImg {
+  width: 83px;
+  height: 85px;
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+.leftHanded #batterImg {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#batterImg > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.baseball .batterInfo,
+.baseball .pitcherInfo {
+  position: absolute;
+  width: 93px;
+  z-index: 2;
+}
+#batterInfo {
+  transition-property: right, left;
+  top: 83px;
+  left: 24px;
+  background: #945d38;
+  border: 1px solid #7a4d2f;
+}
+.wc-InPlayPage_RightColumn-animate #batterInfo,
+.wc-MyBetsPage_RightColumn-animate #batterInfo,
+.wc-Page_RightColumn-animate #batterInfo {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+#batterInfo.ml16-BaseballFieldView_NoStats {
+  bottom: 31px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterInfo {
+  right: auto;
+  left: 6px;
+}
+#batterInfo.ml16-BaseballFieldView_leftHanded {
+  top: 83px;
+  left: 203px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterInfo.ml16-BaseballFieldView_leftHanded {
+  left: 185px;
+}
+#pitcherInfo {
+  transition-property: left;
+  top: 49px;
+  left: 190px;
+  background: #6f8a49;
+  border: 1px solid #465c2c;
+}
+.wc-InPlayPage_RightColumn-animate #pitcherInfo,
+.wc-MyBetsPage_RightColumn-animate #pitcherInfo,
+.wc-Page_RightColumn-animate #pitcherInfo {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+#pitcherInfo.ml16-BaseballFieldView_NoStats {
+  bottom: 54px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #pitcherInfo {
+  left: 172px;
+}
+#pitcherInfo.ml16-BaseballFieldView_leftHanded {
+  top: 49px;
+  left: 37px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #pitcherInfo.ml16-BaseballFieldView_leftHanded {
+  left: 19px;
+}
+#batterName,
+#pitcherName {
+  color: #fff;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  padding: 2px 5px 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#batterStats,
+#pitcherStats {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 10px;
+  line-height: 1;
+  color: #fff;
+}
+#batterStats > div > span,
+#pitcherStats > div > span {
+  display: block;
+}
+#batterStats .pitcherBatterStats_stat,
+#pitcherStats .pitcherBatterStats_stat {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 1px;
+}
+#batterStats .pitcherBatterStats_stat:first-child,
+#pitcherStats .pitcherBatterStats_stat:first-child {
+  padding-left: 2px;
+}
+#batterStats .pitcherBatterStats_stat:last-child,
+#pitcherStats .pitcherBatterStats_stat:last-child {
+  padding-right: 2px;
+}
+#batterStats .pitcherBatterStats_statName,
+#pitcherStats .pitcherBatterStats_statName {
+  display: block;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.ie-8 #batterStats .pitcherBatterStats_statName,
+.ie-8 #pitcherStats .pitcherBatterStats_statName {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+}
+#batterStats .pitcherBatterStats_statValue,
+#pitcherStats .pitcherBatterStats_statValue {
+  padding: 2px 0 3px;
+}
+.baseball .action {
+  -webkit-animation: action 2s ease-in infinite;
+  animation: action 2s ease-in infinite;
+}
+@-webkit-keyframes action {
+  0%,
+  to {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+}
+@keyframes action {
+  0%,
+  to {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.2;
+  }
+}
+#baseball {
+  position: absolute;
+  top: 37%;
+  left: 48%;
+  z-index: 2;
+  padding-bottom: 2%;
+  width: 2%;
+  height: 0;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/baseball.png);
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ie-8 #baseball {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/baseball.png', sizingMethod='scale')";
+  background: none;
+}
+#baseball.throw {
+  left: 48%;
+  -webkit-animation: throw 0.5s linear;
+  animation: throw 0.5s linear;
+}
+#baseball.hbp,
+#baseball.throw {
+  top: 56%;
+  padding-bottom: 4%;
+  width: 4%;
+}
+#baseball.hbp {
+  left: 35%;
+  -webkit-animation: leftThrow 0.5s linear;
+  animation: leftThrow 0.5s linear;
+}
+#baseball.ball {
+  top: 56%;
+  left: 65%;
+  padding-bottom: 4%;
+  width: 4%;
+  -webkit-animation: rightThrow 0.5s linear;
+  animation: rightThrow 0.5s linear;
+}
+.baseball .leftHanded #baseball.throw {
+  top: 45%;
+  left: 47%;
+  padding-bottom: 4%;
+  width: 4%;
+  -webkit-animation: throw 0.5s linear;
+  animation: throw 0.5s linear;
+}
+.baseball .leftHanded #baseball.hbp {
+  top: 45%;
+  left: 65%;
+  padding-bottom: 4%;
+  width: 4%;
+  -webkit-animation: rightThrow 0.5s linear;
+  animation: rightThrow 0.5s linear;
+}
+.baseball .leftHanded #baseball.ball {
+  top: 45%;
+  left: 35%;
+  padding-bottom: 4%;
+  width: 4%;
+  -webkit-animation: leftThrow 0.5s linear;
+  animation: leftThrow 0.5s linear;
+}
+@-webkit-keyframes throw {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+@keyframes throw {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(0, -300%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(0, -150%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+@-webkit-keyframes leftThrow {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+@keyframes leftThrow {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(600%, -350%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(300%, -175%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+@-webkit-keyframes rightThrow {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+@keyframes rightThrow {
+  0% {
+    -ms-transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+    -webkit-transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+    transform: scale3d(0.5, 0.5, 1) translate3d(-800%, -350%, 0) rotate(30deg);
+  }
+  50% {
+    -ms-transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+    -webkit-transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+    transform: scale3d(0.75, 0.75, 1) translate3d(-300%, -175%, 0) rotate(105deg);
+  }
+  to {
+    -ms-transform: scaleX(1) translateZ(0) rotate(180deg);
+    -webkit-transform: scaleX(1) translateZ(0) rotate(180deg);
+    transform: scaleX(1) translateZ(0) rotate(180deg);
+  }
+}
+#strikeZone {
+  transition-property: bottom;
+  border: 1px dashed hsla(0, 0%, 100%, 0.8);
+  height: 44px;
+  width: 55px;
+  position: absolute;
+  bottom: 39px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: table;
+  table-layout: fixed;
+  z-index: 1;
+}
+.wc-InPlayPage_RightColumn-animate #strikeZone,
+.wc-MyBetsPage_RightColumn-animate #strikeZone,
+.wc-Page_RightColumn-animate #strikeZone {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #strikeZone {
+  margin-left: -27.5px;
+  border: 1px dashed #fff;
+}
+.ml16-MatchLiveBaseballModule_Narrow #strikeZone {
+  bottom: 35px;
+}
+.baseball .pitchOutcomeBox {
+  transition-property: bottom;
+  position: absolute;
+  bottom: 39px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: table;
+  table-layout: fixed;
+  z-index: 1;
+}
+.wc-InPlayPage_RightColumn-animate .baseball .pitchOutcomeBox,
+.wc-MyBetsPage_RightColumn-animate .baseball .pitchOutcomeBox,
+.wc-Page_RightColumn-animate .baseball .pitchOutcomeBox {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow .baseball .pitchOutcomeBox {
+  bottom: 35px;
+}
+.baseball .pitchOutcomeBox span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#ball {
+  transition-property: font-size, line-height;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  height: 44px;
+  min-width: 55px;
+  padding: 0 12px;
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
+  color: #870000;
+  font-size: 13px;
+}
+.wc-InPlayPage_RightColumn-animate #ball,
+.wc-MyBetsPage_RightColumn-animate #ball,
+.wc-Page_RightColumn-animate #ball {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #ball {
+  width: 25%;
+  left: 175px;
+  background-color: transparent;
+}
+.ml16-MatchLiveBaseballModule_Narrow #ball {
+  line-height: 15px;
+  font-size: 12px;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #ball {
+  left: 159px;
+}
+.ie-8 #ball span {
+  background: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+}
+#strike {
+  transition-property: font-size, line-height;
+  height: 44px;
+  width: 55px;
+  line-height: 16px;
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
+  color: #870000;
+  font-size: 13px;
+}
+.wc-InPlayPage_RightColumn-animate #strike,
+.wc-MyBetsPage_RightColumn-animate #strike,
+.wc-Page_RightColumn-animate #strike {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #strike {
+  width: 55px;
+  margin-left: -27.5px;
+  background-color: transparent;
+}
+.ml16-MatchLiveBaseballModule_Narrow #strike {
+  line-height: 15px;
+  font-size: 12px;
+}
+.ie-8 #strike span {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+  background: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+#foul {
+  transition-property: font-size, line-height;
+  height: 44px;
+  width: 55px;
+  padding: 0 12px;
+  line-height: 16px;
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
+  color: #870000;
+  font-size: 13px;
+}
+.wc-InPlayPage_RightColumn-animate #foul,
+.wc-MyBetsPage_RightColumn-animate #foul,
+.wc-Page_RightColumn-animate #foul {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #foul {
+  background-color: transparent;
+  width: 55px;
+  margin-left: -27.5px;
+  padding: 0;
+  line-height: 13px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #foul {
+  line-height: 15px;
+  font-size: 12px;
+}
+.ie-8 #foul span {
+  border: 1px solid #fff;
+  background: #fff;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+#HBP {
+  transition-property: font-size, line-height;
+  -webkit-transform: translateX(-150%);
+  -ms-transform: translateX(-150%);
+  transform: translateX(-150%);
+  height: 44px;
+  min-width: 55px;
+  padding: 0 12px;
+  line-height: 16px;
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
+  color: #870000;
+  font-size: 13px;
+}
+.wc-InPlayPage_RightColumn-animate #HBP,
+.wc-MyBetsPage_RightColumn-animate #HBP,
+.wc-Page_RightColumn-animate #HBP {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #HBP {
+  margin-left: -93px;
+  background: #fff;
+  border: 1px solid #fff;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+  width: 65px;
+}
+.ml16-MatchLiveBaseballModule_Narrow #HBP {
+  line-height: 15px;
+  font-size: 12px;
+}
+#inPlay {
+  transition-property: font-size, line-height, padding, min-width;
+  background-color: #009440;
+  font-size: 13px;
+  color: #fff;
+  line-height: 19px;
+  padding: 0 15px;
+  min-width: 65px;
+  height: 40px;
+  border-radius: 1px;
+}
+.wc-InPlayPage_RightColumn-animate #inPlay,
+.wc-MyBetsPage_RightColumn-animate #inPlay,
+.wc-Page_RightColumn-animate #inPlay {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 #inPlay {
+  width: 100%;
+  left: inherit;
+  background-color: transparent;
+}
+.ml16-MatchLiveBaseballModule_Narrow #inPlay {
+  line-height: 17px;
+  padding: 0 12px;
+  min-width: 58px;
+  font-size: 12px;
+}
+.ie-8 .inplaySpan {
+  background-color: #009440;
+}
+.baseball .eventBox {
+  transition-property: padding, min-width, bottom;
+  position: absolute;
+  bottom: 39px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1;
+  min-width: 65px;
+  border-radius: 1px;
+  padding: 7px 15px 10px;
+}
+.wc-InPlayPage_RightColumn-animate .baseball .eventBox,
+.wc-MyBetsPage_RightColumn-animate .baseball .eventBox,
+.wc-Page_RightColumn-animate .baseball .eventBox {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .baseball .eventBox {
+  width: 100%;
+  left: inherit;
+  background-color: transparent;
+}
+.ml16-MatchLiveBaseballModule_Narrow .baseball .eventBox {
+  padding: 7px 12px 10px;
+  min-width: 58px;
+  bottom: 35px;
+}
+.baseball .eventBox span {
+  transition-property: font-size, line-height;
+  font-size: 13px;
+  color: inherit;
+  line-height: 19px;
+  display: block;
+  white-space: nowrap;
+}
+.wc-InPlayPage_RightColumn-animate .baseball .eventBox span,
+.wc-MyBetsPage_RightColumn-animate .baseball .eventBox span,
+.wc-Page_RightColumn-animate .baseball .eventBox span {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow .baseball .eventBox span {
+  line-height: 17px;
+  font-size: 12px;
+}
+.ie-8 .baseball .eventBox span {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  line-height: inherit;
+}
+.baseball .eventBox span + span {
+  opacity: 0.65;
+}
+.ie-8 #runPlayer,
+.ie-8 #scorePlayer {
+  padding-top: 0;
+}
+.ie-8 .ml16-BaseballFieldView_TwoLineAlert {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=85)';
+  bottom: 23px;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow .ml16-BaseballFieldView_TwoLineAlert {
+  line-height: inherit;
+  bottom: 28px;
+}
+#runEvent,
+#scoreEvent,
+#walkEvent {
+  background-color: #f7c22f;
+  color: #222;
+}
+.ie-8 #runEvent,
+.ie-8 #scoreEvent,
+.ie-8 #walkEvent {
+  width: 100%;
+  left: inherit;
+  background-color: transparent;
+}
+.ie-8 #runEvent span,
+.ie-8 #scoreEvent span,
+.ie-8 #walkEvent span {
+  line-height: 19px;
+  background-color: #f7c22f;
+}
+#outEvent,
+#strikeOutEvent {
+  background-color: #680000;
+  color: #e4e4e4;
+}
+.ie-8 #outEvent,
+.ie-8 #strikeOutEvent {
+  width: 100%;
+  left: inherit;
+  background-color: transparent;
+}
+.ie-8 #outEvent span,
+.ie-8 #strikeOutEvent span {
+  line-height: 19px;
+  background-color: #680000;
+}
+#inningsEvent {
+  background-color: #e4e4e4;
+  color: #222;
+}
+#rainDelay {
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/icon_rain_02.svg);
+  background-position: 50% 10px;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #333;
+  transition-property: bottom;
+  bottom: 39px;
+  height: 63px;
+  min-width: 100px;
+  padding-top: 48px;
+}
+.baseball .loaded {
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 5%;
+  width: 8%;
+  height: 0;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/base-glow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ie-8 .baseball .loaded {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/base-glow.png', sizingMethod='scale'";
+  background: none;
+  z-index: 0;
+}
+#first {
+  transition-property: right;
+  top: 71px;
+  right: 18px;
+}
+.wc-InPlayPage_RightColumn-animate #first,
+.wc-MyBetsPage_RightColumn-animate #first,
+.wc-Page_RightColumn-animate #first {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #first {
+  right: 2px;
+}
+#second {
+  transition-property: right;
+  top: 63px;
+  right: 147px;
+}
+.wc-InPlayPage_RightColumn-animate #second,
+.wc-MyBetsPage_RightColumn-animate #second,
+.wc-Page_RightColumn-animate #second {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #second {
+  right: 131px;
+}
+#third {
+  transition-property: left;
+  top: 71px;
+  left: 18px;
+}
+.wc-InPlayPage_RightColumn-animate #third,
+.wc-MyBetsPage_RightColumn-animate #third,
+.wc-Page_RightColumn-animate #third {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #third {
+  left: 2px;
+}
+#home {
+  position: absolute;
+  top: 77%;
+  left: 42.5%;
+  padding-bottom: 8%;
+  width: 15%;
+  height: 0;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/homebase-glow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ie-8 #home {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/homebase-glow.png', sizingMethod='scale')";
+  background: none;
+}
+.baseball .run {
+  position: absolute;
+  width: 42%;
+  height: 0;
+}
+#batterrun1 {
+  top: 56%;
+  right: 10%;
+  padding-bottom: 13%;
+  width: 36%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterrun1 {
+  right: 5%;
+  width: 40%;
+  height: 103%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #batterrun1 {
+  height: 28%;
+}
+.ie-8 #batterrun1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run01.png', sizingMethod='scale')";
+  background: none;
+}
+#batterrun2 {
+  transition-property: background-size;
+  top: 47.5%;
+  right: 7%;
+  padding-bottom: 5%;
+  width: 41%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run02.png);
+  background-size: 91%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #batterrun2,
+.wc-MyBetsPage_RightColumn-animate #batterrun2,
+.wc-Page_RightColumn-animate #batterrun2 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterrun2 {
+  background-size: 100%;
+}
+.ie-8 #batterrun2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run02.png', sizingMethod='scale')";
+  background: none;
+}
+#batterrun3 {
+  transition-property: left, background-size;
+  top: 47.5%;
+  left: 9.5%;
+  padding-bottom: 5%;
+  width: 41%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run03.png);
+  background-size: 94%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #batterrun3,
+.wc-MyBetsPage_RightColumn-animate #batterrun3,
+.wc-Page_RightColumn-animate #batterrun3 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterrun3 {
+  left: 5.5%;
+  background-size: 100%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #batterrun3 {
+  left: 5.5%;
+  width: 42%;
+}
+.ie-8 #batterrun3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run03.png', sizingMethod='scale')";
+  background: none;
+  top: 47.5%;
+  left: 11.5%;
+  padding-bottom: 4%;
+  width: 35%;
+}
+#batterrun4 {
+  transition-property: width, top, left;
+  top: 55%;
+  left: 9%;
+  padding-bottom: 20%;
+  width: 37%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run04.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #batterrun4,
+.wc-MyBetsPage_RightColumn-animate #batterrun4,
+.wc-Page_RightColumn-animate #batterrun4 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #batterrun4 {
+  width: 39%;
+  top: 56%;
+  left: 5%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #batterrun4 {
+  left: 5%;
+}
+.ie-8 #batterrun4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run04.png', sizingMethod='scale')";
+  background: none;
+  left: 8%;
+  padding-bottom: 15%;
+}
+#baserun1 {
+  transition-property: width, height, right;
+  top: 56%;
+  right: 10%;
+  padding-bottom: 13%;
+  width: 36%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run01-white.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #baserun1,
+.wc-MyBetsPage_RightColumn-animate #baserun1,
+.wc-Page_RightColumn-animate #baserun1 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #baserun1 {
+  right: 5%;
+  width: 40%;
+  height: 103%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #baserun1 {
+  height: 28%;
+}
+.ie-8 #baserun1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run01-white.png', sizingMethod='scale')";
+  background: none;
+}
+#baserun2 {
+  transition-property: background-size;
+  top: 47.5%;
+  right: 7%;
+  padding-bottom: 5%;
+  width: 41%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run02-white.png);
+  background-size: 91%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #baserun2,
+.wc-MyBetsPage_RightColumn-animate #baserun2,
+.wc-Page_RightColumn-animate #baserun2 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #baserun2 {
+  background-size: 100%;
+}
+.ie-8 #baserun2 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run02-white.png', sizingMethod='scale')";
+  background: none;
+  right: 11%;
+  padding-bottom: 4%;
+  width: 37%;
+}
+#baserun3 {
+  transition-property: left, background-size;
+  top: 47.5%;
+  left: 9.5%;
+  padding-bottom: 5%;
+  width: 41%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run03-white.png);
+  background-size: 94%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #baserun3,
+.wc-MyBetsPage_RightColumn-animate #baserun3,
+.wc-Page_RightColumn-animate #baserun3 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #baserun3 {
+  left: 5.5%;
+  background-size: 100%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #baserun3 {
+  left: 5.5%;
+  width: 42%;
+}
+.ie-8 #baserun3 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run03-white.png', sizingMethod='scale')";
+  background: none;
+  top: 47.5%;
+  left: 11.5%;
+  padding-bottom: 4%;
+  width: 35%;
+}
+#baserun4 {
+  transition-property: width, top, left;
+  top: 55%;
+  left: 9%;
+  padding-bottom: 20%;
+  width: 37%;
+  background: url(https://www.bet365.com/sports/MatchLiveBaseballModule/assets/liquid_grfx/run04-white.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.wc-InPlayPage_RightColumn-animate #baserun4,
+.wc-MyBetsPage_RightColumn-animate #baserun4,
+.wc-Page_RightColumn-animate #baserun4 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow #baserun4 {
+  width: 39%;
+  top: 56%;
+  left: 5%;
+}
+.ie-8 .ml16-MatchLiveBaseballModule_Narrow #baserun4 {
+  left: 5%;
+}
+.ie-8 #baserun4 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sports/MatchLiveBaseballModule/assets/liquid_grfx/run04-white.png', sizingMethod='scale')";
+  background: none;
+  left: 8%;
+  padding-bottom: 15%;
+}
+#scoreboard {
+  background-color: #303030;
+  color: #ddd;
+  font-size: 160%;
+  font-family: Helvetica Neue, Helvetica, Segoe UI, Roboto, Droid Sans, Arial, sans-serif;
+}
+#scoreboard > div {
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+  font-size: 80%;
+  line-height: 100%;
+}
+#scoreboard * {
+  box-sizing: border-box;
+}
+.scoreboard-header,
+.scoreboard-row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.scoreboard-row {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 0 0 #383838;
+}
+.ie-8 .scoreboard-row {
+  border-top: 1px solid #000;
+}
+.scoreboard-header {
+  height: 30px;
+  background-color: #292929;
+}
+.scoreboard-header > .scoreboard-cell {
+  padding: 0 1%;
+  background-color: #292929;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #bbb;
+}
+.scoreboard-row {
+  font-size: 13px;
+  height: 85px;
+}
+.scoreboard-cell {
+  display: table-cell;
+  width: 6.4%;
+}
+.scoreboard-row > .scoreboard-cell {
+  height: auto;
+  font-size: 13px;
+  line-height: 15px;
+  vertical-align: middle;
+}
+.scoreboard-row > .scoreboard-cell:first-child {
+  font-weight: 700;
+}
+.scoreboard-header > .scoreboard-cell:first-of-type,
+.scoreboard-row > .scoreboard-cell:first-of-type {
+  padding: 7px;
+  width: 30%;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.scoreboard-header > .scoreboard-cell:first-of-type {
+  text-transform: none;
+}
+#scoreboard .highlight,
+.scoreboard-row > .scoreboard-cell:first-of-type,
+.scoreboard-row > .scoreboard-cell:last-of-type {
+  background-color: #383838;
+}
+#scoreboard .scoreboard-cell.runs,
+.baseball {
+  background-color: #383838;
+  color: #ffdf1b;
+}
+#inningsStatsPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #543c2c;
+}
+.ie-9 #inningsStatsPanel {
+  z-index: 1;
+}
+#inningsStatsPanel_header {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  background-color: #634734;
+}
+.inningsStats-teamHolder {
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 0;
+  color: #ddd;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+.inningsStats-teamHolder.inningsStats-home {
+  padding-left: 10px;
+}
+.inningsStats-teamHolder.inningsStats-away {
+  padding-right: 10px;
+  text-align: right;
+}
+#inningsStats-score {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  width: 20%;
+  text-align: center;
+  font-size: 0;
+}
+#inningsStats-homeScore,
+#inningsStats-roadScore {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffdf1b;
+  margin: 0 3px;
+}
+#inningsStats-homeBat,
+#inningsStats-roadBat {
+  font-size: 10px;
+  color: #d4976e;
+  line-height: 12px;
+}
+.inningsStats-teamName {
+  transition-property: font-size;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 16px;
+  font-size: 13px;
+}
+.wc-InPlayPage_RightColumn-animate .inningsStats-teamName,
+.wc-MyBetsPage_RightColumn-animate .inningsStats-teamName,
+.wc-Page_RightColumn-animate .inningsStats-teamName {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow .inningsStats-teamName {
+  font-size: 12px;
+}
+#inningsStats-inning {
+  text-align: center;
+  line-height: 12px;
+  padding: 4px 0;
+  font-size: 11px;
+  color: #ddd;
+}
+#inningsStats-inning span {
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+}
+.ie-8 #inningsStats-inning span {
+  -ms-filter: inherit;
+}
+.inningsStats-row {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-top: 1px solid #6b4d39;
+  height: 43px;
+}
+.inningsStats-row:last-child {
+  height: 42px;
+}
+.inningsStats-col {
+  transition-property: width, padding;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 5px 2px;
+}
+.wc-InPlayPage_RightColumn-animate .inningsStats-col,
+.wc-MyBetsPage_RightColumn-animate .inningsStats-col,
+.wc-Page_RightColumn-animate .inningsStats-col {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.inningsStats-col.inningsStats-colLead {
+  background-color: #4d3628;
+  width: 86px;
+  padding-left: 10px;
+}
+.inningsStats-col:last-child {
+  padding-right: 10px;
+}
+.ml16-MatchLiveBaseballModule_Narrow .inningsStats-col {
+  padding: 0 6px 2px;
+}
+.ml16-MatchLiveBaseballModule_Narrow .inningsStats-col.inningsStats-colLead {
+  width: 55px;
+}
+.inningsStatCount {
+  transition-property: font-size;
+  font-size: 13px;
+  color: #fff;
+  line-height: 16px;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+.wc-InPlayPage_RightColumn-animate .inningsStatCount,
+.wc-MyBetsPage_RightColumn-animate .inningsStatCount,
+.wc-Page_RightColumn-animate .inningsStatCount {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .inningsStatCount {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+}
+.ml16-MatchLiveBaseballModule_Narrow .inningsStatCount {
+  font-size: 12px;
+}
+.inningsStatLabel {
+  transition-property: font-size;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 11px;
+  color: #c28a65;
+  line-height: 12px;
+}
+.wc-InPlayPage_RightColumn-animate .inningsStatLabel,
+.wc-MyBetsPage_RightColumn-animate .inningsStatLabel,
+.wc-Page_RightColumn-animate .inningsStatLabel {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml16-MatchLiveBaseballModule_Narrow .inningsStatLabel {
+  font-size: 10px;
+}

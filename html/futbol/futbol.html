@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="futbol.css" />
+    <link rel="stylesheet" href="marcador.css" />
+  </head>
+  <body>
+    <div class="lv-MatchLiveView ">
+      <div class="lv-MatchLiveView_Container ">
+        <div class="ml1-MatchLiveSoccerModule ">
+          <div class="ml1-ScoreHeader ">
+            <div class="ml1-ScoreHeader_Column ml1-ScoreHeader_Column-left ">
+              <div class="ml1-ScoreHeader_Team ">
+                <div style="border-color: rgb(240, 240, 240);" class="ml1-ScoreHeader_TeamBorder "></div>
+                <div class="ml1-ScoreHeader_TeamText ">Macao</div>
+              </div>
+              <div class="ml1-ScoreHeader_ScoreContainer "><div class="ml1-ScoreHeader_Score ">0</div></div>
+            </div>
+            <div class="ml1-ScoreHeader_Column ml1-ScoreHeader_Column-right ">
+              <div class="ml1-ScoreHeader_ScoreContainer "><div class="ml1-ScoreHeader_Score ">0</div></div>
+              <div class="ml1-ScoreHeader_Team ">
+                <div style="border-color: rgb(234, 234, 21);" class="ml1-ScoreHeader_TeamBorder "></div>
+                <div class="ml1-ScoreHeader_TeamText ">Sri Lanka</div>
+              </div>
+            </div>
+            <div class="ml1-ScoreHeader_TimerOuterWrapper ">
+              <div class="ml1-ScoreHeader_Timer ml1-ScoreHeader_TimerFadeOut ">
+                <div class="ml1-ScoreHeader_TimerInnerWrapper ml1-ScoreHeader_TimerInnerWrapper-show ">
+                  <span
+                    class="ml1-ScoreHeader_AdditionalText ml1-ScoreHeader_TextFadeOut ml1-ScoreHeader_Timer-empty "
+                  ></span
+                  ><span class="ml1-ScoreHeader_Clock ">00:00</span>
+                </div>
+                <span
+                  class="ml1-ScoreHeader_InjuryTime ml1-ScoreHeader_Timer-empty ml1-ScoreHeader_InjuryTimeFadeOut "
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ml1-MatchLiveSoccerModule_PitchEventsTimelineContainer ml1-MatchLiveSoccerModule_PitchEventsTimelineContainer-nolocations "
+          >
+            <div class="ml1-PitchAndEvents ml1-PitchAndEvents-hasevents ">
+              <div class="ml1-Pitch ">
+                <div class="ml1-MatchLiveSoccerModule_PitchContainer ">
+                  <div class="ml1_HintsManager "></div>
+                  <div class="ml1-MatchLiveSoccerModule_LocationEventsContainer "></div>
+                  <div class="ml1-MatchLiveSoccerModule_SVGPitchContainer ">
+                    <svg
+                      class="ml1-SoccerPitch_SVG"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="400px"
+                      height="180px"
+                      viewBox="0 0 400 180"
+                      version="1.1"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                    >
+                      <defs>
+                        <!-- This is where the colours get pumped when the possession changes -->
+                        <linearGradient id="ml1-Gradient1">
+                          <stop class="gradStart" offset="0%" style="stop-opacity:0.4"></stop>
+                          <stop class="gradEnd" offset="100%" style="stop-opacity:0.4"></stop>
+                        </linearGradient>
+                        <linearGradient id="ml1-Gradient2">
+                          <stop class="gradStart" offset="0%" style="stop-opacity:0.4"></stop>
+                          <stop class="gradEnd" offset="100%" style="stop-opacity:0.4"></stop>
+                        </linearGradient>
+                        <linearGradient id="ml1-SolidTeamColour">
+                          <stop id="ml1-SolidTeam1" offset="0%" stop-color="#FFDF1B"></stop>
+                          <stop id="ml1-SolidTeam2" offset="100%" stop-color="#FFDF1B"></stop>
+                        </linearGradient>
+                      </defs>
+                      <g id="pitch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path fill="#222" d="M0 0h400v180h-400z"></path>
+                        <rect id="pitch-BG" fill="#2C7836" x="0" y="0" width="400" height="180"></rect>
+                        <rect
+                          id="18-yard-away"
+                          stroke="#3A8943"
+                          stroke-width="2"
+                          x="348"
+                          y="44"
+                          width="51"
+                          height="93"
+                        ></rect>
+                        <rect
+                          id="18-yard-home"
+                          stroke="#3A8943"
+                          stroke-width="2"
+                          x="1"
+                          y="44"
+                          width="51"
+                          height="93"
+                        ></rect>
+                        <path
+                          d="M199,3 L199,178 L199,179 L201,179 L201,178 L201,3 L201,2 L199,2 L199,3 L199,3 Z"
+                          id="Shape"
+                          fill="#3A8943"
+                        ></path>
+                        <path
+                          d="M200,118 L200,118 C215.463973,118 228,105.463973 228,90 C228,74.536027 215.463973,62 200,62 C184.536027,62 172,74.536027 172,90 C172,105.463973 184.536027,118 200,118 L200,118 Z M200,120 L200,120 C183.431458,120 170,106.568542 170,90 C170,73.4314575 183.431458,60 200,60 C216.568542,60 230,73.4314575 230,90 C230,106.568542 216.568542,120 200,120 L200,120 Z"
+                          id="Shape-Copy"
+                          fill="#3A8943"
+                        ></path>
+                        <circle id="Oval-344" fill="#3A8943" cx="200" cy="90" r="6"></circle>
+                        <path
+                          d="M74,63 C65.5522257,68.9666814 60,79.0570309 60,90.5 C60,101.942969 65.5522257,112.033319 74,118"
+                          id="d-left"
+                          stroke="#3A8943"
+                          stroke-width="2"
+                          transform="translate(67.000000, 90.500000) scale(-1, 1) translate(-59.000000, -90.500000) "
+                        ></path>
+                        <circle id="Oval-70" fill="#3A8943" cx="34" cy="90" r="3"></circle>
+                        <path
+                          d="M1,11 C6.5228475,11 11,6.5228475 11,1 L9.046875,1 C9.046875,5.44416635 5.44416635,9.046875 1,9.046875 L1,11 L1,11 Z"
+                          id="Shape"
+                          fill="#3A8943"
+                        ></path>
+                        <path
+                          d="M1,171 C5.418278,171 9,174.581722 9,179 L11,179 C11,173.477153 6.5228475,169 1,169 L1,171 L1,171 Z"
+                          id="Shape"
+                          fill="#3A8943"
+                        ></path>
+                        <path
+                          d="M337.884236,62 C328.64831,68.2472191 323,78.6467666 323,90 C323,101.353233 328.64831,111.752781 337.884236,118 L339,116.354082 C330.305144,110.472845 324.989964,100.686649 324.989964,90 C324.989964,79.3133507 330.305144,69.5271551 339,63.645918 L337.884236,62 L337.884236,62 Z"
+                          transform="translate(9,0)"
+                          id="Shape-Copy-2"
+                          fill="#3A8943"
+                        ></path>
+                        <rect
+                          id="6-yard-home"
+                          stroke="#3A8943"
+                          stroke-width="2"
+                          x="1"
+                          y="69"
+                          width="16"
+                          height="41"
+                        ></rect>
+                        <path
+                          d="M399,69 L383,69 L383,110 L399,110 L399,69 L399,69 Z"
+                          id="6-yard-away"
+                          stroke="#3A8943"
+                          stroke-width="2"
+                          sketch:type="MSShapeGroup"
+                        ></path>
+                        <circle id="Oval-70" fill="#3A8943" cx="365" cy="90" r="3"></circle>
+                        <path
+                          d="M399,9.046875 C394.555834,9.046875 390.953125,5.44416635 390.953125,1 L389,1 C389,6.5228475 393.477153,11 399,11 L399,9.046875 L399,9.046875 Z"
+                          id="Shape"
+                          fill="#3A8943"
+                        ></path>
+                        <path
+                          d="M399,169 C393.477153,169 389,173.477153 389,179 L391,179 C391,174.581722 394.581722,171 399,171 L399,169 L399,169 Z"
+                          id="Shape"
+                          fill="#3A8943"
+                        ></path>
+                        <rect stroke="#3A8943" stroke-width="2" x="1" y="1" width="398" height="178"></rect>
+                      </g>
+                      <path
+                        class="ml1-SoccerPitch_AnimationElement"
+                        id="ml1-Possession1"
+                        opacity="0"
+                        d=""
+                        fill="url(https://www.bet365.com/#ml1-Gradient1)"
+                      ></path>
+                      <path
+                        class="ml1-SoccerPitch_AnimationElement"
+                        id="ml1-Possession2"
+                        d=""
+                        fill="url(https://www.bet365.com/#ml1-Gradient2)"
+                      ></path>
+                      <g class="ml1-SoccerPitch_AnimationElement" id="ml1-WideKickRadial" opacity="0">
+                        <path
+                          id="ml1-WideKickRadialOuter"
+                          fill="#165031"
+                          d="M94.703,73.698C110.554,53.359,120,27.784,120,0c0-27.764-9.433-53.321-25.262-73.653L0,0.036L94.703,73.698z"
+                        ></path>
+                        <path
+                          id="ml1-WideKickRadialCentre"
+                          fill="#165031"
+                          d="M62.325,48.514C72.765,35.123,79,18.294,79,0c0-18.274-6.222-35.085-16.639-48.469L0,0.036L62.325,48.514z"
+                        ></path>
+                        <path
+                          id="ml1-WideKickRadialInner"
+                          fill="#165031"
+                          d="M30.759,23.961C35.918,17.349,39,9.037,39,0c0-9.017-3.068-17.311-8.205-23.917L0,0.036L30.759,23.961z"
+                        ></path>
+                      </g>
+                      <g class="ml1-SoccerPitch_AnimationElement" id="ml1-NarrowKickRadial" opacity="0">
+                        <path
+                          id="ml1-NarrowKickRadialOuter"
+                          fill="#165031"
+                          d="M0.031,0.013l117.647,45.045C123.041,31.064,126,15.881,126,0s-2.959-31.065-8.322-45.059L0.093-0.036L0.031,0.013z"
+                        ></path>
+                        <path
+                          id="ml1-NarrowKickRadialCentre"
+                          fill="#165031"
+                          d="M0.031,0.013l77.43,29.647c3.536-9.21,5.488-19.204,5.488-29.66s-1.952-20.45-5.487-29.66L0.093-0.036L0.031,0.013z"
+                        ></path>
+                        <path
+                          id="ml1-NarrowKickRadialInner"
+                          fill="#165031"
+                          d="M0.031,0.013l38.208,14.629c1.746-4.546,2.71-9.48,2.71-14.642s-0.964-10.096-2.709-14.642L0.093-0.036L0.031,0.013z"
+                        ></path>
+                      </g>
+                      <g class="ml1-SoccerPitch_AnimationElement" id="ml1-ThrowRadial" opacity="0">
+                        <path
+                          id="ml1-ThrowRadialOuter"
+                          fill="#165031"
+                          d="M53.033,53.068c29.289-29.289,29.289-76.777,0-106.066L0,0.035L53.033,53.068z"
+                        ></path>
+                        <path
+                          id="ml1-ThrowRadialInner"
+                          fill="#165031"
+                          d="M26.517,26.552c14.646-14.645,14.644-38.39,0-53.033L0,0.035L26.517,26.552z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml1-ScoresOverlay ">
+                    <div class="ml1-ScoresOverlay_OuterWrapper ">
+                      <div class="ml1-ScoresOverlay_ScoreWrapper ml1-ScoresOverlay_Score1 ">
+                        <div style="border-color: rgb(240, 240, 240);" class="ml1-ScoresOverlay_Score ">0</div>
+                      </div>
+                      <div class="ml1-ScoresOverlay_ScoreWrapper ">
+                        <div style="border-color: rgb(234, 234, 21);" class="ml1-ScoresOverlay_Score ">0</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="ml1-MatchLiveSoccerModule_AnimWrapper ">
+                      <div class="ml1-AnimatedTextBar ">
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H1TextWrapper "
+                          style="opacity: 0;"
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H1Text "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H1TextBackupWrapper ml1-CommonAnimations_H1TextBackup "
+                        >
+                          <span class="ml1-AnimatedTextBar "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H1TextGhostWrapper "
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H1TextGhost "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H2TextWrapper "
+                          style="opacity: 0;"
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H2Text "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H2TextBackupWrapper "
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H2TextBackup "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H2TextGhostWrapper "
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H2TextGhost "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H3TextWrapper "
+                          style="opacity: 0;"
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H3Text "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H3TextBackupWrapper "
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H3TextBackup "></span>
+                        </div>
+                        <div
+                          class="ml1-AnimatedTextBar ml1-CommonAnimations_Asset ml1-CommonAnimations_H3TextGhostWrapper "
+                        >
+                          <span class="ml1-AnimatedTextBar ml1-CommonAnimations_H3TextGhost "></span>
+                        </div>
+                        <div class="ml1-CommonAnimations_Line " style="opacity: 0;"></div>
+                      </div>
+                      <div class="ml1-PossessionHistoryCanvas ">
+                        <svg class="ml1-PossessionHistoryCanvas-canvas "></svg>
+                      </div>
+                      <div class="ml1-XYBlob_PassDestination ">
+                        <div class="ml1-XYBlob_PassDestinationOuter ">
+                          <div class="ml1-XYBlob_PassDestinationInner "></div>
+                        </div>
+                      </div>
+                      <div class="ml1-XYBlob " style="opacity: 0;">
+                        <div class="ml1-XYBlob_Inner1 "></div>
+                        <div class="ml1-XYBlob_Inner2 "></div>
+                        <div class="ml1-XYBlob_Inner3 "></div>
+                      </div>
+                      <div class="ml1-CommonAnimations_MatchInfo" style="display: block; opacity: 1;">
+                        <div class="ml1-FixtureInfo ">
+                          <div class="ml1-FixtureInfo_CompetitionWrapper ">
+                            <div class="ml1-FixtureInfo_CompetitionName ">Asia - Copa del Mundo - Clasificación</div>
+                          </div>
+                          <div class="ml1-FixtureInfo_SubItems ">
+                            <div class="ml1-FixtureInfo_KickOff ">
+                              <div class="ml1-FixtureInfo_KickOffLabel ">Saque inicial</div>
+                              <div class="ml1-FixtureInfo_KickOffTime ">13:30</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ml1-TeamsWrapper ">
+                          <div class="ml1-TeamsWrapper_TeamDetails ">
+                            <div class="ml1-TeamsWrapper_TextCell ">
+                              <div class="ml1-TeamsWrapper_HomeTeamText ">Macao</div>
+                            </div>
+                            <div class="ml1-TeamsWrapper_TeamKit ml1-TeamKit ">
+                              <svg
+                                version="1.1"
+                                class="ml1-TeamsWrapper_HomeTeamKit"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px"
+                                y="0px"
+                                width="20px"
+                                height="18px"
+                                viewBox="0 0 40 42"
+                                enable-background="new 0 0 40 20"
+                                xml:space="preserve"
+                              >
+                                <g class="kitGroup M01" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M27.9,0.9L9.45,26.449l0.1-13.5l-3.6,3.45l-5.4-5.45L9,1.45l5.5-1.05l1.25,1.55c1.133,1,2.533,1.5,4.2,1.5c1.701,0,3.133-0.5,4.3-1.5c0.6-0.5,1.017-1,1.25-1.5L27.9,0.9z"
+                                  ></path>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="30.5,26.449 9.45,26.449 27.9,0.9 30.95,1.45 39.4,10.9 33.95,16.45 30.4,12.95"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M22.85,2.8C24.117,2.233,25,1.45,25.5,0.45l5.45,1L31.1,1.6L13.2,26.45H9.45l0.05-5.149L22.85,2.8z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M02" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M25.5,0.3l4.5,1v10.5H10V1.15l4.45-0.9c0.267,0.5,0.7,1,1.3,1.5c1.167,1,2.583,1.5,4.25,1.5c1.633,0,3.05-0.483,4.25-1.45C24.816,1.3,25.233,0.8,25.5,0.3z"
+                                  ></path>
+                                  <rect class="color3" fill="{{color3}}" x="10" y="11" width="20" height="8"></rect>
+                                  <rect class="color4" fill="{{color4}}" x="9.5" y="19" width="21" height="7"></rect>
+                                </g>
+                                <g class="kitGroup M03" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M30.25,10l4.5-4.45l2.3,2.5L30.95,14H9.3L3.25,8.05l2.3-2.5l4.5,4.45H30.25z M10.05,18h20v4h-20V18z M20.05,3.55C21.717,3.517,23.133,3,24.3,2c0.601-0.5,1.017-1,1.25-1.5l5.4,0.9L32,2.85L29.15,6H11.05l-2.9-3.15l1.05-1.4l5.35-0.7V1l0.1-0.1c0.367,0.566,0.883,1.066,1.55,1.5C17.3,3.133,18.583,3.517,20.05,3.55z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M04" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    d="M34,16l-3.55-3.625l0.1,14.125H20V3.55c1.7,0,3.133-0.5,4.3-1.5C24.9,1.517,25.316,1,25.55,0.5l5.2,1.625L38.625,11L34,16z"
+                                  ></path>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="39.4,11.062 34.125,16.375 30,12 30,1.4 31.125,1.75    "
+                                  ></polygon>
+                                  <polygon
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    points="10,1.4 10,12.75 6,16.65 0.55,11.15 8.8,1.95       "
+                                  ></polygon>
+                                  <path
+                                    class="color8"
+                                    fill="{{color8}}"
+                                    d="M2.2,9.45L7.75,15L6.1,16.55L0.7,11.1L2.2,9.45z M24.45,2.3c-1.3,1-2.767,1.5-4.399,1.5c-1.701,0-3.167-0.5-4.4-1.5l-1.4-1.55L12.85,1l1.75,2.05c1.567,1.333,3.383,2,5.451,2c2.1,0,3.899-0.633,5.399-1.9c0.733-0.667,1.267-1.316,1.601-1.95L25.9,0.75C25.6,1.25,25.117,1.767,24.45,2.3z M37.9,9.3l-5.551,5.55L34,16.4l5.4-5.45L37.9,9.3z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M05" style="display:none">
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M39.45,11L34,16.35l-3.6-3.55L30.35,15H20v11.45H9.5L9.3,15H20V3.55c1.5,0,2.983-0.633,4.45-1.9c0.2-0.167,0.433-0.35,0.7-0.55c0.166-0.167,0.3-0.35,0.399-0.55L31,1.5L39.45,11z"
+                                  ></path>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="39.4,11.35 33.95,16.75 30,12.25 30,1.4 31.25,1.95"
+                                  ></polygon>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="10,1.4 10,12.75 6,16.65 0.55,11.15 8.8,1.95"
+                                  ></polygon>
+                                </g>
+                                <g class="kitGroup M06" style="display: inherit;">
+                                  <polygon
+                                    class="color7"
+                                    fill="#008080"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="#F0F0F0"
+                                    d="M25.551,0.5l5.499,1.199l8.301,9.351L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="#F0F0F0"
+                                    d="M34,16.4l-3.75-3.85V26.6L26,26.3V0.65l4.949,0.751l8.503,9.7l-1.902,2L30,5.05v3.8l5.6,6L34,16.4z M19.95,3.8L22,3.4v22.9h-4V3.8H19.95z M9.049,1.451L14,0.85V26.3h-4V12.25L6,16.4l-1.65-1.55L10,8.8V5.05l-7.451,7.901l-2.051-1.95L9.049,1.451z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M07" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <polygon
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    points="30.6,13 23,13 23,3 20.4,3.85 17,3 17,13 9.4,13 9.4,19 17,19 17,26.5 23,26 23,19 30.6,19 "
+                                  ></polygon>
+                                </g>
+                                <g class="kitGroup M08" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <rect
+                                    class="color2"
+                                    x="13"
+                                    y="0.65"
+                                    fill="{{color2}}"
+                                    width="2"
+                                    height="25.65"
+                                  ></rect>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="15,1 17,2.6 17,26.5 15,26.5"
+                                  ></polygon>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="25,26.5 23,26.5 23,2.6 25,1"
+                                  ></polygon>
+                                  <rect
+                                    class="color5"
+                                    x="25"
+                                    y="0.65"
+                                    fill="{{color5}}"
+                                    width="2"
+                                    height="25.65"
+                                  ></rect>
+                                </g>
+                                <g class="kitGroup M09" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M15,26.5v-25c0.367,0.333,0.85,0.65,1.45,0.95c1.2,0.667,2.383,1.033,3.55,1.1c1.166,0.067,2.35-0.233,3.55-0.9c0.601-0.333,1.083-0.667,1.45-1V26.5H15z"
+                                  ></path>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="10,1.5 14.65,0.6 16,2 16,26.45 10,26.45"
+                                  ></polygon>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="30,26.45 24,26.45 24,2 25.35,0.6 30,1.5"
+                                  ></polygon>
+                                </g>
+                                <g class="border">
+                                  <path
+                                    fill="#272727"
+                                    d="M16.05,1.5c0.967,1,2.3,1.5,4,1.5c1.667,0,3-0.5,4-1.5l1-1.5L31,1l9,10l-6,6.25L31.05,14v13h-22V14l-3,3.2L0,11.05L9.05,1l6-1L16.05,1.5z M20.05,4c-1.667,0-3.167-0.5-4.5-1.5L14.05,1l-5,1l-8.1,9l5.1,5l4-4v14h20V12L34,16l5.05-5l-8-9l-5-1l-1.5,1.5C23.217,3.5,21.717,4,20.05,4z"
+                                  ></path>
+                                  <path
+                                    fill="#272727"
+                                    d="M17.05,41l3-7L23,41h10.05l-3-14h-20l-3,14H17.05z M6.05,42l3-16h22L34,42H22.05l-2-5l-2,5H6.05z"
+                                  ></path>
+                                </g>
+                                <g class="shadows">
+                                  <rect opacity="0.2" x="11" y="28" width="18" height="1"></rect>
+                                  <rect opacity="0.2" x="20" y="29" width="1" height="5"></rect>
+                                  <rect opacity="0.2" x="10" y="5" width="1" height="10"></rect>
+                                  <rect opacity="0.2" x="29" y="5" width="1" height="10"></rect>
+                                </g>
+                                <g class="highlights">
+                                  <path
+                                    opacity="0.05"
+                                    fill="#FFFFFF"
+                                    d="M24.551,2.5c0.666-0.5,1.166-1,1.5-1.5l5,1l8,9L34,16l-3.949-4v14h-20V12l-4,4l-5.1-5l8.1-9l5-1l1.5,1.5c1.333,1,2.833,1.5,4.5,1.5C21.684,4,23.184,3.5,24.551,2.5z M30.5,2.9l-4.1-0.8c-1.733,1.933-3.85,2.9-6.35,2.9c-2.534,0-4.667-0.967-6.4-2.9l-4.1,0.8l-7.2,8.05l3.7,3.6l5-5V25h18V9.55l4.949,5l3.65-3.6 L30.5,2.9z"
+                                  ></path>
+                                  <path
+                                    opacity="0.05"
+                                    fill="#FFFFFF"
+                                    d="M30.05,27l3,14H23l-2.95-7l-3,7h-10l3-14H30.05z M31.8,40l-2.7-12H10.85l-2.6,12h8.1l3.7-8.55L23.65,40H31.8z"
+                                  ></path>
+                                </g>
+                              </svg>
+                            </div>
+                            <div class="ml1-TeamsWrapper_TeamKit ml1-TeamKit ">
+                              <svg
+                                version="1.1"
+                                class="ml1-TeamsWrapper_AwayTeamKit"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px"
+                                y="0px"
+                                width="20px"
+                                height="18px"
+                                viewBox="0 0 40 42"
+                                enable-background="new 0 0 40 42"
+                                xml:space="preserve"
+                              >
+                                <g class="kitGroup M01" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M27.9,0.9L9.45,26.449l0.1-13.5l-3.6,3.45l-5.4-5.45L9,1.45l5.5-1.05l1.25,1.55c1.133,1,2.533,1.5,4.2,1.5c1.701,0,3.133-0.5,4.3-1.5c0.6-0.5,1.017-1,1.25-1.5L27.9,0.9z"
+                                  ></path>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="30.5,26.449 9.45,26.449 27.9,0.9 30.95,1.45 39.4,10.9 33.95,16.45 30.4,12.95"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M22.85,2.8C24.117,2.233,25,1.45,25.5,0.45l5.45,1L31.1,1.6L13.2,26.45H9.45l0.05-5.149L22.85,2.8z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M02" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M25.5,0.3l4.5,1v10.5H10V1.15l4.45-0.9c0.267,0.5,0.7,1,1.3,1.5c1.167,1,2.583,1.5,4.25,1.5c1.633,0,3.05-0.483,4.25-1.45C24.816,1.3,25.233,0.8,25.5,0.3z"
+                                  ></path>
+                                  <rect class="color3" fill="{{color3}}" x="10" y="11" width="20" height="8"></rect>
+                                  <rect class="color4" fill="{{color4}}" x="9.5" y="19" width="21" height="7"></rect>
+                                </g>
+                                <g class="kitGroup M03" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M30.25,10l4.5-4.45l2.3,2.5L30.95,14H9.3L3.25,8.05l2.3-2.5l4.5,4.45H30.25z M10.05,18h20v4h-20V18z M20.05,3.55C21.717,3.517,23.133,3,24.3,2c0.601-0.5,1.017-1,1.25-1.5l5.4,0.9L32,2.85L29.15,6H11.05l-2.9-3.15l1.05-1.4l5.35-0.7V1l0.1-0.1c0.367,0.566,0.883,1.066,1.55,1.5C17.3,3.133,18.583,3.517,20.05,3.55z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M04" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    d="M34,16l-3.55-3.625l0.1,14.125H20V3.55c1.7,0,3.133-0.5,4.3-1.5C24.9,1.517,25.316,1,25.55,0.5l5.2,1.625L38.625,11L34,16z"
+                                  ></path>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="39.4,11.062 34.125,16.375 30,12 30,1.4 31.125,1.75    "
+                                  ></polygon>
+                                  <polygon
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    points="10,1.4 10,12.75 6,16.65 0.55,11.15 8.8,1.95       "
+                                  ></polygon>
+                                  <path
+                                    class="color8"
+                                    fill="{{color8}}"
+                                    d="M2.2,9.45L7.75,15L6.1,16.55L0.7,11.1L2.2,9.45z M24.45,2.3c-1.3,1-2.767,1.5-4.399,1.5c-1.701,0-3.167-0.5-4.4-1.5l-1.4-1.55L12.85,1l1.75,2.05c1.567,1.333,3.383,2,5.451,2c2.1,0,3.899-0.633,5.399-1.9c0.733-0.667,1.267-1.316,1.601-1.95L25.9,0.75C25.6,1.25,25.117,1.767,24.45,2.3z M37.9,9.3l-5.551,5.55L34,16.4l5.4-5.45L37.9,9.3z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M05" style="display:none">
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M39.45,11L34,16.35l-3.6-3.55L30.35,15H20v11.45H9.5L9.3,15H20V3.55c1.5,0,2.983-0.633,4.45-1.9c0.2-0.167,0.433-0.35,0.7-0.55c0.166-0.167,0.3-0.35,0.399-0.55L31,1.5L39.45,11z"
+                                  ></path>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="39.4,11.35 33.95,16.75 30,12.25 30,1.4 31.25,1.95"
+                                  ></polygon>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="10,1.4 10,12.75 6,16.65 0.55,11.15 8.8,1.95"
+                                  ></polygon>
+                                </g>
+                                <g class="kitGroup M06" style="display: inherit;">
+                                  <polygon
+                                    class="color7"
+                                    fill="#FFDF1B"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="#FFDF1B"
+                                    d="M25.551,0.5l5.499,1.199l8.301,9.351L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="#FFDF1B"
+                                    d="M34,16.4l-3.75-3.85V26.6L26,26.3V0.65l4.949,0.751l8.503,9.7l-1.902,2L30,5.05v3.8l5.6,6L34,16.4z M19.95,3.8L22,3.4v22.9h-4V3.8H19.95z M9.049,1.451L14,0.85V26.3h-4V12.25L6,16.4l-1.65-1.55L10,8.8V5.05l-7.451,7.901l-2.051-1.95L9.049,1.451z"
+                                  ></path>
+                                </g>
+                                <g class="kitGroup M07" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <polygon
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    points="30.6,13 23,13 23,3 20.4,3.85 17,3 17,13 9.4,13 9.4,19 17,19 17,26.5 23,26 23,19 30.6,19 "
+                                  ></polygon>
+                                </g>
+                                <g class="kitGroup M08" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <rect
+                                    class="color2"
+                                    x="13"
+                                    y="0.65"
+                                    fill="{{color2}}"
+                                    width="2"
+                                    height="25.65"
+                                  ></rect>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="15,1 17,2.6 17,26.5 15,26.5"
+                                  ></polygon>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="25,26.5 23,26.5 23,2.6 25,1"
+                                  ></polygon>
+                                  <rect
+                                    class="color5"
+                                    x="25"
+                                    y="0.65"
+                                    fill="{{color5}}"
+                                    width="2"
+                                    height="25.65"
+                                  ></rect>
+                                </g>
+                                <g class="kitGroup M09" style="display:none">
+                                  <polygon
+                                    class="color7"
+                                    fill="{{color7}}"
+                                    points="9.5,26.5 30.55,26.5 33.55,41.5 22.5,41.45 20,35.95 17.55,41.5 6.55,41.45"
+                                  ></polygon>
+                                  <path
+                                    class="color1"
+                                    fill="{{color1}}"
+                                    d="M25.551,0.5L31,1.5l8.45,9.45L34,16.5L30.45,13l0.101,13.5H9.5L9.6,13L6,16.45L0.6,11l8.45-9.5l5.5-1.05L15.8,2c1.133,1,2.533,1.5,4.2,1.5c1.7,0,3.133-0.5,4.301-1.5L25.551,0.5z"
+                                  ></path>
+                                  <path
+                                    class="color2"
+                                    fill="{{color2}}"
+                                    d="M15,26.5v-25c0.367,0.333,0.85,0.65,1.45,0.95c1.2,0.667,2.383,1.033,3.55,1.1c1.166,0.067,2.35-0.233,3.55-0.9c0.601-0.333,1.083-0.667,1.45-1V26.5H15z"
+                                  ></path>
+                                  <polygon
+                                    class="color3"
+                                    fill="{{color3}}"
+                                    points="10,1.5 14.65,0.6 16,2 16,26.45 10,26.45"
+                                  ></polygon>
+                                  <polygon
+                                    class="color4"
+                                    fill="{{color4}}"
+                                    points="30,26.45 24,26.45 24,2 25.35,0.6 30,1.5"
+                                  ></polygon>
+                                </g>
+                                <g class="border">
+                                  <path
+                                    fill="#272727"
+                                    d="M16.05,1.5c0.967,1,2.3,1.5,4,1.5c1.667,0,3-0.5,4-1.5l1-1.5L31,1l9,10l-6,6.25L31.05,14v13h-22V14l-3,3.2L0,11.05L9.05,1l6-1L16.05,1.5z M20.05,4c-1.667,0-3.167-0.5-4.5-1.5L14.05,1l-5,1l-8.1,9l5.1,5l4-4v14h20V12L34,16l5.05-5l-8-9l-5-1l-1.5,1.5C23.217,3.5,21.717,4,20.05,4z"
+                                  ></path>
+                                  <path
+                                    fill="#272727"
+                                    d="M17.05,41l3-7L23,41h10.05l-3-14h-20l-3,14H17.05z M6.05,42l3-16h22L34,42H22.05l-2-5l-2,5H6.05z"
+                                  ></path>
+                                </g>
+                                <g class="shadows">
+                                  <rect opacity="0.2" x="11" y="28" width="18" height="1"></rect>
+                                  <rect opacity="0.2" x="20" y="29" width="1" height="5"></rect>
+                                  <rect opacity="0.2" x="10" y="5" width="1" height="10"></rect>
+                                  <rect opacity="0.2" x="29" y="5" width="1" height="10"></rect>
+                                </g>
+                                <g class="highlights">
+                                  <path
+                                    opacity="0.05"
+                                    fill="#FFFFFF"
+                                    d="M24.551,2.5c0.666-0.5,1.166-1,1.5-1.5l5,1l8,9L34,16l-3.949-4v14h-20V12l-4,4l-5.1-5l8.1-9l5-1l1.5,1.5c1.333,1,2.833,1.5,4.5,1.5C21.684,4,23.184,3.5,24.551,2.5z M30.5,2.9l-4.1-0.8c-1.733,1.933-3.85,2.9-6.35,2.9c-2.534,0-4.667-0.967-6.4-2.9l-4.1,0.8l-7.2,8.05l3.7,3.6l5-5V25h18V9.55l4.949,5l3.65-3.6 L30.5,2.9z"
+                                  ></path>
+                                  <path
+                                    opacity="0.05"
+                                    fill="#FFFFFF"
+                                    d="M30.05,27l3,14H23l-2.95-7l-3,7h-10l3-14H30.05z M31.8,40l-2.7-12H10.85l-2.6,12h8.1l3.7-8.55L23.65,40H31.8z"
+                                  ></path>
+                                </g>
+                              </svg>
+                            </div>
+                            <div class="ml1-TeamsWrapper_TextCell ">
+                              <div class="ml1-TeamsWrapper_AwayTeamText ">Sri Lanka</div>
+                            </div>
+                          </div>
+                          <div class="ml1-PositionWrapper ">
+                            <div class="ml1-PositionWrapper_Position ml1-PositionWrapper_PositionHome "></div>
+                            <div class="ml1-PositionWrapper_Position ml1-PositionWrapper_PositionAway "></div>
+                          </div>
+                          <div class="ml1-TeamsWrapper_TeamsForm "></div>
+                        </div>
+                        <div class="ml1-ConditionsWrapper "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ml1-TimelineBar ml1-MatchLiveSoccerModule_HasStats ml1-TimelineBar_Loaded ">
+              <div class="ml1-TimelineBar_Inner ">
+                <span class="ml1-TimelineBar_Fill " style="width: 44.3326%;"></span>
+                <div class="ml1-TimelineEvents "></div>
+                <time class="ml1-TimelineBar_Time "><div>HT</div></time>
+                <div class="ml1-TimelineEvents ">
+                  <div class="ml1-TimelineEvent_Team2 ml1-TimelineEvent_Icon2 " style="top: -7px; left: 30.188%;">
+                    <div class="ml1-TimelineEventGroup "></div>
+                    <div class="ml1-TimelineEventGroup ">
+                      <div class="ml1-TimelineEventGroup_AwayContainer ">
+                        <div class="ml1-TimelineEventGroup_TeamNames ">Vinbergs IF</div>
+                        <div class="ml1-TimelineEventGroupEvent ">
+                          <div class="ml1-TimelineEventGroupEvent_Time ">29'</div>
+                          <div class="ml1-TimelineEventGroupEvent_Icon ml1-TimelineEventGroupEvent_Icon2 "></div>
+                          <div class="ml1-TimelineEventGroupEvent_Description ">Gol</div>
+                          <div class="ml1-TimelineEventGroupEvent_Replay "></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ml1-TimelineEvent_Nib "></div>
+                  </div>
+                  <div class="ml1-TimelineEvent_Team1 ml1-TimelineEvent_Icon4 " style="top: -7px; left: 42.7615%;">
+                    <div class="ml1-TimelineEventGroup ml1-TimelineEventGroup_MarginFix ">
+                      <div class="ml1-TimelineEventGroup_HomeContainer ">
+                        <div class="ml1-TimelineEventGroup_TeamNames ">China Taipéi</div>
+                        <div class="ml1-TimelineEventGroupEvent ">
+                          <div class="ml1-TimelineEventGroupEvent_Time ">43'</div>
+                          <div class="ml1-TimelineEventGroupEvent_Icon ml1-TimelineEventGroupEvent_Icon4 "></div>
+                          <div class="ml1-TimelineEventGroupEvent_Description ">Tarjeta amarilla</div>
+                          <div class="ml1-TimelineEventGroupEvent_Replay "></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ml1-TimelineEvent_Nib "></div>
+                  </div>
+                  <div class="ml1-TimelineEvent_Team2 ml1-TimelineEvent_Icon2 " style="top: 1px; left: 38.5157%;">
+                    <div class="ml1-TimelineEventGroup ">
+                      <div class="ml1-TimelineEventGroup_AwayContainer ">
+                        <div class="ml1-TimelineEventGroup_TeamNames ">Vinbergs IF</div>
+                        <div class="ml1-TimelineEventGroupEvent ">
+                          <div class="ml1-TimelineEventGroupEvent_Time ">37'</div>
+                          <div class="ml1-TimelineEventGroupEvent_Icon ml1-TimelineEventGroupEvent_Icon2 "></div>
+                          <div class="ml1-TimelineEventGroupEvent_Description ">Gol</div>
+                          <div class="ml1-TimelineEventGroupEvent_Replay "></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ml1-TimelineEvent_Nib "></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml1-AllStats ">
+            <div class="ml1-AllStats_Titles ">
+              <div class="ml1-AllStats_Title ">Ataques</div>
+              <div class="ml1-AllStats_Title ">Ataques peligrosos</div>
+            </div>
+            <div class="ml1-AllStats_StatsCharts ">
+              <div class="ml1-StatsCharts_Column ml1-StatsCharts_Column-first ">
+                <div class="ml1-StatWheel ">
+                  <div class="ml1-StatWheel_Team1Text ">0</div>
+                  <div class="ml1-StatWheel_SvgContainer ">
+                    <svg
+                      class="ml1-StatWheel_Svg"
+                      width="34"
+                      height="34"
+                      viewBox="1 0 29 32"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path
+                          id="wheelPathTeam1"
+                          class="ml1-StatsWheelSvg_TeamOnePath"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#8B572A"
+                          style="stroke: rgb(240, 240, 240);"
+                        ></path>
+                        <path
+                          id="wheelShadow"
+                          class="ml1-StatsWheelSvg_WheelShadow"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#404040"
+                          style="stroke-dasharray: 78.5508px, 78.5508px; stroke-dashoffset: 38.2754px;"
+                          transform="rotate(2.291510818478571 16 16)"
+                        ></path>
+                        <path
+                          id="wheelPathTeam2"
+                          class="ml1-StatsWheelSvg_TeamTwoPath"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#F8E81C"
+                          style="stroke: rgb(234, 234, 21); stroke-dasharray: 78.5508px, 78.5508px; stroke-dashoffset: 40.2754px;"
+                          transform="rotate(-2.291510818478571 16 16)"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml1-StatWheel_Team2Text ">0</div>
+                </div>
+              </div>
+              <div class="ml1-StatsCharts_Column ml1-StatsCharts_Column-last ">
+                <div class="ml1-StatWheel ">
+                  <div class="ml1-StatWheel_Team1Text ">0</div>
+                  <div class="ml1-StatWheel_SvgContainer ">
+                    <svg
+                      class="ml1-StatWheel_Svg"
+                      width="34"
+                      height="34"
+                      viewBox="1 0 29 32"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path
+                          id="wheelPathTeam1"
+                          class="ml1-StatsWheelSvg_TeamOnePath"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#8B572A"
+                          style="stroke: rgb(240, 240, 240);"
+                        ></path>
+                        <path
+                          id="wheelShadow"
+                          class="ml1-StatsWheelSvg_WheelShadow"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#404040"
+                          style="stroke-dasharray: 78.5508px, 78.5508px; stroke-dashoffset: 38.2754px;"
+                          transform="rotate(2.291510818478571 16 16)"
+                        ></path>
+                        <path
+                          id="wheelPathTeam2"
+                          class="ml1-StatsWheelSvg_TeamTwoPath"
+                          stroke-width="5"
+                          d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                          stroke="#F8E81C"
+                          style="stroke: rgb(234, 234, 21); stroke-dasharray: 78.5508px, 78.5508px; stroke-dashoffset: 40.2754px;"
+                          transform="rotate(-2.291510818478571 16 16)"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml1-StatWheel_Team2Text ">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="ml1-AllStats_Titles ">
+              <div class="ml1-AllStats_Title ">Tiro a puerta</div>
+              <div class="ml1-AllStats_Title ">Tiro fuera</div>
+            </div>
+            <div class="ml1-AllStats_StatsBars ">
+              <div class="ml1-AllStats_StatsBarsColumn ml1-AllStats_StatsBarsColumn-left ">
+                <div class="ml1-SoccerStatsBar ">
+                  <span class="ml1-SoccerStatsBar_MiniBarValue ml1-SoccerStatsBar_MiniBarValue-1 ">0</span>
+                  <div style="background-color: rgb(234, 234, 21);" class="ml1-SoccerStatsBar_MiniBarSurround ">
+                    <span
+                      style="width: 50%; border-top-right-radius: 0px; border-bottom-right-radius: 0px; background-color: rgb(240, 240, 240);"
+                      class="ml1-SoccerStatsBar_MiniBarFill "
+                    ></span>
+                  </div>
+                  <span class="ml1-SoccerStatsBar_MiniBarValue ml1-SoccerStatsBar_MiniBarValue-2 ">0</span>
+                </div>
+              </div>
+              <div class="ml1-AllStats_StatsBarsColumn ml1-AllStats_StatsBarsColumn-right ">
+                <div class="ml1-SoccerStatsBar ">
+                  <span class="ml1-SoccerStatsBar_MiniBarValue ml1-SoccerStatsBar_MiniBarValue-1 ">0</span>
+                  <div style="background-color: rgb(234, 234, 21);" class="ml1-SoccerStatsBar_MiniBarSurround ">
+                    <span
+                      style="width: 50%; border-top-right-radius: 0px; border-bottom-right-radius: 0px; background-color: rgb(240, 240, 240);"
+                      class="ml1-SoccerStatsBar_MiniBarFill "
+                    ></span>
+                  </div>
+                  <span class="ml1-SoccerStatsBar_MiniBarValue ml1-SoccerStatsBar_MiniBarValue-2 ">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipe-SoccerHeaderLayout ">
+      <div class="ipe-SoccerHeaderLayout_ExtraData ">22:12</div>
+      <div></div>
+      <div class="ipe-SoccerGridContainer ">
+        <div class="ipe-SoccerGridContainer_TeamKitColumn ">
+          <div class="ipe-SoccerGridContainer_TeamKitCell "></div>
+          <div class="ipe-SoccerGridContainer_TeamKitCell ">
+            <div class="ipe-SoccerGridContainer_KitElement tk-TeamKit tk-TeamKit_1-6 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="35"
+                height="40"
+                viewBox="0 0 80 80"
+                style="position:relative;top:-6px;left:6px;"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K1-6</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K1-6">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#C40010"
+                    ></path>
+                    <path
+                      d="M32 .304V36h-5V2.881C28.957 1.786 30 0 30 0l2 .304zM21 2.948V36h-5V.374L18 0s1.043 1.86 3 2.948zM4.563 18.92L12 12V6.075L1.89 15.85l2.673 3.07zm41.479-2.983L36 6v6l7.369 7.01 2.673-3.073z"
+                      id="color2"
+                      fill="#EA1515"
+                    ></path>
+                    <path id="color7" fill="#0A0A0A" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ipe-SoccerGridContainer_TeamKitCell ">
+            <div class="ipe-SoccerGridContainer_KitElement tk-TeamKit tk-TeamKit_1-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="35"
+                height="40"
+                viewBox="0 0 80 80"
+                style="position:relative;top:-6px;left:6px;"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K1-1</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K1-1">
+                    <path id="color7" fill="#004000" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#004000"
+                    ></path>
+                    <path id="color3" fill="#004000" d="M36 36H12.65l23.9-35L48 13.68l-6.584 7.611L36 17z"></path>
+                    <path id="color2" fill="#F0F0F0" d="M36.55 1l2.476 2.708L16.984 36H12v-8.83L31.276.184z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="ipe-SoccerGridColumn ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridColumn_TeamName "><div class="ipe-SoccerGridCell ">Camboya</div></div>
+          <div class="ipe-SoccerGridColumn_TeamName "><div class="ipe-SoccerGridCell ">Pakistán</div></div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_ICorner ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">3</div>
+          <div class="ipe-SoccerGridCell ">0</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IYellowCard ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">0</div>
+          <div class="ipe-SoccerGridCell ">0</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IRedCard ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">0</div>
+          <div class="ipe-SoccerGridCell ">0</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IThrowIn Hidden ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">-</div>
+          <div class="ipe-SoccerGridCell ">-</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IFreeKick Hidden ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">-</div>
+          <div class="ipe-SoccerGridCell ">-</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IGoalKick Hidden ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">-</div>
+          <div class="ipe-SoccerGridCell ">-</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IPenalty ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">0</div>
+          <div class="ipe-SoccerGridCell ">0</div>
+        </div>
+        <div class="ipe-SoccerGridColumn ipe-SoccerGridColumn_IGoal ">
+          <div class="ipe-SoccerGridColumn_TextHeader "></div>
+          <div class="ipe-SoccerGridCell ">0</div>
+          <div class="ipe-SoccerGridCell ">0</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

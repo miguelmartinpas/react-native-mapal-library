@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="basket.css" />
+    <link rel="stylesheet" href="marcador.css" />
+  </head>
+  <body>
+    <div class="lv-MatchLiveView ">
+      <div class="lv-MatchLiveView_Container ">
+        <div class="ml18-MatchLiveBasketballModule ml18-MatchLiveBasketballModule-narrow ">
+          <div class="ml18-ScoreHeader ">
+            <div class="ml18-ScoreHeader_Column ml18-ScoreHeader_Column-left ">
+              <div class="ml18-ScoreHeader_Team ">
+                <div class="ml18-ScoreHeader_TeamBorder " style="border-color: rgb(0, 43, 135);"></div>
+                <div class="ml18-ScoreHeader_TeamText " style="">Serapo 85 sub-20</div>
+              </div>
+              <div class="ml18-ScoreHeader_ScoreContainer "><div class="ml18-ScoreHeader_Score ">9</div></div>
+            </div>
+            <div class="ml18-ScoreHeader_Column ml18-ScoreHeader_Column-right ">
+              <div class="ml18-ScoreHeader_ScoreContainer "><div class="ml18-ScoreHeader_Score ">2</div></div>
+              <div class="ml18-ScoreHeader_Team ">
+                <div class="ml18-ScoreHeader_TeamBorder " style="border-color: rgb(214, 0, 61);"></div>
+                <div class="ml18-ScoreHeader_TeamText ">Virtus Monterotondo sub-20</div>
+              </div>
+            </div>
+            <div class="ml18-ScoreHeader_TimerOuterWrapper ">
+              <div class="ml18-ScoreHeader_Timer ">
+                <div class="ml18-ScoreHeader_TimerInnerWrapper ml18-ScoreHeader_TimerInnerWrapper-show ">
+                  <span class="ml18-ScoreHeader_AdditionalText ">c1</span
+                  ><span class="ml18-ScoreHeader_Clock ">07:01</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml18-MatchLiveBasketballModule_Wrapper ">
+            <div class="ml18-MatchLiveBasketballModule_CourtContainer ">
+              <div class="ml18-MatchLiveBasketballModule_SVGCourtContainer ">
+                <svg
+                  class="ml18-BasketballCourt_SVG"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="400"
+                  height="180"
+                  viewBox="0 0 400 180"
+                  version="1.1"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="Assets_Colours" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="ML-pitches" transform="translate(-20.000000, -19.000000)">
+                      <path
+                        d="M30.5,116 L30.5,116 C33.5375661,116 36,113.537566 36,110.5 C36,107.462434 33.5375661,105 30.5,105 C27.4624339,105 25,107.462434 25,110.5 C25,113.537566 27.4624339,116 30.5,116 L30.5,116 Z M25,115.599068 C26.369745,117.075822 28.3269458,118 30.5,118 C34.6421356,118 38,114.642136 38,110.5 C38,106.357864 34.6421356,103 30.5,103 C28.3269458,103 26.369745,103.924178 25,105.400932 L25,99 L23,99 L23,122 L25,122 L25,115.599068 Z"
+                        id="Shape"
+                        fill="#DDB996"
+                      ></path>
+                      <circle id="Oval-43" fill="#CC7652" cx="30.5" cy="110.5" r="5.5"></circle>
+                      <g id="basketball_court_400px" transform="translate(20.000000, 19.000000)">
+                        <rect id="BG" fill="#CC9F51" x="0" y="0" width="400" height="180"></rect>
+                        <path
+                          d="M200.510638,113 L200.510638,113 C212.150264,113 222,103.150264 222,91.5106383 C222,78.9970664 212.292525,69 200.510638,69 C187.849736,69 178,78.8497355 178,91.5106383 C178,103.292525 187.997066,113 200.510638,113 L200.510638,113 Z M200.510638,115 L200.510638,115 C186.745166,115 176,104.254834 176,91.5106383 C176,77.745166 186.745166,67 200.510638,67 C213.254834,67 224,77.745166 224,91.5106383 C224,104.254834 213.254834,115 200.510638,115 L200.510638,115 Z"
+                          id="Shape"
+                          fill="#D9B470"
+                        ></path>
+                        <circle id="Oval-9-Copy" fill="#D9B470" cx="200" cy="91" r="8"></circle>
+                        <rect
+                          id="Rectangle-22"
+                          stroke="#D9B470"
+                          stroke-width="2"
+                          fill="#CC7651"
+                          x="1"
+                          y="57"
+                          width="78"
+                          height="70"
+                        ></rect>
+                        <path
+                          d="M1,23 L61,23 C61,23 114,30.8576241 114,92 C114,152.142373 61,160 61,160 L1,160"
+                          id="Path-32"
+                          stroke="#D9B470"
+                          stroke-width="2"
+                        ></path>
+                        <path
+                          d="M79.5106383,113 L79.5106383,113 C91.1502645,113 101,103.150264 101,91.5106383 C101,78.9970664 91.2925248,69 79.5106383,69 C66.8497355,69 57,78.8497355 57,91.5106383 C57,103.292525 66.9970664,113 79.5106383,113 L79.5106383,113 Z M79.5106383,115 L79.5106383,115 C65.745166,115 55,104.254834 55,91.5106383 C55,77.745166 65.745166,67 79.5106383,67 C92.254834,67 103,77.745166 103,91.5106383 C103,104.254834 92.254834,115 79.5106383,115 L79.5106383,115 Z"
+                          id="Shape"
+                          fill="#D9B470"
+                        ></path>
+                        <path
+                          d="M2,65 C2,64.2209473 2,67 2,67 L78,67 L78,65 L2,65 Z M34.8378378,62 L32.7837838,62 L32.7837838,65 L34.8378378,65 L34.8378378,62 Z M49.2162162,62 L47.1621622,62 L47.1621622,65 L49.2162162,65 L49.2162162,62 Z M63.5945946,62 L61.5405405,62 L61.5405405,65 L63.5945946,65 L63.5945946,62 Z"
+                          id="Rectangle-21"
+                          fill="#D09F64"
+                        ></path>
+                        <path
+                          d="M2,118 L2,120 L78,120 L78,118 L2,118 Z M34,115 L32,115 L32,118 L34,118 L34,115 Z M48,115 L46,115 L46,118 L48,118 L48,115 Z M62,115 L60,115 L60,118 L62,118 L62,115 Z"
+                          id="Rectangle-21-Copy"
+                          fill="#D09F64"
+                          transform="translate(40.000000, 117.500000) scale(1, -1) translate(-40.000000, -117.500000) "
+                        ></path>
+                        <rect
+                          id="Rectangle-22"
+                          stroke="#D9B470"
+                          stroke-width="2"
+                          fill="#CC7652"
+                          transform="translate(360.000000, 92.000000) scale(-1, 1) translate(-361.000000, -92.000000) "
+                          x="322"
+                          y="57"
+                          width="78"
+                          height="70"
+                        ></rect>
+                        <path
+                          d="M286,23 L346,23 C346,23 399,30.8576241 399,92 C399,152.142373 346,160 346,160 L286,160"
+                          id="Path-32"
+                          stroke="#D9B470"
+                          stroke-width="2"
+                          transform="translate(342.500000, 91.500000) scale(-1, 1) translate(-342.500000, -91.500000) "
+                        ></path>
+                        <path
+                          d="M322.510638,113 L322.510638,113 C334.150264,113 344,103.150264 344,91.5106383 C344,78.9970664 334.292525,69 322.510638,69 C309.849736,69 300,78.8497355 300,91.5106383 C300,103.292525 309.997066,113 322.510638,113 L322.510638,113 Z M322.510638,115 L322.510638,115 C308.745166,115 298,104.254834 298,91.5106383 C298,77.745166 308.745166,67 322.510638,67 C335.254834,67 346,77.745166 346,91.5106383 C346,104.254834 335.254834,115 322.510638,115 L322.510638,115 Z"
+                          id="Shape"
+                          fill="#D9B470"
+                          transform="translate(322.000000, 91.000000) scale(-1, 1) translate(-322.000000, -91.000000) "
+                        ></path>
+                        <path
+                          d="M323,65 L323,67 L399,67 L399,65 L323,65 Z M354,62 L352,62 L352,65 L354,65 L354,62 Z M368,62 L366,62 L366,65 L368,65 L368,62 Z M382,62 L380,62 L380,65 L382,65 L382,62 Z"
+                          id="Rectangle-21"
+                          fill="#D09F64"
+                          transform="translate(361.000000, 64.500000) scale(-1, 1) translate(-361.000000, -64.500000) "
+                        ></path>
+                        <path
+                          d="M323,118 L323,120 L399,120 L399,118 L323,118 Z M354,115 L352,115 L352,118 L354,118 L354,115 Z M368,115 L366,115 L366,118 L368,118 L368,115 Z M382,115 L380,115 L380,118 L382,118 L382,115 Z"
+                          id="Rectangle-21-Copy"
+                          fill="#D09F64"
+                          transform="translate(361.000000, 117.500000) scale(-1, -1) translate(-361.000000, -117.500000) "
+                        ></path>
+                        <!-- <path id="ml18-Basket1" opacity="0" d="M390.5,97 L390.5,97 C387.462434,97 385,94.5375661 385,91.5 C385,88.4624339 387.462434,86 390.5,86 C393.537566,86 396,88.4624339 396,91.5 C396,94.5375661 393.537566,97 390.5,97 L390.5,97 Z M396,96.5990685 C394.630255,98.075822 392.673054,99 390.5,99 C386.357864,99 383,95.6421356 383,91.5 C383,87.3578644 386.357864,84 390.5,84 C392.673054,84 394.630255,84.924178 396,86.4009315 L396,80 L398,80 L398,103 L396,103 L396,96.5990685 Z" fill="#DDB996"></path> -->
+                        <circle id="Oval-43-Copy" fill="#CC7652" cx="390.5" cy="91.5" r="5.5"></circle>
+                        <!-- <path id="ml18-Basket2" opacity="0" d="M9.5,97 L9.5,97 C6.46243388,97 4,94.5375661 4,91.5 C4,88.4624339 6.46243388,86 9.5,86 C12.5375661,86 15,88.4624339 15,91.5 C15,94.5375661 12.5375661,97 9.5,97 L9.5,97 Z M15,96.5990685 C13.630255,98.075822 11.6730542,99 9.5,99 C5.35786438,99 2,95.6421356 2,91.5 C2,87.3578644 5.35786438,84 9.5,84 C11.6730542,84 13.630255,84.924178 15,86.4009315 L15,80 L17,80 L17,103 L15,103 L15,96.5990685 Z" id="Shape-Copy-3" fill="#DDB996" transform="translate(9.500000, 91.500000) scale(-1, 1) translate(-9.500000, -91.500000) "></path> -->
+                        <circle
+                          id="Oval-43-Copy-2"
+                          fill="#CC7652"
+                          transform="translate(9.500000, 91.500000) scale(-1, 1) translate(-9.500000, -91.500000) "
+                          cx="9.5"
+                          cy="91.5"
+                          r="5.5"
+                        ></circle>
+                        <rect
+                          id="Rectangle-245"
+                          stroke="#D9B470"
+                          stroke-width="2"
+                          x="1"
+                          y="1"
+                          width="398"
+                          height="178"
+                        ></rect>
+                        <rect id="Rectangle-109" fill="#D9B470" x="199" y="2" width="2" height="176"></rect>
+                        <path
+                          id="ml18-Possession1"
+                          fill="#CC6029"
+                          opacity="0"
+                          d="M398,68 L398,39 L398,22 L339,22 C339,22 285,30 285,92 C285,150 335,161 339,161 L398,161 L398,144 L398,86 L398,68 Z"
+                          class=""
+                          style="opacity: 0;"
+                        ></path>
+                        <path
+                          id="ml18-Possession2"
+                          fill="#CC6029"
+                          opacity="0"
+                          d="M2,68 L2,39 L2,22 L61,22 C61,22 115,30 115,92 C115,150 65,161 61,161 L2,161 L2,144 L2,86 L2,68 Z"
+                          class=""
+                          style="opacity: 0.4;"
+                        ></path>
+                      </g>
+                    </g>
+                    <path
+                      id="ml18-twoPointLine1"
+                      transform="translate(685.500000) scale(-1, 1)"
+                      d="M286,23 L346,23 C346,23 399,30.8576241 399,92 C399,152.142373 346,160 346,160 L286,160"
+                      stroke="#D9B470"
+                      opacity="0"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      id="ml18-twoPointLine2"
+                      d="M1,23 L61,23 C61,23 114,30.8576241 114,92 C114,152.142373 61,160 61,160 L1,160"
+                      stroke="#D9B470"
+                      opacity="1"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      id="ml18-threePointLine1"
+                      transform="translate(685.500000) scale(-1, 1)"
+                      d="M286,23 L346,23 C346,23 399,30.8576241 399,92 C399,152.142373 346,160 346,160 L286,160"
+                      stroke="#E8DBB9"
+                      opacity="0"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      id="ml18-threePointLine2"
+                      d="M1,23 L61,23 C61,23 114,30.8576241 114,92 C114,152.142373 61,160 61,160 L1,160"
+                      stroke="#E8DBB9"
+                      opacity="0"
+                      stroke-width="2"
+                    ></path>
+                    <g id="ml18-Basket1" fill="none" fill-rule="evenodd" opacity="1">
+                      <g fill="#DB9F86" transform="translate(2.000000, 80.000000)">
+                        <path
+                          d="M11.696 4.562l-.09.207c-.076.173-.156.365-.238.57-.257.636-.5 1.298-.72 1.966-.384 1.166-.67 2.265-.846 3.275-.136.78-.205 1.492-.205 2.137 0 3.115.422 4.724 2.098 8.152l.133.045.29-.142.045-.134c-1.64-3.36-2.043-4.893-2.044-7.923 0-.613.065-1.297.196-2.046.172-.983.452-2.058.828-3.2.216-.658.455-1.31.708-1.935.08-.2.16-.39.232-.56l.087-.197-.048-.133-.293-.133-.134.05z"
+                        ></path>
+                        <path
+                          d="M12.165 4.975c.074.167.153.352.235.55.256.617.498 1.26.717 1.91.408 1.215.704 2.357.874 3.4.112.68.167 1.31.165 1.882-.008 3.004-.376 4.355-2.12 7.924l.046.135.29.14.134-.045c1.778-3.638 2.165-5.06 2.173-8.152.002-.602-.056-1.258-.17-1.966-.176-1.074-.478-2.242-.895-3.482-.223-.663-.47-1.317-.73-1.945-.083-.202-.164-.39-.24-.562l-.093-.204-.134-.05-.292.138-.048.133c.02.04.05.11.09.195z"
+                        ></path>
+                        <path
+                          d="M15.83 5.447l-.077.056-.212.157c-.237.18-.49.377-.752.59-.815.656-1.586 1.34-2.285 2.033-1.13 1.12-1.996 2.183-2.57 3.177-1.556 2.698-1.996 4.302-2.258 8.108l.093.107.32.022.107-.093c.258-3.73.677-5.26 2.19-7.883.55-.95 1.387-1.98 2.485-3.066.686-.68 1.444-1.353 2.246-2 .257-.207.506-.4.74-.577l.206-.153.07-.052.024-.14-.187-.262-.14-.023z"
+                        ></path>
+                        <path
+                          d="M16.05 5.827l-.01.112c-.01.097-.023.207-.037.325-.043.368-.097.76-.16 1.166-.202 1.262-.47 2.456-.8 3.535-.335 1.09-.723 2.02-1.16 2.774-1.51 2.597-2.505 3.583-5.8 5.8l-.027.14.18.267.14.027c3.358-2.26 4.404-3.3 5.957-5.973.46-.79.862-1.755 1.208-2.88.34-1.105.613-2.322.817-3.607.066-.413.12-.813.165-1.188.014-.12.026-.233.036-.334l.012-.12-.092-.107-.32-.028-.11.092z"
+                        ></path>
+                        <path
+                          d="M18.967 8.28l-.12.013c-.098.01-.21.024-.328.04-.37.046-.764.104-1.17.17-1.267.212-2.466.485-3.553.816-1.16.352-2.145.76-2.943 1.22-2.697 1.558-3.88 2.727-6.01 5.892l.027.14.268.18.14-.028c2.086-3.1 3.214-4.216 5.837-5.732.76-.44 1.71-.832 2.834-1.174 1.064-.324 2.24-.592 3.485-.8.4-.065.787-.122 1.15-.168.116-.015.224-.028.32-.038l.112-.012.09-.11-.03-.32-.11-.09z"
+                        ></path>
+                        <path
+                          d="M18.967 8.72l-.05.07-.152.21c-.173.234-.365.484-.57.744-.64.807-1.31 1.57-1.992 2.262-1.075 1.092-2.105 1.928-3.07 2.48-2.605 1.496-3.96 1.854-7.922 2.127l-.092.107.023.32.107.094c4.04-.28 5.465-.656 8.147-2.194 1.008-.58 2.073-1.443 3.18-2.568.696-.705 1.378-1.483 2.03-2.304.21-.264.404-.52.58-.76.058-.077.11-.15.157-.214l.056-.077-.025-.14-.264-.183-.14.025z"
+                        ></path>
+                        <path
+                          d="M20.267 12.303l-.208-.092c-.175-.074-.367-.154-.57-.236-.637-.257-1.3-.5-1.967-.72-1.166-.384-2.265-.67-3.276-.846-.778-.136-1.49-.205-2.136-.205-3.113 0-4.722.422-8.15 2.098l-.046.135.14.29.135.045c3.358-1.642 4.892-2.044 7.92-2.045.615 0 1.3.066 2.047.197.985.172 2.06.452 3.202.828.657.216 1.308.455 1.933.708.2.08.39.16.56.233l.198.088.133-.05.134-.293-.05-.132z"
+                        ></path>
+                        <path
+                          d="M20.048 12.683c-.04.02-.11.05-.195.088-.167.075-.352.154-.55.236-.616.256-1.26.498-1.91.717-1.214.41-2.356.704-3.4.874-.68.11-1.308.166-1.88.164-3.006-.007-4.357-.374-7.925-2.12l-.134.047-.14.29.045.133c3.636 1.778 5.06 2.165 8.15 2.173.603.002 1.26-.056 1.967-.17 1.073-.176 2.242-.478 3.482-.895.662-.223 1.316-.47 1.943-.73.202-.083.39-.164.562-.24l.205-.093.048-.133-.137-.29-.132-.05z"
+                        ></path>
+                        <path
+                          d="M19.382 16.436l-.056-.077-.158-.213c-.18-.238-.377-.49-.588-.753-.657-.815-1.342-1.586-2.034-2.285-1.12-1.132-2.183-1.996-3.178-2.57-2.697-1.556-4.3-1.996-8.108-2.26l-.106.094-.022.32.092.108c3.73.257 5.26.676 7.883 2.19.95.548 1.98 1.386 3.068 2.484.68.686 1.352 1.445 2 2.246.206.257.4.506.577.74l.153.206.052.07.14.025.26-.188.025-.14z"
+                        ></path>
+                        <path
+                          d="M19.002 16.656l-.113-.01c-.1-.01-.208-.023-.326-.036-.368-.043-.76-.097-1.166-.162-1.262-.2-2.455-.468-3.535-.8-1.09-.334-2.02-.722-2.773-1.16-2.598-1.51-3.585-2.503-5.803-5.798l-.138-.027-.268.18-.028.138c2.262 3.36 3.3 4.406 5.974 5.96.79.46 1.755.86 2.882 1.207 1.104.34 2.32.612 3.606.816.413.066.812.12 1.187.165.12.014.233.026.334.036l.12.012.11-.09.026-.322-.09-.108z"
+                        ></path>
+                        <path
+                          d="M16.548 19.573l-.012-.12c-.01-.098-.024-.208-.04-.328-.046-.37-.104-.762-.172-1.17-.21-1.266-.483-2.464-.814-3.552-.354-1.16-.76-2.145-1.22-2.943-1.56-2.696-2.728-3.88-5.894-6.01l-.138.027-.18.267.027.14c3.1 2.086 4.216 3.214 5.732 5.837.44.762.83 1.713 1.173 2.835.325 1.065.592 2.242.8 3.486.066.402.123.788.17 1.15l.037.322.012.11.108.09.32-.03.09-.11z"
+                        ></path>
+                        <path
+                          d="M16.11 19.573l-.072-.05-.208-.152c-.235-.172-.486-.364-.745-.57-.807-.64-1.57-1.31-2.262-1.99-1.092-1.076-1.93-2.106-2.482-3.07-1.494-2.606-1.85-3.96-2.125-7.923l-.106-.092-.322.022-.093.106c.28 4.04.655 5.465 2.194 8.147.577 1.008 1.44 2.073 2.566 3.18.705.696 1.483 1.378 2.305 2.03.265.21.52.404.76.58l.214.157.077.055.14-.025.185-.264-.025-.14z"
+                        ></path>
+                      </g>
+                      <g transform="translate(2.000000, 80.000000)">
+                        <path
+                          d="M12.11 20.343c-4.21 0-7.625-3.414-7.625-7.626 0-4.21 3.415-7.625 7.626-7.625 4.213 0 7.627 3.414 7.627 7.625 0 4.212-3.414 7.626-7.626 7.626zm0 .844c4.68 0 8.47-3.792 8.47-8.47 0-4.677-3.79-8.47-8.47-8.47-4.676 0-8.468 3.793-8.468 8.47 0 4.678 3.792 8.47 8.47 8.47z"
+                          fill="#CE4628"
+                        ></path>
+                        <path
+                          d="M2.3 15.07h2.355l.1-.1v-4.506l-.1-.1H2.343l5.09-3.845-.015-.17-.51-.258-.105.01-5.618 4.178-.08.084h-.018l-.1.1v.085l-.006.034.007.014v4.373l.1.1h.007l.002.013.173.183 5.697 4.17.15-.04.238-.53-.032-.122L2.3 15.07z"
+                          fill="#CE4628"
+                        ></path>
+                        <path fill="#DDB996" d="M0 0h1v25H0z"></path>
+                      </g>
+                    </g>
+                    <g id="ml18-Basket2" fill="none" fill-rule="evenodd">
+                      <g fill="#DB9F86" transform="translate(398.000000, 80.000000) scale(-1, 1)">
+                        <path
+                          d=" M11.696 4.562l-.09.207c-.076.173-.156.365-.238.57-.257.636-.5 1.298-.72 1.966-.384 1.166-.67 2.265-.846 3.275-.136.78-.205 1.492-.205 2.137 0 3.115.422 4.724 2.098 8.152l.133.045.29-.142.045-.134c-1.64-3.36-2.043-4.893-2.044-7.923 0-.613.065-1.297.196-2.046.172-.983.452-2.058.828-3.2.216-.658.455-1.31.708-1.935.08-.2.16-.39.232-.56l.087-.197-.048-.133-.293-.133-.134.05z"
+                        ></path>
+                        <path
+                          d="M12.165 4.975c.074.167.153.352.235.55.256.617.498 1.26.717 1.91.408 1.215.704 2.357.874 3.4.112.68.167 1.31.165 1.882-.008 3.004-.376 4.355-2.12 7.924l.046.135.29.14.134-.045c1.778-3.638 2.165-5.06 2.173-8.152.002-.602-.056-1.258-.17-1.966-.176-1.074-.478-2.242-.895-3.482-.223-.663-.47-1.317-.73-1.945-.083-.202-.164-.39-.24-.562l-.093-.204-.134-.05-.292.138-.048.133c.02.04.05.11.09.195z"
+                        ></path>
+                        <path
+                          d="M15.83 5.447l-.077.056-.212.157c-.237.18-.49.377-.752.59-.815.656-1.586 1.34-2.285 2.033-1.13 1.12-1.996 2.183-2.57 3.177-1.556 2.698-1.996 4.302-2.258 8.108l.093.107.32.022.107-.093c.258-3.73.677-5.26 2.19-7.883.55-.95 1.387-1.98 2.485-3.066.686-.68 1.444-1.353 2.246-2 .257-.207.506-.4.74-.577l.206-.153.07-.052.024-.14-.187-.262-.14-.023z"
+                        ></path>
+                        <path
+                          d="M16.05 5.827l-.01.112c-.01.097-.023.207-.037.325-.043.368-.097.76-.16 1.166-.202 1.262-.47 2.456-.8 3.535-.335 1.09-.723 2.02-1.16 2.774-1.51 2.597-2.505 3.583-5.8 5.8l-.027.14.18.267.14.027c3.358-2.26 4.404-3.3 5.957-5.973.46-.79.862-1.755 1.208-2.88.34-1.105.613-2.322.817-3.607.066-.413.12-.813.165-1.188.014-.12.026-.233.036-.334l.012-.12-.092-.107-.32-.028-.11.092z"
+                        ></path>
+                        <path
+                          d="M18.967 8.28l-.12.013c-.098.01-.21.024-.328.04-.37.046-.764.104-1.17.17-1.267.212-2.466.485-3.553.816-1.16.352-2.145.76-2.943 1.22-2.697 1.558-3.88 2.727-6.01 5.892l.027.14.268.18.14-.028c2.086-3.1 3.214-4.216 5.837-5.732.76-.44 1.71-.832 2.834-1.174 1.064-.324 2.24-.592 3.485-.8.4-.065.787-.122 1.15-.168.116-.015.224-.028.32-.038l.112-.012.09-.11-.03-.32-.11-.09z"
+                        ></path>
+                        <path
+                          d="M18.967 8.72l-.05.07-.152.21c-.173.234-.365.484-.57.744-.64.807-1.31 1.57-1.992 2.262-1.075 1.092-2.105 1.928-3.07 2.48-2.605 1.496-3.96 1.854-7.922 2.127l-.092.107.023.32.107.094c4.04-.28 5.465-.656 8.147-2.194 1.008-.58 2.073-1.443 3.18-2.568.696-.705 1.378-1.483 2.03-2.304.21-.264.404-.52.58-.76.058-.077.11-.15.157-.214l.056-.077-.025-.14-.264-.183-.14.025z"
+                        ></path>
+                        <path
+                          d="M20.267 12.303l-.208-.092c-.175-.074-.367-.154-.57-.236-.637-.257-1.3-.5-1.967-.72-1.166-.384-2.265-.67-3.276-.846-.778-.136-1.49-.205-2.136-.205-3.113 0-4.722.422-8.15 2.098l-.046.135.14.29.135.045c3.358-1.642 4.892-2.044 7.92-2.045.615 0 1.3.066 2.047.197.985.172 2.06.452 3.202.828.657.216 1.308.455 1.933.708.2.08.39.16.56.233l.198.088.133-.05.134-.293-.05-.132z"
+                        ></path>
+                        <path
+                          d="M20.048 12.683c-.04.02-.11.05-.195.088-.167.075-.352.154-.55.236-.616.256-1.26.498-1.91.717-1.214.41-2.356.704-3.4.874-.68.11-1.308.166-1.88.164-3.006-.007-4.357-.374-7.925-2.12l-.134.047-.14.29.045.133c3.636 1.778 5.06 2.165 8.15 2.173.603.002 1.26-.056 1.967-.17 1.073-.176 2.242-.478 3.482-.895.662-.223 1.316-.47 1.943-.73.202-.083.39-.164.562-.24l.205-.093.048-.133-.137-.29-.132-.05z"
+                        ></path>
+                        <path
+                          d="M19.382 16.436l-.056-.077-.158-.213c-.18-.238-.377-.49-.588-.753-.657-.815-1.342-1.586-2.034-2.285-1.12-1.132-2.183-1.996-3.178-2.57-2.697-1.556-4.3-1.996-8.108-2.26l-.106.094-.022.32.092.108c3.73.257 5.26.676 7.883 2.19.95.548 1.98 1.386 3.068 2.484.68.686 1.352 1.445 2 2.246.206.257.4.506.577.74l.153.206.052.07.14.025.26-.188.025-.14z"
+                        ></path>
+                        <path
+                          d="M19.002 16.656l-.113-.01c-.1-.01-.208-.023-.326-.036-.368-.043-.76-.097-1.166-.162-1.262-.2-2.455-.468-3.535-.8-1.09-.334-2.02-.722-2.773-1.16-2.598-1.51-3.585-2.503-5.803-5.798l-.138-.027-.268.18-.028.138c2.262 3.36 3.3 4.406 5.974 5.96.79.46 1.755.86 2.882 1.207 1.104.34 2.32.612 3.606.816.413.066.812.12 1.187.165.12.014.233.026.334.036l.12.012.11-.09.026-.322-.09-.108z"
+                        ></path>
+                        <path
+                          d="M16.548 19.573l-.012-.12c-.01-.098-.024-.208-.04-.328-.046-.37-.104-.762-.172-1.17-.21-1.266-.483-2.464-.814-3.552-.354-1.16-.76-2.145-1.22-2.943-1.56-2.696-2.728-3.88-5.894-6.01l-.138.027-.18.267.027.14c3.1 2.086 4.216 3.214 5.732 5.837.44.762.83 1.713 1.173 2.835.325 1.065.592 2.242.8 3.486.066.402.123.788.17 1.15l.037.322.012.11.108.09.32-.03.09-.11z"
+                        ></path>
+                        <path
+                          d="M16.11 19.573l-.072-.05-.208-.152c-.235-.172-.486-.364-.745-.57-.807-.64-1.57-1.31-2.262-1.99-1.092-1.076-1.93-2.106-2.482-3.07-1.494-2.606-1.85-3.96-2.125-7.923l-.106-.092-.322.022-.093.106c.28 4.04.655 5.465 2.194 8.147.577 1.008 1.44 2.073 2.566 3.18.705.696 1.483 1.378 2.305 2.03.265.21.52.404.76.58l.214.157.077.055.14-.025.185-.264-.025-.14z"
+                        ></path>
+                      </g>
+                      <g transform="translate(398.000000, 80.000000) scale(-1, 1)">
+                        <path
+                          d="M12.11 20.343c-4.21 0-7.625-3.414-7.625-7.626 0-4.21 3.415-7.625 7.626-7.625 4.213 0 7.627 3.414 7.627 7.625 0 4.212-3.414 7.626-7.626 7.626zm0 .844c4.68 0 8.47-3.792 8.47-8.47 0-4.677-3.79-8.47-8.47-8.47-4.676 0-8.468 3.793-8.468 8.47 0 4.678 3.792 8.47 8.47 8.47z"
+                          fill="#CE4628"
+                        ></path>
+                        <path
+                          d="M2.3 15.07h2.355l.1-.1v-4.506l-.1-.1H2.343l5.09-3.845-.015-.17-.51-.258-.105.01-5.618 4.178-.08.084h-.018l-.1.1v.085l-.006.034.007.014v4.373l.1.1h.007l.002.013.173.183 5.697 4.17.15-.04.238-.53-.032-.122L2.3 15.07z"
+                          fill="#CE4628"
+                        ></path>
+                        <path fill="#DDB996" d="M0 0h1v25H0z"></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div>
+                <div class="ml18-MatchLiveBasketballModule_AnimWrapper ">
+                  <div class="ml18-AnimatedTextBar ">
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H1TextWrapper"
+                      style="opacity: 1; display: block; text-align: left; left: 62px; top: 30.51px; width: 164px;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H1Text ">Virtus Monterotondo sub-20</span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H1TextBackupWrapper ml18-CommonAnimations_H1TextBackup"
+                      style="display: block; opacity: 0; top: 98.96px; width: 164px; text-align: right; left: 48px;"
+                    >
+                      <span class="ml18-AnimatedTextBar ">Serapo 85 sub-20</span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H1TextGhostWrapper "
+                      style="display: none; width: 164px; text-align: left;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H1TextGhost "
+                        >Virtus Monterotondo sub-20</span
+                      >
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H2TextWrapper"
+                      style="opacity: 1; display: block; text-align: left; left: 62px; top: 45px; width: 164px;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H2Text ">2 Puntos</span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H2TextBackupWrapper"
+                      style="display: block; opacity: 0; top: 68px; width: 123px; text-align: left; left: 112px;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H2TextBackup ">En posesión</span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H2TextGhostWrapper "
+                      style="display: none; width: 164px; text-align: left;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H2TextGhost ">2 Puntos</span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H3TextWrapper"
+                      style="display: none; opacity: 0;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H3Text "></span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H3TextBackupWrapper "
+                      style="display: none;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H3TextBackup "></span>
+                    </div>
+                    <div
+                      class="ml18-AnimatedTextBar ml18-CommonAnimations_Asset ml18-CommonAnimations_H3TextGhostWrapper "
+                      style="display: none;"
+                    >
+                      <span class="ml18-AnimatedTextBar ml18-CommonAnimations_H3TextGhost "></span>
+                    </div>
+                    <div
+                      class="ml18-CommonAnimations_Line"
+                      style="opacity: 1; background-color: rgb(214, 0, 61); left: 54px; top: 32px; height: 30px; transform: rotateZ(180deg);"
+                    ></div>
+                  </div>
+                  <div>
+                    <div class="ml18-XYBlob " style="opacity: 1; color: rgb(214, 0, 61); top: 37%; left: 14.5474%;">
+                      <div class="ml18-XYBlob_Inner1 "></div>
+                      <div class="ml18-XYBlob_Inner2 "></div>
+                      <div class="ml18-XYBlob_Inner3 "></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <div
+                        class="ml18-CommonAnimations_Asset ml18-CommonAnimations_Icon ml18-XYShot_Anims-xyball"
+                        style="display: block; left: -4.41px; top: 48.73px; opacity: 0; transform: scaleX(0.1) scaleY(0.1) rotateZ(83.8243deg);"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml18-Stats ">
+            <div class="ml18-PointsAndFouls ">
+              <div class="ml18-Fouls ">
+                <span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(0, 43, 135);">0</span
+                ><span class="ml18-PointsAndFoulsStyles_Title ">Faltas</span>
+              </div>
+              <div class="ml18-DoublePoints ">
+                <span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(0, 43, 135);">3</span
+                ><span class="ml18-PointsAndFoulsStyles_Title ">2 pts</span>
+              </div>
+              <div class="ml18-TripplePoints ">
+                <span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(0, 43, 135);">1</span
+                ><span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(214, 0, 61);">0</span
+                ><span class="ml18-PointsAndFoulsStyles_Title ">3 pts</span>
+              </div>
+              <div class="ml18-DoublePoints ">
+                <span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(214, 0, 61);">1</span
+                ><span class="ml18-PointsAndFoulsStyles_Title ">2 pts</span>
+              </div>
+              <div class="ml18-Fouls ">
+                <span class="ml18-PointsAndFoulsStyles_Figure " style="border-color: rgb(214, 0, 61);">0</span
+                ><span class="ml18-PointsAndFoulsStyles_Title ">Faltas</span>
+              </div>
+            </div>
+            <div class="ml18-TimeoutsAndThrows ">
+              <div class="ml18-Timeouts ">
+                <div class="ml18-Timeouts_CounterContainer ">
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(0, 43, 135);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(0, 43, 135);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(0, 43, 135);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(0, 43, 135);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(0, 43, 135);"></div>
+                </div>
+                <div class="ml18-TimeoutsAndThrows_Title ">T. muerto</div>
+              </div>
+              <div class="ml18-FreeThrows ">
+                <div class="ml18-FreeThrows_ColumnWrapper ">
+                  <div class="ml18-FreeThrows_Column " style="border-color: rgb(0, 43, 135);">
+                    <span class="ml18-FreeThrows_Count ">0</span><span class="ml18-FreeThrows_Percentage ">0%</span>
+                  </div>
+                </div>
+                <div class="ml18-FreeThrows_ColumnWrapper ">
+                  <div class="ml18-FreeThrows_Column " style="border-color: rgb(214, 0, 61);">
+                    <span class="ml18-FreeThrows_Count ">0</span><span class="ml18-FreeThrows_Percentage ">0%</span>
+                  </div>
+                </div>
+                <div class="ml18-TimeoutsAndThrows_Title ">Tiros libres</div>
+              </div>
+              <div class="ml18-Timeouts ">
+                <div class="ml18-Timeouts_CounterContainer ">
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(214, 0, 61);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(214, 0, 61);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(214, 0, 61);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(214, 0, 61);"></div>
+                  <div class="ml18-Timeouts_Counter " style="background-color: rgb(214, 0, 61);"></div>
+                </div>
+                <div class="ml18-TimeoutsAndThrows_Title ">T. muerto</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipe-ScoreGridHeaderLayout ">
+      <div class="ipe-ScoreGridHeaderLayout_ExtraData ">08:14</div>
+      <div></div>
+      <div class="ipe-ScoreGridContainer ">
+        <div class="ipe-ScoreGridColumn Hidden ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_9-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="16"
+                height="28"
+                viewBox="0 0 32 56"
+              >
+                <title>K9-1</title>
+                <defs>
+                  <path id="a" d="M28 36l4 20H17.655L16 51.31 14.345 56H0l4-20z"></path>
+                  <mask id="c" x="0" y="0" width="32" height="20" fill="#fff"><use xlink:href="#a"></use></mask>
+                  <mask id="d" x="0" y="0" width="32" height="20" fill="#fff"><use xlink:href="#a"></use></mask>
+                  <path
+                    d="M11.237.29a13.22 13.22 0 0 0 1.618 1.406c.992.725 1.958 1.199 2.797 1.312.124.017.243.026.357.026 1.312.006 2.464-.478 3.46-1.304.353-.293.66-.609.916-.922.15-.184.246-.32.287-.385L20.969 0l3.95.35.892.092-.085.851a100.737 100.737 0 0 0-.186 2.188c-.06.807-.108 1.594-.14 2.332-.069 1.543-.063 2.76.03 3.493.07.533.249 1.204.522 1.973.166.466.362.958.583 1.468.256.591.531 1.174.807 1.722.164.328.465.887.658.887V37H4V15.568l.292-.373a36.437 36.437 0 0 0 1.093-2.455c.2-.501.38-.985.532-1.444.256-.774.427-1.45.496-1.99.094-.734.1-1.95.032-3.493a79.292 79.292 0 0 0-.14-2.332 100.738 100.738 0 0 0-.187-2.188L6.032.438 6.93.35l4-.35.308.29z"
+                    id="b"
+                  ></path>
+                  <mask id="e" x="0" y="0" width="24" height="37" fill="#fff"><use xlink:href="#b"></use></mask>
+                  <mask id="f" x="0" y="0" width="24" height="37" fill="#fff"><use xlink:href="#b"></use></mask>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <path
+                    d="M4 36L0 56h14.345L16 51.31 17.655 56H32l-4-20V15.356c-.193 0-.494-.559-.658-.887a33.967 33.967 0 0 1-.807-1.722c-.221-.51-.417-1.002-.583-1.468-.273-.77-.453-1.44-.521-1.973-.094-.734-.1-1.95-.032-3.493.033-.738.08-1.525.14-2.332a100.737 100.737 0 0 1 .187-2.188l.085-.85L24.92.35 20.97 0l-.297.423a4.25 4.25 0 0 1-.287.385c-.257.313-.563.629-.917.922-.995.826-2.147 1.31-3.459 1.304a2.79 2.79 0 0 1-.357-.026c-.839-.113-1.805-.587-2.797-1.312A13.22 13.22 0 0 1 11.237.291L10.928 0 6.93.35l-.897.088.086.855a100.738 100.738 0 0 1 .186 2.188c.06.807.108 1.594.14 2.332.069 1.543.063 2.76-.03 3.493-.07.54-.241 1.216-.497 1.99-.152.459-.332.943-.532 1.444a36.437 36.437 0 0 1-1.093 2.455L4 15.568V36z"
+                    id="color1"
+                    fill="#F0F0F0"
+                  ></path>
+                  <path
+                    d="M28 36V15.356c-.193 0-.494-.559-.658-.887a33.967 33.967 0 0 1-.807-1.722c-.221-.51-.417-1.002-.583-1.468-.273-.77-.453-1.44-.521-1.973C25.337 8.572 24 12 24 12v24h4zM8 36V12S6.453 8.991 6.413 9.306c-.069.54-.24 1.216-.496 1.99-.152.459-.332.943-.532 1.444a36.437 36.437 0 0 1-1.093 2.455L4 15.568V36h4z"
+                    id="color2"
+                    fill="#C40010"
+                  ></path>
+                  <path d="M25 36l4 20h3l-4-20h-3zM7 36L3 56H0l4-20h3z" id="color4" fill="#F0F0F0"></path>
+                  <path d="M23 36l4 20h2l-4-20h-2zM9 36L5 56H3l4-20h2z" id="color3" fill="#F0F0F0"></path>
+                  <use
+                    stroke-opacity=".07"
+                    stroke="#FFF"
+                    mask="url(https://www.bet365.com/#c)"
+                    stroke-width="4"
+                    xlink:href="#a"
+                  ></use>
+                  <use stroke="#272727" mask="url(https://www.bet365.com/#d)" stroke-width="2" xlink:href="#a"></use>
+                  <use
+                    stroke-opacity=".07"
+                    stroke="#FFF"
+                    mask="url(https://www.bet365.com/#e)"
+                    stroke-width="4"
+                    xlink:href="#b"
+                  ></use>
+                  <use stroke="#272727" mask="url(https://www.bet365.com/#f)" stroke-width="2" xlink:href="#b"></use>
+                  <path d="M5 37h22v1H5v-1zm11 1h1v9h-1v-9z" fill="#000" opacity=".2"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_9-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="16"
+                height="28"
+                viewBox="0 0 32 56"
+              >
+                <title>K9-1</title>
+                <defs>
+                  <path id="a" d="M28 36l4 20H17.655L16 51.31 14.345 56H0l4-20z"></path>
+                  <mask id="c" x="0" y="0" width="32" height="20" fill="#fff"><use xlink:href="#a"></use></mask>
+                  <mask id="d" x="0" y="0" width="32" height="20" fill="#fff"><use xlink:href="#a"></use></mask>
+                  <path
+                    d="M11.237.29a13.22 13.22 0 0 0 1.618 1.406c.992.725 1.958 1.199 2.797 1.312.124.017.243.026.357.026 1.312.006 2.464-.478 3.46-1.304.353-.293.66-.609.916-.922.15-.184.246-.32.287-.385L20.969 0l3.95.35.892.092-.085.851a100.737 100.737 0 0 0-.186 2.188c-.06.807-.108 1.594-.14 2.332-.069 1.543-.063 2.76.03 3.493.07.533.249 1.204.522 1.973.166.466.362.958.583 1.468.256.591.531 1.174.807 1.722.164.328.465.887.658.887V37H4V15.568l.292-.373a36.437 36.437 0 0 0 1.093-2.455c.2-.501.38-.985.532-1.444.256-.774.427-1.45.496-1.99.094-.734.1-1.95.032-3.493a79.292 79.292 0 0 0-.14-2.332 100.738 100.738 0 0 0-.187-2.188L6.032.438 6.93.35l4-.35.308.29z"
+                    id="b"
+                  ></path>
+                  <mask id="e" x="0" y="0" width="24" height="37" fill="#fff"><use xlink:href="#b"></use></mask>
+                  <mask id="f" x="0" y="0" width="24" height="37" fill="#fff"><use xlink:href="#b"></use></mask>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <path
+                    d="M4 36L0 56h14.345L16 51.31 17.655 56H32l-4-20V15.356c-.193 0-.494-.559-.658-.887a33.967 33.967 0 0 1-.807-1.722c-.221-.51-.417-1.002-.583-1.468-.273-.77-.453-1.44-.521-1.973-.094-.734-.1-1.95-.032-3.493.033-.738.08-1.525.14-2.332a100.737 100.737 0 0 1 .187-2.188l.085-.85L24.92.35 20.97 0l-.297.423a4.25 4.25 0 0 1-.287.385c-.257.313-.563.629-.917.922-.995.826-2.147 1.31-3.459 1.304a2.79 2.79 0 0 1-.357-.026c-.839-.113-1.805-.587-2.797-1.312A13.22 13.22 0 0 1 11.237.291L10.928 0 6.93.35l-.897.088.086.855a100.738 100.738 0 0 1 .186 2.188c.06.807.108 1.594.14 2.332.069 1.543.063 2.76-.03 3.493-.07.54-.241 1.216-.497 1.99-.152.459-.332.943-.532 1.444a36.437 36.437 0 0 1-1.093 2.455L4 15.568V36z"
+                    id="color1"
+                    fill="#800000"
+                  ></path>
+                  <path
+                    d="M28 36V15.356c-.193 0-.494-.559-.658-.887a33.967 33.967 0 0 1-.807-1.722c-.221-.51-.417-1.002-.583-1.468-.273-.77-.453-1.44-.521-1.973C25.337 8.572 24 12 24 12v24h4zM8 36V12S6.453 8.991 6.413 9.306c-.069.54-.24 1.216-.496 1.99-.152.459-.332.943-.532 1.444a36.437 36.437 0 0 1-1.093 2.455L4 15.568V36h4z"
+                    id="color2"
+                    fill="#008000"
+                  ></path>
+                  <path d="M25 36l4 20h3l-4-20h-3zM7 36L3 56H0l4-20h3z" id="color4" fill="#008000"></path>
+                  <path d="M23 36l4 20h2l-4-20h-2zM9 36L5 56H3l4-20h2z" id="color3" fill="#008000"></path>
+                  <use
+                    stroke-opacity=".07"
+                    stroke="#FFF"
+                    mask="url(https://www.bet365.com/#c)"
+                    stroke-width="4"
+                    xlink:href="#a"
+                  ></use>
+                  <use stroke="#272727" mask="url(https://www.bet365.com/#d)" stroke-width="2" xlink:href="#a"></use>
+                  <use
+                    stroke-opacity=".07"
+                    stroke="#FFF"
+                    mask="url(https://www.bet365.com/#e)"
+                    stroke-width="4"
+                    xlink:href="#b"
+                  ></use>
+                  <use stroke="#272727" mask="url(https://www.bet365.com/#f)" stroke-width="2" xlink:href="#b"></use>
+                  <path d="M5 37h22v1H5v-1zm11 1h1v9h-1v-9z" fill="#000" opacity=".2"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader "></div></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">República Checa - Femenino</div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName " style="">Portugal - Femenino</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width30 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">1</div></div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">15</div>
+          </div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">20</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width30 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">2</div></div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">10</div>
+          </div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">8</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width40 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">Mit.</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">25</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">28</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width30 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">3</div></div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">2</div>
+          </div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">0</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width30 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">4</div></div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">&nbsp;</div>
+          </div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">&nbsp;</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width45 Hidden ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">OT</div></div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">&nbsp;</div>
+          </div>
+          <div class="ipe-ScoreGridCell ">
+            <div class="ipe-ScoreGridCell_TextClass18 ipe-ScoreGridCell_Text ">&nbsp;</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width40 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">T</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">27</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">28</div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

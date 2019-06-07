@@ -1,0 +1,1881 @@
+.ml110-Anims_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml110-Anims_H1TextBackupWrapper,
+.ml110-Anims_H1TextGhostWrapper,
+.ml110-Anims_H1TextWrapper {
+  color: #1a4d80;
+  font-size: 13px;
+  line-height: 13px;
+  white-space: normal;
+}
+.ml110-Anims_H2TextBackupWrapper,
+.ml110-Anims_H2TextGhostWrapper,
+.ml110-Anims_H2TextWrapper {
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+  white-space: normal;
+}
+.ml110-Anims_H3TextBackupWrapper,
+.ml110-Anims_H3TextGhostWrapper,
+.ml110-Anims_H3TextWrapper {
+  color: #1a4d80;
+  font-size: 13px;
+  line-height: 13px;
+  white-space: normal;
+}
+.ml110-Anims_H1Text,
+.ml110-Anims_H1TextGhost {
+  font-size: 13px;
+  line-height: 15px;
+}
+.ml110-Anims_H2Text,
+.ml110-Anims_H2TextGhost {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ml110-Anims_H3Text,
+.ml110-Anims_H3TextGhost {
+  font-size: 13px;
+  line-height: 15px;
+}
+.ml110-Anims_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Anims_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-CommonAnimations_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-CommonAnimations_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-CommonAnimations_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-CommonAnimations_H1TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #1a4d80;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H1TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H1TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H1TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H1TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H1TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H1TextWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H1TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H1TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H1TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml110-CommonAnimations_H1TextBackupWrapper,
+  .ml110-CommonAnimations_H1TextGhostWrapper,
+  .ml110-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-CommonAnimations_H1TextBackupWrapper,
+  .ml110-CommonAnimations_H1TextGhostWrapper,
+  .ml110-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H1TextWrapper {
+  line-height: 18px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H1TextWrapper {
+  font-size: 11px;
+  line-height: 14px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_ThreeLines
+  .ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_ThreeLines
+  .ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H1TextWrapper {
+  line-height: 13px;
+}
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H1TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_MatchStatus
+  .ml110-CommonAnimations_H1TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_MatchStatus
+  .ml110-CommonAnimations_H1TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H1TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml110-CommonAnimations_H2TextBackupWrapper,
+.ml110-CommonAnimations_H2TextGhostWrapper,
+.ml110-CommonAnimations_H2TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H2TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H2TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H2TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H2TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H2TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H2TextWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H2TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H2TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H2TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml110-CommonAnimations_H2TextBackupWrapper,
+  .ml110-CommonAnimations_H2TextGhostWrapper,
+  .ml110-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-CommonAnimations_H2TextBackupWrapper,
+  .ml110-CommonAnimations_H2TextGhostWrapper,
+  .ml110-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H2TextBackupWrapper,
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H2TextGhostWrapper,
+.ml110-AnimatedTextBar_ThreeLines .ml110-CommonAnimations_H2TextWrapper {
+  line-height: 20px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H2TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H2TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H2TextBackupWrapper,
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H2TextGhostWrapper,
+.ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H2TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_MatchStatus
+  .ml110-CommonAnimations_H2TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow
+  .ml110-AnimatedTextBar_MatchStatus
+  .ml110-CommonAnimations_H2TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-AnimatedTextBar_MatchStatus .ml110-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml110-CommonAnimations_H3TextBackupWrapper,
+.ml110-CommonAnimations_H3TextGhostWrapper,
+.ml110-CommonAnimations_H3TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #1a4d80;
+  font-size: 11px;
+  line-height: 15px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H3TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H3TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml110-CommonAnimations_H3TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H3TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H3TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-CommonAnimations_H3TextWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H3TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H3TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml110-CommonAnimations_H3TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml110-CommonAnimations_H3TextBackupWrapper,
+  .ml110-CommonAnimations_H3TextGhostWrapper,
+  .ml110-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-CommonAnimations_H3TextBackupWrapper,
+  .ml110-CommonAnimations_H3TextGhostWrapper,
+  .ml110-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H3TextBackupWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H3TextGhostWrapper,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-CommonAnimations_H3TextWrapper {
+  font-size: 10px;
+  line-height: 12px;
+}
+.ml110-Foul_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Foul_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-Foul_Foul {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_foul.svg);
+}
+.ie-9 .ml110-Foul_Foul {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_foul.png);
+}
+.ml110-Goal_Goal {
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_goal_net.svg);
+}
+.ie-9 .ml110-Goal_Goal {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_goal_net.png);
+}
+.ml110-Goal_GoalBall {
+  background-size: contain;
+  background-position: 93% 49%;
+  width: 41px;
+  height: 41px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_ball_waterpolo.svg);
+}
+.ie-9 .ml110-Goal_GoalBall {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_ball_waterpolo.png);
+}
+.ml110-Goal_Flash {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.ml110-Goal_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Goal_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.ml110-Penalty_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Penalty_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-Penalty_Target {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 0;
+}
+.ml110-Penalty_Arrow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_penalty.svg);
+}
+.ie-9 .ml110-Penalty_Arrow {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_penalty.png);
+}
+.ml110-Penalty_ArrowShort {
+  width: 10%;
+  height: 40%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.ml110-Penalty_Inner,
+.ml110-Penalty_Outer,
+.ml110-Penalty_Point {
+  display: block;
+  position: absolute;
+  border-radius: 60px;
+  border: 1px solid hsla(0, 0%, 100%, 0.9);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+.ml110-Penalty_Outer {
+  width: 56px;
+  height: 56px;
+  left: -14px;
+  top: -14px;
+  opacity: 0.5;
+}
+.ml110-Penalty_Inner {
+  width: 36px;
+  height: 36px;
+  left: -4px;
+  top: -4px;
+  opacity: 0.75;
+}
+.ml110-Penalty_Point {
+  width: 6px;
+  height: 6px;
+  left: 11px;
+  top: 11px;
+  background-color: #fff;
+}
+.ml110-RedCard_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-RedCard_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-RedCard_RedCard {
+  background-size: contain;
+  width: 47px;
+  height: 47px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_redcard.svg);
+}
+.ie-9 .ml110-RedCard_RedCard {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_redcard.png);
+}
+.ml110-Suspended_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Suspended_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-Suspended_Suspension {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_suspension.svg);
+}
+.ie-9 .ml110-Suspended_Suspension {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_suspension.png);
+}
+.ml110-Timeout_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml110-Timeout_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml110-Timeout_TimeOut {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_timeout_02.svg);
+}
+.ie-9 .ml110-Timeout_TimeOut {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_timeout_02.png);
+}
+.ml110-MatchLiveWaterPoloModule {
+  transition-property: padding-left, padding-right, max-width;
+  background-color: #393939;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  margin: auto;
+  max-width: 400px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-MatchLiveWaterPoloModule,
+.wc-MyBetsPage_RightColumn-animate .ml110-MatchLiveWaterPoloModule,
+.wc-Page_RightColumn-animate .ml110-MatchLiveWaterPoloModule {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml110-MatchLiveWaterPoloModule {
+  width: 451px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow {
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 286px;
+}
+.ie-8 .ml110-MatchLiveWaterPoloModule_Narrow {
+  width: 286px;
+}
+.ml110-MatchLiveWaterPoloModule_NoScoreHeader {
+  padding-top: 0;
+}
+.ml110-MatchLiveWaterPoloModule_PitchPng,
+.ml110-MatchLiveWaterPoloModule_PitchSvg {
+  width: 100%;
+  height: 100%;
+  max-height: 180px;
+}
+.ml110-MatchLiveWaterPoloModule_Wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.ml110-MatchLiveWaterPoloModule_MatchLiveWrapper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ml110-MatchLiveWaterPoloModule_Constrainer {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.ml110-MatchLiveWaterPoloModule_AnimWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-MatchLiveWaterPoloModule_AnimWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-MatchLiveWaterPoloModule_AnimWrapper,
+.wc-Page_RightColumn-animate .ml110-MatchLiveWaterPoloModule_AnimWrapper {
+  opacity: 0;
+}
+.ml110-MatchLiveWaterPoloModule_PitchContainer {
+  width: 100%;
+  font-size: 0;
+  border: 1px solid #222;
+  position: relative;
+}
+.ml110-MatchLiveWaterPoloModule_PitchContainer:after {
+  padding-top: 45%;
+  display: block;
+  content: '';
+}
+.ml110-MatchLiveWaterPoloModule_PNGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/WaterPoloPitch.png);
+  background-size: 100%;
+  pointer-events: none;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-MatchLiveWaterPoloModule_PNGPitchContainer {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/WaterPoloPitchNarrow.png);
+}
+.ml110-MatchLiveWaterPoloModule_SVGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+}
+.ml110-AllStats {
+  transition-property: padding-top, padding-bottom;
+  padding-top: 11px;
+  padding-bottom: 17px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-AllStats,
+.wc-MyBetsPage_RightColumn-animate .ml110-AllStats,
+.wc-Page_RightColumn-animate .ml110-AllStats {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-AllStats {
+  padding-top: 0;
+  padding-bottom: 13px;
+}
+.ml110-Scoreboard_Wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ml110-Scoreboard {
+  display: table-row;
+}
+.ml110-Scoreboard_Column {
+  display: table-cell;
+  width: 32px;
+  vertical-align: top;
+}
+.ml110-Scoreboard_ParticipantCell {
+  padding-right: 11px;
+}
+.ml110-Scoreboard_ParticipantCellTeamColour {
+  display: inline-block;
+  width: 3px;
+  height: 9px;
+  vertical-align: middle;
+}
+.ml110-Scoreboard_ParticipantCellTeamName {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #ddd;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+@media (max-device-width: 1024px) {
+  .ml110-Scoreboard_ParticipantCellTeamName {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-Scoreboard_ParticipantCellTeamName {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml110-Scoreboard_Cell,
+.ml110-Scoreboard_HeaderCell {
+  display: block;
+  text-align: center;
+  padding: 0 5px;
+}
+.ml110-Scoreboard_HeaderCell {
+  padding-left: 0;
+  padding-right: 11px;
+}
+.ml110-MatchLiveWaterpoloModule_PenaltyShootout .ml110-Scoreboard_HeaderCell {
+  visibility: hidden;
+}
+.ml110-Scoreboard_HeaderCell {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #999;
+  line-height: 20px;
+}
+@media (max-device-width: 1024px) {
+  .ml110-Scoreboard_HeaderCell {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-Scoreboard_HeaderCell {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml110-Scoreboard_Cell {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #ddd;
+  line-height: 20px;
+}
+@media (max-device-width: 1024px) {
+  .ml110-Scoreboard_Cell {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml110-Scoreboard_Cell {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml110-Scoreboard {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ml110-Scoreboard_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml110-Scoreboard_OuterWrapper {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ml110-Scoreboard_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  padding-left: 10px;
+}
+.ml110-Scoreboard_Score {
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.ml110-ScoreHeader {
+  transition-property: padding-top, padding-bottom;
+  padding: 7px 1px 6px;
+  font-size: 0;
+  position: relative;
+  display:flex;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreHeader,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreHeader,
+.wc-Page_RightColumn-animate .ml110-ScoreHeader {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ie-8 .ml110-ScoreHeader,
+.ie-9 .ml110-ScoreHeader {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.ie-8 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader,
+.ie-9 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+.ml110-ScoreHeader_Column {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.ml110-ScoreHeader_Column-left {
+  padding-right: 2px;
+}
+.ie-8 .ml110-ScoreHeader_Column-left,
+.ie-9 .ml110-ScoreHeader_Column-left {
+  display: inline-block;
+  position: relative;
+  padding-right: 59px;
+}
+.ml110-ScoreHeader_Column-right {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 2px;
+}
+.ie-8 .ml110-ScoreHeader_Column-right,
+.ie-9 .ml110-ScoreHeader_Column-right {
+  display: inline-block;
+  position: relative;
+  padding-left: 59px;
+}
+.ml110-ScoreHeader_Team {
+  transition-property: font-size, line-height;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  color: #e4e4e4;
+  line-height: 17px;
+  margin-bottom: 2px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreHeader_Team,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreHeader_Team,
+.wc-Page_RightColumn-animate .ml110-ScoreHeader_Team {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Team {
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Team {
+  padding-right: 8px;
+  padding-left: 10px;
+  text-align: right;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader_Team {
+  font-size: 12px;
+  line-height: 15px;
+}
+.ie-8 .ml110-ScoreHeader_Column-haslabel.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Team,
+.ie-9 .ml110-ScoreHeader_Column-haslabel.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Team {
+  margin-right: 52px;
+}
+.ie-8 .ml110-ScoreHeader_Column-haslabel.ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Team,
+.ie-9 .ml110-ScoreHeader_Column-haslabel.ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Team {
+  margin-left: 52px;
+}
+.ml110-ScoreHeader_TeamText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ml110-ScoreHeader_TeamBorder {
+  position: absolute;
+  height: 15px;
+  margin-top: 1px;
+}
+.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_TeamBorder {
+  border-left: 3px solid #fff;
+  left: 0;
+}
+.ml110-ScoreHeader_Column-right .ml110-ScoreHeader_TeamBorder {
+  border-right: 3px solid #fff;
+  right: 0;
+}
+.ml110-ScoreHeader_Label {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 4px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  background-color: #d1a354;
+  color: #333;
+}
+.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Label {
+  margin-right: 10px;
+}
+.ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Label {
+  margin-left: 10px;
+}
+.ie-8 .ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Label,
+.ie-9 .ml110-ScoreHeader_Column-left .ml110-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 49px;
+}
+.ie-8 .ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Label,
+.ie-9 .ml110-ScoreHeader_Column-right .ml110-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+.ml110-ScoreHeader_ScoreContainer {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0;
+}
+.ml110-ScoreHeader_Column-left .ml110-ScoreHeader_ScoreContainer {
+  text-align: right;
+}
+.ie-8 .ml110-ScoreHeader_Column-left .ml110-ScoreHeader_ScoreContainer,
+.ie-9 .ml110-ScoreHeader_Column-left .ml110-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  width: 47px;
+}
+.ie-8 .ml110-ScoreHeader_Column-right .ml110-ScoreHeader_ScoreContainer,
+.ie-9 .ml110-ScoreHeader_Column-right .ml110-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 2px;
+  width: 47px;
+}
+.ie-8 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader_ScoreContainer,
+.ie-9 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader_ScoreContainer {
+  top: -2px;
+}
+.ml110-ScoreHeader_Score {
+  transition-property: font-size, line-height;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 7px;
+  min-width: 22px;
+  text-align: center;
+  color: #ffdf1b;
+  background-color: #4d4d4d;
+  border-radius: 1px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreHeader_Score,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreHeader_Score,
+.wc-Page_RightColumn-animate .ml110-ScoreHeader_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreHeader_Score {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ie-8 .ml110-ScoreHeader_Score,
+.ie-9 .ml110-ScoreHeader_Score {
+  display: block;
+  width: 100%;
+}
+.ml110-ScoreHeader_Text,
+.ml110-ScoreHeader_Timer {
+  transition-property: font-size, line-height, min-width;
+  margin-top: 1px;
+  font-size: 11px;
+  line-height: 16px;
+  min-width: 48px;
+  text-align: center;
+  border-radius: 0 0 1px 1px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #70d7ff;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreHeader_Text,
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreHeader_Timer,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreHeader_Text,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreHeader_Timer,
+.wc-Page_RightColumn-animate .ml110-ScoreHeader_Text,
+.wc-Page_RightColumn-animate .ml110-ScoreHeader_Timer {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml110-ScoreHeader_Text,
+.ie-8 .ml110-ScoreHeader_Timer {
+  left: 0;
+  width: 100%;
+}
+.ml110-MatchLiveWaterPoloModule-narrow .ml110-ScoreHeader_Text,
+.ml110-MatchLiveWaterPoloModule-narrow .ml110-ScoreHeader_Timer {
+  line-height: 14px;
+  min-width: 40px;
+  font-size: 10px;
+}
+.ml110-ScoreHeader_TextInnerWrapper,
+.ml110-ScoreHeader_TimerInnerWrapper {
+  background-color: #206991;
+  padding: 0 6px 1px;
+  display: none;
+}
+.ml110-ScoreHeader_TextInnerWrapper.ml110-ScoreHeader_TextInnerWrapper-show,
+.ml110-ScoreHeader_TextInnerWrapper.ml110-ScoreHeader_TimerInnerWrapper-show,
+.ml110-ScoreHeader_TimerInnerWrapper.ml110-ScoreHeader_TextInnerWrapper-show,
+.ml110-ScoreHeader_TimerInnerWrapper.ml110-ScoreHeader_TimerInnerWrapper-show {
+  display: inline-block;
+}
+.ml110-ScoreHeader_Timer-empty {
+  display: none;
+}
+.ml110-ScoreUpdate {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.ie-9 .ml110-ScoreUpdate {
+  display: block;
+  text-align: left;
+}
+.ml110-ScoreUpdate_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml110-ScoreUpdate_OuterWrapper {
+  transition-property: height;
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreUpdate_OuterWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreUpdate_OuterWrapper,
+.wc-Page_RightColumn-animate .ml110-ScoreUpdate_OuterWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml110-ScoreUpdate_OuterWrapper {
+  display: table;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdate_OuterWrapper {
+  height: 38px;
+}
+.ml110-ScoreUpdate_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-flex: 1;
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  padding-left: 10px;
+}
+.ie-9 .ml110-ScoreUpdate_ScoreWrapper {
+  display: table-cell;
+}
+.ml110-ScoreUpdate_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ie-9 .ml110-ScoreUpdate_ScoreWrapper-score1 {
+  text-align: right;
+}
+.ml110-ScoreUpdate_Score {
+  transition-property: min-width;
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ml110-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdate_Score {
+  min-width: 30px;
+}
+.ie-9 .ml110-ScoreUpdate_Score {
+  transition-property: height;
+  display: inline-block;
+  height: 48px;
+}
+.ie-9 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdate_Score {
+  height: 38px;
+}
+.ml110-ScoreUpdate_ScoreMain {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 45px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreUpdate_ScoreMain,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreUpdate_ScoreMain,
+.wc-Page_RightColumn-animate .ml110-ScoreUpdate_ScoreMain {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdate_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml110-ScoreUpdate_ScoreOriginal {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ScoreUpdate_ScoreOriginal,
+.wc-MyBetsPage_RightColumn-animate .ml110-ScoreUpdate_ScoreOriginal,
+.wc-Page_RightColumn-animate .ml110-ScoreUpdate_ScoreOriginal {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdate_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml110-ScoreUpdateFallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: left;
+}
+.ml110-ScoreUpdateFallback_Title {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  text-align: center;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml110-ScoreUpdateFallback_OuterWrapper {
+  display: table;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 47.5%;
+  margin-top: -24px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdateFallback_OuterWrapper {
+  height: 38px;
+  margin-top: -19px;
+}
+.ml110-ScoreUpdateFallback_ScoreWrapper {
+  display: table-cell;
+  padding-left: 10px;
+}
+.ml110-ScoreUpdateFallback_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  text-align: right;
+}
+.ml110-ScoreUpdateFallback_Score {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  min-width: 40px;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdateFallback_Score {
+  height: 38px;
+  min-width: 30px;
+}
+.ml110-ScoreUpdateFallback_ScoreMain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #ffdf1b;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdateFallback_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml110-ScoreUpdateFallback_ScoreOriginal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ScoreUpdateFallback_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml110-ScoreUpdateFallback-transparent {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+}
+.ml110-ShootOutGrid_ShootOutGrid {
+  transition-property: width, height, margin;
+  display: none;
+  table-layout: fixed;
+  width: 366px;
+  height: 25px;
+  margin: 23px auto 0;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutGrid,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutGrid,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutGrid {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml110-ShootOutGrid_ShootOutGrid {
+  position: absolute;
+  margin: 0;
+  left: -9px;
+  top: 23px;
+  width: 100%;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutGrid {
+  width: 262px;
+  height: 18px;
+  margin: 20px auto 0;
+}
+.ie-8 .ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutGrid {
+  position: absolute;
+  margin: 0;
+  left: -4px;
+  top: 20px;
+  width: 100%;
+}
+.ml110-ShootOutGrid_ShootOutAway,
+.ml110-ShootOutGrid_ShootOutHome {
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+}
+.ml110-ShootOutGrid_ShootOutHome {
+  text-align: right;
+}
+.ml110-ShootOutGrid_ShootOutAwayPen,
+.ml110-ShootOutGrid_ShootOutHomePen {
+  transition-property: line-height, width, height;
+  background-color: #0198cf;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen,
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutAwayPen,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutHomePen {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+}
+.ml110-ShootOutGrid_ShootOutAwayPen.ml110-ShootOutGrid_Pending,
+.ml110-ShootOutGrid_ShootOutHomePen.ml110-ShootOutGrid_Pending {
+  border-bottom-style: solid;
+  -webkit-animation: 1.5s ml10_borderBlink step-end infinite;
+  animation: 1.5s ml10_borderBlink step-end infinite;
+  color: currentColor;
+}
+.ml110-ShootOutGrid_ShootOutHomePen {
+  transition-property: margin-right;
+  display: inline-block;
+  margin-right: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutHomePen {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutHomePen {
+  margin-right: 3px;
+}
+.ml110-ShootOutGrid_ShootOutAwayPen {
+  transition-property: margin-left;
+  float: right;
+  margin-left: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutAwayPen {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutAwayPen {
+  margin-left: 3px;
+}
+.ml110-ShootOutGrid_Missed {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/penMiss.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ml110-ShootOutGrid_Scored {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_ball_waterpolo.svg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ie-8 .ml110-ShootOutGrid_Scored {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/penGoal.png);
+}
+.ml110-ShootOutGrid_ShootOutTotalAway,
+.ml110-ShootOutGrid_ShootOutTotalHome {
+  transition-property: width, height, font-size, line-height;
+  display: inline-block;
+  vertical-align: top;
+  color: #ffdf1b;
+  background: none !important;
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  font-size: 17px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalAway,
+.wc-InPlayPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalHome,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalAway,
+.wc-MyBetsPage_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalHome,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalAway,
+.wc-Page_RightColumn-animate .ml110-ShootOutGrid_ShootOutTotalHome {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutTotalAway,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-ShootOutGrid_ShootOutTotalHome {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+}
+.ml110-ShootOutGrid_ShootOutTotalHome {
+  margin-right: 8px;
+}
+.ml110-ShootOutGrid_ShootOutTotalAway {
+  display: block;
+  float: right;
+  margin-left: 8px;
+}
+.ml110-ShootOutGrid-showfallback {
+  display: table;
+}
+@-webkit-keyframes ml10_borderBlink {
+  0%,
+  to {
+    border-bottom-width: 0;
+  }
+  50% {
+    border-bottom-width: 2px;
+  }
+}
+@keyframes ml10_borderBlink {
+  0%,
+  to {
+    border-bottom-width: 0;
+  }
+  50% {
+    border-bottom-width: 2px;
+  }
+}
+.ml110-Stat,
+.ml110-Stat_Text {
+  text-align: center;
+}
+.ml110-Stat_Text {
+  transition-property: line-height, padding-bottom, margin-bottom;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 24px;
+  padding: 0 2px 5px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-Stat_Text,
+.wc-MyBetsPage_RightColumn-animate .ml110-Stat_Text,
+.wc-Page_RightColumn-animate .ml110-Stat_Text {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-Stat_Text {
+  line-height: 17px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+.ml110-Stat_Header {
+  transition-property: line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-Stat_Header,
+.wc-MyBetsPage_RightColumn-animate .ml110-Stat_Header,
+.wc-Page_RightColumn-animate .ml110-Stat_Header {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-Stat_Header {
+  line-height: 12px;
+}
+.ml110-StatsLower {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ml110-StatsLower_Wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+.ml110-StatsLower_Centre {
+  transition-property: width, padding;
+  width: 110px;
+  padding: 0 35px;
+  box-sizing: content-box;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-StatsLower_Centre,
+.wc-MyBetsPage_RightColumn-animate .ml110-StatsLower_Centre,
+.wc-Page_RightColumn-animate .ml110-StatsLower_Centre {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-StatsLower_Centre {
+  width: 98px;
+  padding: 11px 21px 0;
+}
+.ml110-StatsLower_One,
+.ml110-StatsLower_Two {
+  transition-property: padding-top;
+  padding-top: 7px;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-StatsLower_One,
+.wc-InPlayPage_RightColumn-animate .ml110-StatsLower_Two,
+.wc-MyBetsPage_RightColumn-animate .ml110-StatsLower_One,
+.wc-MyBetsPage_RightColumn-animate .ml110-StatsLower_Two,
+.wc-Page_RightColumn-animate .ml110-StatsLower_One,
+.wc-Page_RightColumn-animate .ml110-StatsLower_Two {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-StatsLower_One,
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-StatsLower_Two {
+  padding-top: 10px;
+}
+.ml110-StatWheel_Container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 3px;
+}
+.ml110-StatWheel_SvgContainer {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 7px;
+  width: 48px;
+  font-size: 0;
+}
+.ml110-StatWheel_Team1Text,
+.ml110-StatWheel_Team2Text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ddd;
+  padding-bottom: 2px;
+}
+.ml110-StatWheel_Team1Text {
+  text-align: right;
+}
+.ml110-StatWheel_Text {
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+  text-align: center;
+}
+.ml110-StatWheel_Team1TextFallback,
+.ml110-StatWheel_Team2TextFallback {
+  font-size: 14px;
+  color: #ddd;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 3px;
+  line-height: 22px;
+}
+.ml110-StatWheel_Team2TextFallback {
+  text-align: right;
+}
+.ml110-StatWheel_FallbackBar {
+  height: 5px;
+  font-size: 0;
+  padding-bottom: 3px;
+}
+.ml110-StatWheel_Team1FallbackBar,
+.ml110-StatWheel_Team2FallbackBar {
+  display: inline-block;
+  height: 5px;
+}
+.ml110-StatWheel_Text,
+.ml110-StatWheel_TextFallback {
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+  line-height: 13px;
+  white-space: normal;
+  min-height: 30px;
+  padding-top: 6px;
+}
+.ml110-Summary {
+  min-height: 66px;
+  background-color: #bbb;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ml110-Summary:empty {
+  min-height: 0;
+}
+.ml110-Summary_RowTeam {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  height: 30px;
+  font-size: 13px;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  opacity: 1;
+  transition: opacity 0.5s;
+  position: relative;
+}
+.ml110-Summary_RowEmpty {
+  font-size: 13px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.ml110-Summary_RowEmpty,
+.ml110-Summary_RowTextIcon {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 50%;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ml110-Summary_RowTextIcon-2 {
+  border-left: 2px solid;
+  border-right: 0;
+}
+.ml110-Summary_RowTextIcon1 {
+  border-right: 2px solid;
+  padding-left: 11px;
+  border-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ml110-Summary_RowText {
+  font-size: 11px;
+  color: #545454;
+}
+.ml110-Summary_RowText.ml110-SummaryRow_Text-1 {
+  text-align: right;
+}
+.ml110-Summary_RowTime {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 0%;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  min-width: 32px;
+  font-size: 13px;
+  color: #545454;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #a7a7a7;
+  background-color: #c7c7c7;
+  transition: color 0.5s;
+}
+.ml110-Summary_RowIcon {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 0 0 35px;
+  -ms-flex: 0 0 35px;
+  flex: 0 0 35px;
+  height: 30px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/icons/icons.svg);
+  background-repeat: no-repeat;
+}
+.ie-9 .ml110-Summary_RowIcon {
+  background-image: url(https://www.bet365.com/sportsMatchLiveWaterPoloModule/assets/icons/icons.png);
+}
+.ml110-Summary_RowIcon2 {
+  background-position: 3px 1px;
+}
+.ml110-Summary_RowNeutral {
+  border-top: 1px solid #a7a7a7;
+}
+.ml110-Summary_RowMatchInfo,
+.ml110-Summary_RowNeutral {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #c7c7c7;
+  font-size: 11px;
+  height: 30px;
+  color: #545454;
+}
+.ml110-Summary_RowMatchInfoScore1 {
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  -ms-flex-align: center;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.ml110-Summary_RowMatchInfoScore1,
+.ml110-Summary_RowMatchInfoScore2 {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  -webkit-align-items: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  height: 30px;
+}
+.ml110-Summary_RowMatchInfoScore2 {
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  -ms-flex-align: center;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+.ml110-Summary_RowMatchInfoText {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  font-size: 13px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  height: 30px;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ml110-SuspensionContainer_Away,
+.ml110-SuspensionContainer_Home {
+  width: 48%;
+  font-size: 0;
+  margin-top: 5px;
+}
+.ml110-SuspensionContainer_Home {
+  transition-property: padding-right;
+  float: left;
+  margin-left: 5px;
+  text-align: left;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-SuspensionContainer_Home,
+.wc-MyBetsPage_RightColumn-animate .ml110-SuspensionContainer_Home,
+.wc-Page_RightColumn-animate .ml110-SuspensionContainer_Home {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-SuspensionContainer_Home {
+  padding-right: 20px;
+}
+.ml110-SuspensionContainer_Away {
+  transition-property: padding-left;
+  float: right;
+  margin-right: 5px;
+  text-align: right;
+}
+.wc-InPlayPage_RightColumn-animate .ml110-SuspensionContainer_Away,
+.wc-MyBetsPage_RightColumn-animate .ml110-SuspensionContainer_Away,
+.wc-Page_RightColumn-animate .ml110-SuspensionContainer_Away {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml110-MatchLiveWaterPoloModule_Narrow .ml110-SuspensionContainer_Away {
+  padding-left: 20px;
+}
+.ml110-SuspensionContainer_First,
+.ml110-SuspensionContainer_Second,
+.ml110-SuspensionContainer_Third {
+  opacity: 0;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 10px;
+  border-radius: 1px;
+  color: #fff;
+  background-color: #083952;
+  margin-bottom: 4px;
+  padding: 2px 3px 3px 12px;
+  background-repeat: no-repeat;
+  background-size: 6px 8px;
+  background-position: 3px 3px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_sinbin.svg);
+}
+.ie-8 .ml110-SuspensionContainer_First,
+.ie-8 .ml110-SuspensionContainer_Second,
+.ie-8 .ml110-SuspensionContainer_Third,
+.ie-9 .ml110-SuspensionContainer_First,
+.ie-9 .ml110-SuspensionContainer_Second,
+.ie-9 .ml110-SuspensionContainer_Third {
+  background-image: url(https://www.bet365.com/sports/MatchLiveWaterPoloModule/assets/animations/icon_sinbin.png);
+}
+.ml110-SuspensionContainer_Home .ml110-SuspensionContainer_First,
+.ml110-SuspensionContainer_Home .ml110-SuspensionContainer_Second,
+.ml110-SuspensionContainer_Home .ml110-SuspensionContainer_Third {
+  margin-right: 4px;
+}
+.ml110-SuspensionContainer_Away .ml110-SuspensionContainer_First,
+.ml110-SuspensionContainer_Away .ml110-SuspensionContainer_Second,
+.ml110-SuspensionContainer_Away .ml110-SuspensionContainer_Third {
+  margin-left: 4px;
+}
+.ml110-SuspensionContainer_Element-visible {
+  opacity: 1;
+}

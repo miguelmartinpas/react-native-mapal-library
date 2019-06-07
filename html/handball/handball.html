@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="handball.css" />
+    <link rel="stylesheet" href="marcador.css" />
+  </head>
+  <body>
+    <div class="lv-MatchLiveView ">
+      <div class="lv-MatchLiveView_Container ">
+        <div class="ml78-MatchLiveHandballModule ">
+          <div class="ml78-MatchLiveHandballModule_Constrainer ">
+            <div class="ml78-ScoreHeader ">
+              <div class="ml78-ScoreHeader_Column ml78-ScoreHeader_Column-left ">
+                <div class="ml78-ScoreHeader_Team ">
+                  <div style="border-color: rgb(240, 240, 240);" class="ml78-ScoreHeader_TeamBorder "></div>
+                  <div class="ml78-ScoreHeader_TeamText ">AGH Krakow - Universitario - Femenino</div>
+                </div>
+                <div class="ml78-ScoreHeader_ScoreContainer "><div class="ml78-ScoreHeader_Score ">3</div></div>
+              </div>
+              <div class="ml78-ScoreHeader_Column ml78-ScoreHeader_Column-right ">
+                <div class="ml78-ScoreHeader_ScoreContainer "><div class="ml78-ScoreHeader_Score ">3</div></div>
+                <div class="ml78-ScoreHeader_Team ">
+                  <div style="border-color: rgb(240, 240, 240);" class="ml78-ScoreHeader_TeamBorder "></div>
+                  <div class="ml78-ScoreHeader_TeamText ">UAM Poznan - Universitario - Femenino</div>
+                </div>
+              </div>
+              <div class="ml78-ScoreHeader_TimerOuterWrapper ">
+                <div class="ml78-ScoreHeader_Timer ">
+                  <div class="ml78-ScoreHeader_TimerInnerWrapper ml78-ScoreHeader_TimerInnerWrapper-show ">
+                    <span
+                      class="ml78-ScoreHeader_AdditionalText ml78-ScoreHeader_TextFadeOut ml78-ScoreHeader_Timer-empty "
+                    ></span
+                    ><span class="ml78-ScoreHeader_Clock ">05:17</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ml78-MatchLiveHandballModule_MatchLiveWrapper ">
+              <div class="ml78-MatchLiveHandballModule_PitchContainer ">
+                <div class="ml78-MatchLiveHandballModule_SVGPitchContainer ">
+                  <svg
+                    class="ml78-MatchLiveHandballModule_PitchSvg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="400px"
+                    height="180px"
+                    viewBox="0 0 400 180"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs>
+                      <!-- This is where the colours get pumped when the possession changes -->
+                      <linearGradient id="ml78-Gradient1">
+                        <stop
+                          class="gradStart"
+                          offset="20%"
+                          style="stop-opacity: 0.2; stop-color: rgb(0, 0, 0);"
+                        ></stop>
+                        <stop class="gradEnd" offset="80%" style="stop-opacity:0.4; stop-color:#000000"></stop>
+                      </linearGradient>
+                      <linearGradient id="ml78-Gradient2">
+                        <stop
+                          class="gradStart"
+                          offset="20%"
+                          style="stop-opacity: 0.4; stop-color: rgb(0, 0, 0);"
+                        ></stop>
+                        <stop class="gradEnd" offset="80%" style="stop-opacity:0.2; stop-color:#000000"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g id="Assets_Colours" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ML-pitches">
+                        <g id="handball_pitch_400px">
+                          <rect id="Rectangle-246" fill="#0E608A" x="0" y="0" width="400" height="180"></rect>
+                          <path
+                            d="M42,177 C54.8433803,174.107438 62.2132394,172.762397 76,161 C83.6619718,155.219008 93,137.950413 93,125 L93,54 C93,38.0702479 83.3028169,26.9483471 76,21 C66.0633803,12.1239669 57.9752113,6.25206612 42,2"
+                            id="Stroke-7"
+                            stroke="#2E7599"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-dasharray="6"
+                          ></path>
+                          <path
+                            d="M2,157.5 C25.0617318,157.5 43.4967037,150.244043 54,140.5 C58.2129713,136.288085 63.9784042,128.989362 64,115.5 C64.0072314,114.776809 63.9928178,66.2659574 64,65.5 C63.9784042,53.4361702 58.2994528,44.7974468 54,40.5 C43.5975988,30.8414894 25.0617318,23.5 2,23.5"
+                            id="Fill-11"
+                            fill="#2E7599"
+                          ></path>
+                          <rect id="Rectangle-111" fill="#5790AD" x="50" y="84" width="2" height="12" rx="2"></rect>
+                          <rect
+                            id="Rectangle-111-Copy"
+                            fill="#3281A8"
+                            x="75"
+                            y="84"
+                            width="2"
+                            height="12"
+                            rx="2"
+                          ></rect>
+                          <path
+                            d="M305,176.5 C317.84338,173.607438 325.213239,172.262397 339,160.5 C346.661972,154.719008 356,137.450413 356,124.5 L356,53.5 C356,37.5702479 346.302817,26.4483471 339,20.5 C329.06338,11.6239669 320.975211,5.75206612 305,1.5"
+                            id="Stroke-7"
+                            stroke="#2E7599"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-dasharray="6"
+                            transform="translate(330.500000, 89.000000) scale(-1, 1) translate(-330.500000, -89.000000) "
+                          ></path>
+                          <path
+                            d="M336.004185,157 C359.065139,157 377.499489,149.744043 388.00243,139.87218 C392.215259,135.788085 397.980498,128.489362 398.002093,114.684211 C398.009324,114.276809 397.994911,65.7659574 398.002093,65.3157895 C397.980498,52.9361702 392.301738,44.2974468 388.00243,40.1278195 C377.60038,30.3414894 359.065139,23 336.004185,23"
+                            id="Fill-11"
+                            fill="#2E7599"
+                            transform="translate(367.002093, 90.000000) scale(-1, 1) translate(-367.002093, -90.000000) "
+                          ></path>
+                          <rect
+                            id="Rectangle-111"
+                            fill="#5790AD"
+                            transform="translate(347.011429, 90.000000) scale(-1, 1) translate(-347.011429, -90.000000) "
+                            x="346.022857"
+                            y="84"
+                            width="2"
+                            height="12"
+                            rx="2"
+                          ></rect>
+                          <rect
+                            id="Rectangle-111-Copy"
+                            fill="#3281A8"
+                            transform="translate(322.011429, 90.000000) scale(-1, 1) translate(-322.011429, -90.000000) "
+                            x="321.022857"
+                            y="84"
+                            width="2"
+                            height="12"
+                            rx="2"
+                          ></rect>
+                          <path
+                            d="M198,177 L198,178 L200,178 L200,177 L200,3 L200,2 L198,2 L198,3 L198,177 Z"
+                            id="centre-line"
+                            fill="#2E7599"
+                          ></path>
+                          <rect
+                            id="Rectangle-247"
+                            stroke="#2E7599"
+                            stroke-width="2"
+                            x="1"
+                            y="1"
+                            width="398"
+                            height="178"
+                          ></rect>
+                        </g>
+                        <path
+                          id="ml78-Possession1"
+                          fill="black"
+                          opacity="0"
+                          d="M1.7,2.0 L188.7,2.0 L198.7,2.0 L201.7,7.0 C201.7,7.0 245.0,83.0 244.7,89.0 C244.4,95.0 203.0,173.0 201.7,175.0 L199.7,178.0 L188.7,178.0 L1.7,178.0 1.7,2.0 Z"
+                          class=""
+                          style="opacity: 0.2;"
+                        ></path>
+                        <path
+                          id="ml78-Possession2"
+                          fill="url(https://www.bet365.com/#ml78-Gradient2)"
+                          opacity="0"
+                          d="M398.3,2 L211.3,2 L201.3,2 L198.3,7 C198.3,7 155,83 155.3,89 C155.6,95 197,173 198.3,175 L200.3,178 L211.3,178 L398.3,178 398.3,2 Z"
+                          class=""
+                          style="opacity: 0;"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <div class="ml78-MatchLiveHandballModule_AnimWrapper ">
+                    <div class="ml78-AnimatedTextBar ">
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H1TextWrapper"
+                        style="opacity: 1; left: 26px; top: 61.5px; width: 178px; display: block; text-align: right;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H1Text "
+                          >AGH Krakow - Universitario - Femenino</span
+                        >
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H1TextBackupWrapper ml78-CommonAnimations_H1TextBackup"
+                        style="opacity: 0; top: 111.5px; display: block; width: 178px; text-align: left; left: 192px;"
+                      >
+                        <span class="ml78-AnimatedTextBar ">UAM Poznan - Universitario - Femenino</span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H1TextGhostWrapper "
+                        style="display: none; width: 178px; text-align: right;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H1TextGhost "
+                          >AGH Krakow - Universitario - Femenino</span
+                        >
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H2TextWrapper"
+                        style="opacity: 1; left: 26px; top: 96px; width: 178px; display: block; text-align: right;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H2Text ">En posesión</span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H2TextBackupWrapper"
+                        style="opacity: 0; top: 146px; display: block; width: 178px; text-align: left; left: 192px;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H2TextBackup ">En posesión</span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H2TextGhostWrapper "
+                        style="display: none; width: 178px; text-align: right;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H2TextGhost ">En posesión</span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H3TextWrapper"
+                        style="display: none; opacity: 0;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H3Text "></span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H3TextBackupWrapper "
+                        style="display: none;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H3TextBackup "></span>
+                      </div>
+                      <div
+                        class="ml78-AnimatedTextBar ml78-CommonAnimations_Asset ml78-CommonAnimations_H3TextGhostWrapper "
+                        style="display: none;"
+                      >
+                        <span class="ml78-AnimatedTextBar ml78-CommonAnimations_H3TextGhost "></span>
+                      </div>
+                      <div
+                        class="ml78-CommonAnimations_Line"
+                        style="opacity: 1; background-color: rgb(240, 240, 240); left: 209px; top: 63px; height: 55px; transform: rotateZ(0deg);"
+                      ></div>
+                    </div>
+                    <div>
+                      <div class="ml78-SuspensionContainer_Home ">
+                        <div class="ml78-SuspensionContainer_First Hidden" style="opacity: 1;">0:00</div>
+                        <div class="ml78-SuspensionContainer_Second Hidden" style="opacity: 1;">0:00</div>
+                        <div class="ml78-SuspensionContainer_Third Hidden" style="opacity: 1;">0:00</div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="ml78-SuspensionContainer_Away ">
+                        <div class="ml78-SuspensionContainer_Third Hidden" style="opacity: 1;">0:00</div>
+                        <div class="ml78-SuspensionContainer_Second Hidden" style="opacity: 1;">0:00</div>
+                        <div class="ml78-SuspensionContainer_First Hidden" style="opacity: 1;">0:00</div>
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml78-AllStats ">
+            <div class="ml78-StatsLower ">
+              <div class="ml78-StatsLower_Wrapper ml78-StatsLower_One ">
+                <div class="ml78-Stat ">
+                  <div style="border-color: rgb(240, 240, 240);" class="ml78-Stat_Text ">3</div>
+                  <div class="ml78-Stat_Header ">Resultado ult. 10 min</div>
+                </div>
+              </div>
+              <div class="ml78-StatsLower_Wrapper ml78-StatsLower_Centre ">
+                <div class="ml78-StatWheel ">
+                  <div class="ml78-StatWheel_Container ">
+                    <div class="ml78-StatWheel_Team1Text ">60</div>
+                    <div class="ml78-StatWheel_SvgContainer ">
+                      <svg
+                        class="ml78-StatWheel_Svg"
+                        width="34"
+                        height="34"
+                        viewBox="1 0 29 32"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <path
+                            id="wheelPathTeam1"
+                            class="ml78-StatsWheelSvg_TeamOnePath"
+                            stroke-width="6"
+                            d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                            stroke="#8B572A"
+                            style="stroke: rgb(240, 240, 240);"
+                          ></path>
+                          <path
+                            id="wheelShadow"
+                            class="ml78-StatsWheelSvg_WheelShadow"
+                            stroke-width="6"
+                            d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                            stroke="#404040"
+                            style="stroke-dasharray: 75.3613px, 75.3613px; stroke-dashoffset: 44.2168px;"
+                            transform="rotate(-15.611505127887412 16 16)"
+                          ></path>
+                          <path
+                            id="wheelPathTeam2"
+                            class="ml78-StatsWheelSvg_TeamTwoPath"
+                            stroke-width="6"
+                            d="M16,28.5c6.904,0,12.5-5.597,12.5-12.5c0-6.904-5.596-12.5-12.5-12.5C9.098,3.5,3.5,9.096,3.5,16C3.5,22.903,9.098,28.5,16,28.5z"
+                            stroke="#F8E81C"
+                            style="stroke: rgb(240, 240, 240); stroke-dasharray: 75.3613px, 75.3613px; stroke-dashoffset: 46.2168px;"
+                            transform="rotate(-20.388494872112602 16 16)"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="ml78-StatWheel_Team2Text ">40</div>
+                  </div>
+                  <div class="ml78-StatWheel_Text ">Posesión %</div>
+                </div>
+              </div>
+              <div class="ml78-StatsLower_Wrapper ml78-StatsLower_Two ">
+                <div class="ml78-Stat ">
+                  <div style="border-color: rgb(240, 240, 240);" class="ml78-Stat_Text ">3</div>
+                  <div class="ml78-Stat_Header ">Resultado ult. 10 min</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipe-ScoreGridHeaderLayout ">
+      <div class="ipe-ScoreGridHeaderLayout_ExtraData ">07:18</div>
+      <div></div>
+      <div class="ipe-ScoreGridContainer ">
+        <div class="ipe-ScoreGridColumn Hidden ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_3-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="26"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K3-1</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K3-1">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#F0F0F0"
+                    ></path>
+                    <path id="color2" fill="#0A0A0A" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_3-1 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="26"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K3-1</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K3-1">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#F0F0F0"
+                    ></path>
+                    <path id="color2" fill="#0A0A0A" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader "></div></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">AGH Krakow - Universitario - Femenino</div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">UAM Poznan - Universitario - Femenino</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">1º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">3</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">4</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">2º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 Hidden ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">P</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width40 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">Total</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">3</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">4</div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

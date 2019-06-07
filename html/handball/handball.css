@@ -1,0 +1,1858 @@
+.ml78-Anims_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Anims_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-Anims_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml78-Anims_H1TextBackupWrapper,
+.ml78-Anims_H1TextGhostWrapper,
+.ml78-Anims_H1TextWrapper {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  color: #73bfe6;
+  font-size: 13px;
+  line-height: 13px;
+  white-space: normal;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Anims_H1TextBackupWrapper,
+  .ml78-Anims_H1TextGhostWrapper,
+  .ml78-Anims_H1TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Anims_H1TextBackupWrapper,
+  .ml78-Anims_H1TextGhostWrapper,
+  .ml78-Anims_H1TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml78-Anims_H2TextBackupWrapper,
+.ml78-Anims_H2TextGhostWrapper,
+.ml78-Anims_H2TextWrapper {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+  white-space: normal;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Anims_H2TextBackupWrapper,
+  .ml78-Anims_H2TextGhostWrapper,
+  .ml78-Anims_H2TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Anims_H2TextBackupWrapper,
+  .ml78-Anims_H2TextGhostWrapper,
+  .ml78-Anims_H2TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml78-Anims_H3TextBackupWrapper,
+.ml78-Anims_H3TextGhostWrapper,
+.ml78-Anims_H3TextWrapper {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  color: #73bfe6;
+  font-size: 13px;
+  line-height: 13px;
+  white-space: normal;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Anims_H3TextBackupWrapper,
+  .ml78-Anims_H3TextGhostWrapper,
+  .ml78-Anims_H3TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Anims_H3TextBackupWrapper,
+  .ml78-Anims_H3TextGhostWrapper,
+  .ml78-Anims_H3TextWrapper {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml78-Anims_H1Text,
+.ml78-Anims_H1TextGhost,
+.ml78-Anims_H3Text,
+.ml78-Anims_H3TextGhost {
+  font-size: 13px;
+  line-height: 15px;
+}
+.ml78-CommonAnimations_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-CommonAnimations_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-CommonAnimations_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-CommonAnimations_H1TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #73bfe6;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H1TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H1TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H1TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H1TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H1TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H1TextWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H1TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H1TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H1TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml78-CommonAnimations_H1TextBackupWrapper,
+  .ml78-CommonAnimations_H1TextGhostWrapper,
+  .ml78-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-CommonAnimations_H1TextBackupWrapper,
+  .ml78-CommonAnimations_H1TextGhostWrapper,
+  .ml78-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextWrapper {
+  line-height: 18px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H1TextWrapper {
+  font-size: 11px;
+  line-height: 14px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H1TextWrapper {
+  line-height: 13px;
+}
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H1TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml78-CommonAnimations_H2TextBackupWrapper,
+.ml78-CommonAnimations_H2TextGhostWrapper,
+.ml78-CommonAnimations_H2TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H2TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H2TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H2TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H2TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H2TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H2TextWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H2TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H2TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H2TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml78-CommonAnimations_H2TextBackupWrapper,
+  .ml78-CommonAnimations_H2TextGhostWrapper,
+  .ml78-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-CommonAnimations_H2TextBackupWrapper,
+  .ml78-CommonAnimations_H2TextGhostWrapper,
+  .ml78-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H2TextBackupWrapper,
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H2TextGhostWrapper,
+.ml78-AnimatedTextBar_ThreeLines .ml78-CommonAnimations_H2TextWrapper {
+  line-height: 20px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H2TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H2TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextBackupWrapper,
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextGhostWrapper,
+.ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-AnimatedTextBar_MatchStatus .ml78-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml78-CommonAnimations_H3TextBackupWrapper,
+.ml78-CommonAnimations_H3TextGhostWrapper,
+.ml78-CommonAnimations_H3TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #73bfe6;
+  font-size: 11px;
+  line-height: 15px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H3TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H3TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml78-CommonAnimations_H3TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H3TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H3TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-CommonAnimations_H3TextWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H3TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H3TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml78-CommonAnimations_H3TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml78-CommonAnimations_H3TextBackupWrapper,
+  .ml78-CommonAnimations_H3TextGhostWrapper,
+  .ml78-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-CommonAnimations_H3TextBackupWrapper,
+  .ml78-CommonAnimations_H3TextGhostWrapper,
+  .ml78-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H3TextBackupWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H3TextGhostWrapper,
+.ml78-MatchLiveHandballModule_Narrow .ml78-CommonAnimations_H3TextWrapper {
+  font-size: 10px;
+  line-height: 12px;
+}
+.ml78-Foul_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Foul_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-Foul_Foul {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_foul.svg);
+}
+.ie-9 .ml78-Foul_Foul {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_foul.png);
+}
+.ml78-Goal_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Goal_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ml78-Goal_Goal {
+  background-size: contain;
+  width: 41px;
+  height: 41px;
+  z-index: 2;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_goal_net.svg);
+}
+.ie-9 .ml78-Goal_Goal {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_goal_net.png);
+}
+.ml78-Goal_GoalBall {
+  background-size: contain;
+  background-position: 93% 49%;
+  width: 41px;
+  height: 41px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_ball_handball.svg);
+}
+.ie-9 .ml78-Goal_GoalBall {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_ball_handball.png);
+}
+.ml78-Goal_Flash {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.ml78-Penalty_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Penalty_Icon {
+  opacity: 0;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-Penalty_Arrow,
+.ml78-Penalty_Icon {
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.ml78-Penalty_Arrow {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_penalty.svg);
+}
+.ie-9 .ml78-Penalty_Arrow {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_penalty.png);
+}
+.ml78-Penalty_ArrowShort {
+  width: 10%;
+  height: 40%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.ml78-Penalty_Target {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 0;
+}
+.ml78-Penalty_Inner,
+.ml78-Penalty_Outer,
+.ml78-Penalty_Point {
+  display: block;
+  position: absolute;
+  border-radius: 60px;
+  border: 1px solid hsla(0, 0%, 100%, 0.9);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+.ml78-Penalty_Outer {
+  width: 56px;
+  height: 56px;
+  left: -14px;
+  top: -14px;
+  opacity: 0.5;
+}
+.ml78-Penalty_Inner {
+  width: 36px;
+  height: 36px;
+  left: -4px;
+  top: -4px;
+  opacity: 0.75;
+}
+.ml78-Penalty_Point {
+  width: 6px;
+  height: 6px;
+  left: 11px;
+  top: 11px;
+  background-color: #fff;
+}
+.ml78-PenaltyMissed_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-PenaltyMissed_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-RedCard_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-RedCard_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-RedCard_RedCard {
+  background-size: 14px;
+  width: 20px;
+  height: 38px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_redcard.svg);
+}
+.ie-9 .ml78-RedCard_RedCard {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_redcard.png);
+}
+.ml78-Suspended_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Suspended_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-Suspended_Suspension {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_suspension.svg);
+}
+.ie-9 .ml78-Suspended_Suspension {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_suspension.png);
+}
+.ml78-Timeout_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml78-Timeout_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml78-Timeout_Timeout {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_timeout_02.svg);
+}
+.ie-9 .ml78-Timeout_Timeout {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_timeout_02.png);
+}
+.ml78-MatchLiveHandballModule {
+  transition-property: padding-left, padding-right, max-width;
+  background-color: #393939;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  margin: auto;
+  max-width: 400px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-MatchLiveHandballModule,
+.wc-MyBetsPage_RightColumn-animate .ml78-MatchLiveHandballModule,
+.wc-Page_RightColumn-animate .ml78-MatchLiveHandballModule {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml78-MatchLiveHandballModule {
+  width: 451px;
+}
+.ml78-MatchLiveHandballModule_Narrow {
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 286px;
+}
+.ie-8 .ml78-MatchLiveHandballModule_Narrow {
+  width: 286px;
+}
+.ml78-MatchLiveHandballModule_NoScoreHeader {
+  padding-top: 0;
+}
+.ml78-MatchLiveHandballModule_PitchPng,
+.ml78-MatchLiveHandballModule_PitchSvg {
+  width: 100%;
+  height: 100%;
+  max-height: 181px;
+}
+.ml78-MatchLiveHandballModule_Wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.ml78-MatchLiveHandballModule_MatchLiveWrapper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ml78-MatchLiveHandballModule_Constrainer {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.ml78-MatchLiveHandballModule_AnimWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-MatchLiveHandballModule_AnimWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-MatchLiveHandballModule_AnimWrapper,
+.wc-Page_RightColumn-animate .ml78-MatchLiveHandballModule_AnimWrapper {
+  opacity: 0;
+}
+.ml78-MatchLiveHandballModule_PitchContainer {
+  width: 100%;
+  font-size: 0;
+  position: relative;
+  border: 1px solid #222;
+}
+.ml78-MatchLiveHandballModule_PitchContainer:after {
+  padding-top: 45%;
+  display: block;
+  content: '';
+}
+.ml78-MatchLiveHandballModule_PNGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/HandballPitch.png);
+  background-size: 100%;
+  pointer-events: none;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-MatchLiveHandballModule_PNGPitchContainer {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/HandballPitchNarrow.png);
+}
+.ml78-MatchLiveHandballModule_SVGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+}
+.ml78-AllStats {
+  transition-property: padding-top, padding-bottom;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 17px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-AllStats,
+.wc-MyBetsPage_RightColumn-animate .ml78-AllStats,
+.wc-Page_RightColumn-animate .ml78-AllStats {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-AllStats {
+  padding-top: 0;
+  padding-bottom: 13px;
+}
+.ml78-ModalController {
+  height: 29px;
+  width: 100%;
+  position: relative;
+}
+.ml78-ModalController_Wrapper {
+  margin-left: 11px;
+  position: absolute;
+}
+.ml78-ModalController_Icon {
+  font-size: 11px;
+  color: #999;
+  line-height: 29px;
+  height: 29px;
+  vertical-align: top;
+  padding-right: 10px;
+}
+.ml78-ModalController_Icon:before {
+  content: ' ';
+  width: 20px;
+  height: 29px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 -31px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveLib/ui/menu_sprites.svg);
+  vertical-align: top;
+  opacity: 0.5;
+}
+.ie-9 .ml78-ModalController_Icon:before {
+  background-image: url(https://www.bet365.com/sports/MatchLiveLib/ui/menu_sprites.png);
+}
+.ml78-Scoreboard_Wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ml78-Scoreboard {
+  display: table-row;
+}
+.ml78-Scoreboard_Column {
+  display: table-cell;
+  width: 47px;
+  vertical-align: top;
+}
+.ml78-Scoreboard_ParticipantCell {
+  padding-right: 11px;
+}
+.ml78-Scoreboard_ParticipantCellTeamColour {
+  display: inline-block;
+  width: 3px;
+  height: 9px;
+  vertical-align: middle;
+}
+.ml78-Scoreboard_ParticipantCellTeamName {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #ddd;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Scoreboard_ParticipantCellTeamName {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Scoreboard_ParticipantCellTeamName {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml78-Scoreboard_Cell,
+.ml78-Scoreboard_HeaderCell {
+  display: block;
+  text-align: center;
+  padding: 0 5px;
+}
+.ml78-Scoreboard_HeaderCell {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #999;
+  line-height: 20px;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Scoreboard_HeaderCell {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Scoreboard_HeaderCell {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans, Segoe UI, Verdana, Arial,
+      Lucida Grande, sans-serif;
+  }
+}
+.ml78-Scoreboard_Cell {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #bbb;
+  line-height: 20px;
+}
+@media (max-device-width: 1024px) {
+  .ml78-Scoreboard_Cell {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml78-Scoreboard_Cell {
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold,
+      HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva,
+      Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+.ml78-ScoreHeader {
+  padding: 7px 1px 6px;
+  font-size: 0;
+  position: relative;
+  display:flex;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ie-8 .ml78-ScoreHeader,
+.ie-9 .ml78-ScoreHeader {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.ie-8 .ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader,
+.ie-9 .ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+.ml78-ScoreHeader_Column {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.ml78-ScoreHeader_Column-left {
+  padding-right: 2px;
+}
+.ie-8 .ml78-ScoreHeader_Column-left,
+.ie-9 .ml78-ScoreHeader_Column-left {
+  display: inline-block;
+  position: relative;
+  padding-right: 59px;
+}
+.ml78-ScoreHeader_Column-right {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 2px;
+}
+.ie-8 .ml78-ScoreHeader_Column-right,
+.ie-9 .ml78-ScoreHeader_Column-right {
+  display: inline-block;
+  position: relative;
+  padding-left: 59px;
+}
+.ml78-ScoreHeader_Team {
+  transition-property: font-size, line-height;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  color: #e4e4e4;
+  line-height: 17px;
+  margin-bottom: 2px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreHeader_Team,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreHeader_Team,
+.wc-Page_RightColumn-animate .ml78-ScoreHeader_Team {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Team {
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Team {
+  padding-right: 8px;
+  padding-left: 10px;
+  text-align: right;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_Team {
+  font-size: 12px;
+  line-height: 15px;
+}
+.ie-8 .ml78-ScoreHeader_Column-haslabel.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Team,
+.ie-9 .ml78-ScoreHeader_Column-haslabel.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Team {
+  margin-right: 52px;
+}
+.ie-8 .ml78-ScoreHeader_Column-haslabel.ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Team,
+.ie-9 .ml78-ScoreHeader_Column-haslabel.ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Team {
+  margin-left: 52px;
+}
+.ml78-ScoreHeader_TeamText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ml78-ScoreHeader_TeamBorder {
+  position: absolute;
+  height: 15px;
+  margin-top: 1px;
+}
+.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_TeamBorder {
+  border-left: 3px solid #fff;
+  left: 0;
+}
+.ml78-ScoreHeader_Column-right .ml78-ScoreHeader_TeamBorder {
+  border-right: 3px solid #fff;
+  right: 0;
+}
+.ml78-ScoreHeader_Label {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 4px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  background-color: #d1a354;
+  color: #333;
+}
+.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Label {
+  margin-right: 10px;
+}
+.ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Label {
+  margin-left: 10px;
+}
+.ie-8 .ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Label,
+.ie-9 .ml78-ScoreHeader_Column-left .ml78-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 49px;
+}
+.ie-8 .ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Label,
+.ie-9 .ml78-ScoreHeader_Column-right .ml78-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+.ml78-ScoreHeader_ScoreContainer {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0;
+}
+.ml78-ScoreHeader_Column-left .ml78-ScoreHeader_ScoreContainer {
+  text-align: right;
+}
+.ie-8 .ml78-ScoreHeader_Column-left .ml78-ScoreHeader_ScoreContainer,
+.ie-9 .ml78-ScoreHeader_Column-left .ml78-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  width: 47px;
+}
+.ie-8 .ml78-ScoreHeader_Column-right .ml78-ScoreHeader_ScoreContainer,
+.ie-9 .ml78-ScoreHeader_Column-right .ml78-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 2px;
+  width: 47px;
+}
+.ie-8 .ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_ScoreContainer,
+.ie-9 .ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_ScoreContainer {
+  top: -2px;
+}
+.ml78-ScoreHeader_Score {
+  transition-property: font-size, line-height;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 7px;
+  min-width: 22px;
+  text-align: center;
+  color: #ffdf1b;
+  background-color: #4d4d4d;
+  border-radius: 1px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreHeader_Score,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreHeader_Score,
+.wc-Page_RightColumn-animate .ml78-ScoreHeader_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_Score {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ie-8 .ml78-ScoreHeader_Score,
+.ie-9 .ml78-ScoreHeader_Score {
+  display: block;
+  width: 100%;
+}
+.ml78-ScoreHeader_Timer {
+  transition-property: font-size, line-height, min-width;
+  margin-top: 1px;
+  font-size: 11px;
+  line-height: 16px;
+  min-width: 48px;
+  text-align: center;
+  padding: 0 6px 1px;
+  border-radius: 0 0 1px 1px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #73bfe6;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreHeader_Timer,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreHeader_Timer,
+.wc-Page_RightColumn-animate .ml78-ScoreHeader_Timer {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml78-ScoreHeader_Timer {
+  background-color: none;
+  left: 0;
+  width: 100%;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_Timer {
+  line-height: 14px;
+  min-width: 40px;
+  font-size: 10px;
+}
+.ml78-ScoreHeader_AdditionalText {
+  margin-right: 7px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreHeader_AdditionalText {
+  margin-right: 5px;
+}
+.ml78-ScoreHeader_Timer-empty {
+  display: none;
+}
+.ml78-ScoreHeader_TimerInnerWrapper {
+  background-color: #083952;
+  padding: 0 6px 1px;
+  display: none;
+}
+.ml78-ScoreHeader_TimerInnerWrapper.ml78-ScoreHeader_TimerInnerWrapper-show {
+  display: inline-block;
+}
+.ml78-ScoreUpdate {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ie-9 .ml78-ScoreUpdate {
+  display: block;
+}
+.ml78-ScoreUpdate_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml78-ScoreUpdate_OuterWrapper {
+  transition-property: height;
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreUpdate_OuterWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreUpdate_OuterWrapper,
+.wc-Page_RightColumn-animate .ml78-ScoreUpdate_OuterWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml78-ScoreUpdate_OuterWrapper {
+  display: table;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdate_OuterWrapper {
+  height: 38px;
+}
+.ml78-ScoreUpdate_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-flex: 1;
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  padding-left: 10px;
+}
+.ie-9 .ml78-ScoreUpdate_ScoreWrapper {
+  display: table-cell;
+  text-align: left;
+}
+.ml78-ScoreUpdate_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ie-9 .ml78-ScoreUpdate_ScoreWrapper-score1 {
+  text-align: right;
+}
+.ml78-ScoreUpdate_Score {
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdate_Score {
+  min-width: 30px;
+}
+.ie-9 .ml78-ScoreUpdate_Score {
+  transition-property: height;
+  display: inline-block;
+  height: 48px;
+}
+.wc-InPlayPage_RightColumn-animate .ie-9 .ml78-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ie-9 .ml78-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ie-9 .ml78-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdate_Score {
+  height: 38px;
+}
+.ml78-ScoreUpdate_ScoreMain {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreUpdate_ScoreMain,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreUpdate_ScoreMain,
+.wc-Page_RightColumn-animate .ml78-ScoreUpdate_ScoreMain {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdate_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml78-ScoreUpdate_ScoreOriginal {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-ScoreUpdate_ScoreOriginal,
+.wc-MyBetsPage_RightColumn-animate .ml78-ScoreUpdate_ScoreOriginal,
+.wc-Page_RightColumn-animate .ml78-ScoreUpdate_ScoreOriginal {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdate_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml78-ScoreUpdateFallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: left;
+}
+.ml78-ScoreUpdateFallback_Title {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  text-align: center;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml78-ScoreUpdateFallback_OuterWrapper {
+  display: table;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 47.5%;
+  margin-top: -24px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdateFallback_OuterWrapper {
+  height: 38px;
+  margin-top: -19px;
+}
+.ml78-ScoreUpdateFallback_ScoreWrapper {
+  display: table-cell;
+  padding-left: 10px;
+}
+.ml78-ScoreUpdateFallback_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  text-align: right;
+}
+.ml78-ScoreUpdateFallback_Score {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  min-width: 40px;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdateFallback_Score {
+  height: 38px;
+  min-width: 30px;
+}
+.ml78-ScoreUpdateFallback_ScoreMain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #ffdf1b;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdateFallback_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml78-ScoreUpdateFallback_ScoreOriginal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-ScoreUpdateFallback_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml78-ScoreUpdateFallback-transparent {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+}
+.ml78-Stat,
+.ml78-Stat_Text {
+  text-align: center;
+}
+.ml78-Stat_Text {
+  transition-property: line-height, padding-bottom, margin-bottom;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 24px;
+  padding: 0 2px 5px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-Stat_Text,
+.wc-MyBetsPage_RightColumn-animate .ml78-Stat_Text,
+.wc-Page_RightColumn-animate .ml78-Stat_Text {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-Stat_Text {
+  line-height: 17px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+.ml78-Stat_Header {
+  transition-property: line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-Stat_Header,
+.wc-MyBetsPage_RightColumn-animate .ml78-Stat_Header,
+.wc-Page_RightColumn-animate .ml78-Stat_Header {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-Stat_Header {
+  line-height: 12px;
+}
+.ml78-StatsLower {
+  display: table-row;
+}
+.ml78-StatsLower_Wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+.ml78-StatsLower_Centre {
+  transition-property: padding, width;
+  width: 180px;
+  padding: 0 35px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-StatsLower_Centre,
+.wc-MyBetsPage_RightColumn-animate .ml78-StatsLower_Centre,
+.wc-Page_RightColumn-animate .ml78-StatsLower_Centre {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-StatsLower_Centre {
+  width: 140px;
+  padding: 11px 21px 0;
+}
+.ml78-StatsLower_One,
+.ml78-StatsLower_Two {
+  transition-property: padding-top;
+  padding-top: 7px;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-StatsLower_One,
+.wc-InPlayPage_RightColumn-animate .ml78-StatsLower_Two,
+.wc-MyBetsPage_RightColumn-animate .ml78-StatsLower_One,
+.wc-MyBetsPage_RightColumn-animate .ml78-StatsLower_Two,
+.wc-Page_RightColumn-animate .ml78-StatsLower_One,
+.wc-Page_RightColumn-animate .ml78-StatsLower_Two {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-StatsLower_One,
+.ml78-MatchLiveHandballModule_Narrow .ml78-StatsLower_Two {
+  padding-top: 10px;
+}
+.ml78-StatsUpper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  max-width: 640px;
+  padding: 2px 11px 9px;
+  min-height: 71px;
+  border-bottom: 1px solid #545454;
+}
+.ml78-StatsUpper_Wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  margin-top: 6px;
+}
+.ml78-StatsUpper_Two .ml78-StatsUpper_Wrapper {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ml78-StatWheel_Container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 3px;
+}
+.ml78-StatWheel_SvgContainer {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 7px;
+  width: 48px;
+  font-size: 0;
+}
+.ml78-StatWheel_Team1Text,
+.ml78-StatWheel_Team2Text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ddd;
+  padding-bottom: 2px;
+}
+.ml78-StatWheel_Team1Text {
+  text-align: right;
+}
+.ml78-StatWheel_Text {
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+  text-align: center;
+}
+.ml78-StatWheel_Team1TextFallback,
+.ml78-StatWheel_Team2TextFallback {
+  font-size: 14px;
+  color: #ddd;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 3px;
+  line-height: 22px;
+}
+.ml78-StatWheel_Team2TextFallback {
+  text-align: right;
+}
+.ml78-StatWheel_FallbackBar {
+  height: 5px;
+  font-size: 0;
+  padding-bottom: 3px;
+}
+.ml78-StatWheel_Team1FallbackBar,
+.ml78-StatWheel_Team2FallbackBar {
+  display: inline-block;
+  height: 5px;
+}
+.ml78-StatWheel_Text,
+.ml78-StatWheel_TextFallback {
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+  line-height: 13px;
+  white-space: normal;
+  min-height: 30px;
+  padding-top: 6px;
+}
+.ml78-Summary {
+  min-height: 66px;
+  background-color: #bbb;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ml78-Summary:empty {
+  min-height: 0;
+}
+.ml78-SummaryRow_Team {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  height: 30px;
+  font-size: 13px;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  opacity: 1;
+  transition: opacity 0.5s;
+  position: relative;
+}
+.ml78-SummaryRow_Empty {
+  font-size: 13px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.ml78-SummaryRow_Empty,
+.ml78-SummaryRow_TextIcon {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 50%;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ml78-SummaryRow_TextIcon-2 {
+  border-left: 2px solid;
+  border-right: 0;
+}
+.ml78-SummaryRow_TextIcon-1 {
+  border-right: 2px solid;
+  padding-left: 11px;
+  border-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ml78-SummaryRow_Text {
+  font-size: 11px;
+  color: #545454;
+}
+.ml78-SummaryRow_Text.ml78-SummaryRow_Text-1 {
+  text-align: right;
+}
+.ml78-SummaryRow_Time {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 0%;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  min-width: 32px;
+  font-size: 13px;
+  color: #545454;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #a7a7a7;
+  background-color: #c7c7c7;
+  transition: color 0.5s;
+}
+.ml78-SummaryRow_Icon {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 0 0 35px;
+  -ms-flex: 0 0 35px;
+  flex: 0 0 35px;
+  height: 30px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/icons/icons.svg);
+  background-repeat: no-repeat;
+}
+.ie-9 .ml78-SummaryRow_Icon {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/icons/icons.png);
+}
+.ml78-SummaryRow_Icon-0,
+.ml78-SummaryRow_Icon-2 {
+  background-position: 3px 1px;
+}
+.ml78-SummaryRow_Neutral {
+  border-top: 1px solid #a7a7a7;
+}
+.ml78-SummaryRow_MatchInfo,
+.ml78-SummaryRow_Neutral {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #c7c7c7;
+  font-size: 11px;
+  height: 30px;
+  color: #545454;
+}
+.ml78-SummaryRow_MatchInfoScore1 {
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  -ms-flex-align: center;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.ml78-SummaryRow_MatchInfoScore1,
+.ml78-SummaryRow_MatchInfoScore2 {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  -webkit-align-items: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  height: 30px;
+}
+.ml78-SummaryRow_MatchInfoScore2 {
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  -ms-flex-align: center;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+.ml78-SummaryRow_MatchInfoText {
+  border-top: 1px solid #a7a7a7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  font-size: 13px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  height: 30px;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ml78-Suspension_First,
+.ml78-Suspension_Second,
+.ml78-Suspension_Third {
+  opacity: 0;
+  display: inline-block;
+  height: 12px;
+  font-size: 10px;
+  border-radius: 1px;
+  color: #fff;
+  background-color: #083952;
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-left: 10px;
+  padding-right: 2px;
+  background-repeat: no-repeat;
+  background-size: 6px 8px;
+  background-position: 2px 2px;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_sinbin.svg);
+}
+.ie-8 .ml78-Suspension_First,
+.ie-8 .ml78-Suspension_Second,
+.ie-8 .ml78-Suspension_Third,
+.ie-9 .ml78-Suspension_First,
+.ie-9 .ml78-Suspension_Second,
+.ie-9 .ml78-Suspension_Third {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_sinbin.png);
+}
+.ml78-SuspensionContainer_Away,
+.ml78-SuspensionContainer_Home {
+  width: 48%;
+  font-size: 0;
+  margin-top: 5px;
+}
+.ml78-SuspensionContainer_Home {
+  transition-property: padding-right;
+  float: left;
+  margin-left: 5px;
+  text-align: left;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-SuspensionContainer_Home,
+.wc-MyBetsPage_RightColumn-animate .ml78-SuspensionContainer_Home,
+.wc-Page_RightColumn-animate .ml78-SuspensionContainer_Home {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-SuspensionContainer_Home {
+  padding-right: 20px;
+}
+.ml78-SuspensionContainer_Away {
+  transition-property: padding-left;
+  float: right;
+  margin-right: 5px;
+  text-align: right;
+}
+.wc-InPlayPage_RightColumn-animate .ml78-SuspensionContainer_Away,
+.wc-MyBetsPage_RightColumn-animate .ml78-SuspensionContainer_Away,
+.wc-Page_RightColumn-animate .ml78-SuspensionContainer_Away {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml78-MatchLiveHandballModule_Narrow .ml78-SuspensionContainer_Away {
+  padding-left: 20px;
+}
+.ml78-SuspensionContainer_First,
+.ml78-SuspensionContainer_Second,
+.ml78-SuspensionContainer_Third {
+  opacity: 0;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 10px;
+  border-radius: 1px;
+  color: #fff;
+  background-color: #083952;
+  margin-bottom: 4px;
+  padding: 2px 3px 3px 12px;
+  background-repeat: no-repeat;
+  background-size: 6px 8px;
+  background-position: 3px 3px;
+  position: relative;
+  z-index: 10;
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_sinbin.svg);
+}
+.ie-8 .ml78-SuspensionContainer_First,
+.ie-8 .ml78-SuspensionContainer_Second,
+.ie-8 .ml78-SuspensionContainer_Third,
+.ie-9 .ml78-SuspensionContainer_First,
+.ie-9 .ml78-SuspensionContainer_Second,
+.ie-9 .ml78-SuspensionContainer_Third {
+  background-image: url(https://www.bet365.com/sports/MatchLiveHandballModule/assets/animations/icon_sinbin.png);
+}
+.ml78-SuspensionContainer_Home .ml78-SuspensionContainer_First,
+.ml78-SuspensionContainer_Home .ml78-SuspensionContainer_Second,
+.ml78-SuspensionContainer_Home .ml78-SuspensionContainer_Third {
+  margin-right: 4px;
+}
+.ml78-SuspensionContainer_Away .ml78-SuspensionContainer_First,
+.ml78-SuspensionContainer_Away .ml78-SuspensionContainer_Second,
+.ml78-SuspensionContainer_Away .ml78-SuspensionContainer_Third {
+  margin-left: 4px;
+}
+.ml78-Tab_Modal {
+  position: absolute;
+  z-index: 40;
+  top: 0;
+  width: 96%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 3px;
+  background-color: #bbb;
+  max-width: 510px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.ml78-Tab {
+  display: none;
+}
+.ml78-Tab_ModalHeader {
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  min-height: 44px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 11px;
+  background-color: #c7c7c7;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #545454;
+  font-size: 15px;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #a7a7a7;
+}
+.ml78-Tab_ModalClose,
+.ml78-Tab_ModalHeader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 15px;
+}
+.ml78-Tab_ModalClose {
+  font-size: 13px;
+  padding: 8px 0 8px 8px;
+}
+.ml78-TimeBar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  background-color: #bbb;
+  min-height: 44px;
+}
+.ml78-TimeBar_Hidden {
+  display: none;
+}
+.ml78-TimeBar_Time {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  min-width: 32px;
+  position: absolute;
+  border-radius: 1px;
+  left: 50%;
+  margin-left: -16px;
+  top: 9px;
+  background-color: #ccc;
+  color: #545454;
+  font-size: 11px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

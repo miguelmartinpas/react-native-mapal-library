@@ -1,0 +1,1040 @@
+body, input {
+    font-family: Verdana,Geneva,Arial,sans-serif;
+}
+
+.ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-CommonAnimations_H1TextWrapper {
+  transition-property: font-size, line-height;
+  color: #663b29;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: normal;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H1TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H1TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H1TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H1TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H1TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H1TextWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H1TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H1TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H1TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H1TextWrapper {
+  line-height: 18px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H1TextWrapper {
+  font-size: 11px;
+  line-height: 14px;
+}
+.ml18-MatchLiveBasketballModule-narrow
+  .ml18-AnimatedTextBar_ThreeLines
+  .ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H1TextWrapper {
+  line-height: 13px;
+}
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H1TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml18-MatchLiveBasketballModule-narrow
+  .ml18-AnimatedTextBar_MatchStatus
+  .ml18-CommonAnimations_H1TextBackupWrapper,
+.ml18-MatchLiveBasketballModule-narrow
+  .ml18-AnimatedTextBar_MatchStatus
+  .ml18-CommonAnimations_H1TextGhostWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H1TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml18-CommonAnimations_H2TextBackupWrapper,
+.ml18-CommonAnimations_H2TextGhostWrapper,
+.ml18-CommonAnimations_H2TextWrapper {
+  transition-property: font-size, line-height;
+  font-size: 16px;
+  line-height: 21px;
+  white-space: normal;
+  color: #fff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H2TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H2TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml18-CommonAnimations_H2TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H2TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H2TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-CommonAnimations_H2TextWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H2TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H2TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml18-CommonAnimations_H2TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H2TextBackupWrapper,
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H2TextGhostWrapper,
+.ml18-AnimatedTextBar_ThreeLines .ml18-CommonAnimations_H2TextWrapper {
+  line-height: 20px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H2TextBackupWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H2TextGhostWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H2TextBackupWrapper,
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H2TextGhostWrapper,
+.ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H2TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml18-MatchLiveBasketballModule-narrow
+  .ml18-AnimatedTextBar_MatchStatus
+  .ml18-CommonAnimations_H2TextBackupWrapper,
+.ml18-MatchLiveBasketballModule-narrow
+  .ml18-AnimatedTextBar_MatchStatus
+  .ml18-CommonAnimations_H2TextGhostWrapper,
+.ml18-MatchLiveBasketballModule-narrow .ml18-AnimatedTextBar_MatchStatus .ml18-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml18-CommonAnimations_H3TextBackupWrapper,
+.ml18-CommonAnimations_H3TextGhostWrapper,
+.ml18-CommonAnimations_H3TextWrapper {
+  font-size: 11px;
+  line-height: 15px;
+  white-space: normal;
+  color: #663b29;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.ml18-CommonAnimations_Asset {
+  opacity: 0;
+  position: absolute;
+}
+.ml18-CommonAnimations_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml18-CommonAnimations_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml18-Foul_Anims {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_foul.svg);
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 36px;
+}
+.ie-9 .ml18-Foul_Anims,
+.no-svg .ml18-Foul_Anims {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_foul.png);
+}
+.ml18-Shot_Anims-hoop {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_net_basketball.svg);
+  background-size: contain;
+  background-position: 50%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  width: 12%;
+  height: 23%;
+  z-index: 2;
+}
+.no-svg .ml18-Shot_Anims-hoop {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_net_basketball.png);
+}
+.ml18-Shot_Anims-ball {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_ball_basketball.svg);
+  background-size: 22px;
+  background-position: 50%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  width: 11%;
+  height: 20%;
+}
+.no-svg .ml18-Shot_Anims-ball {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_ball_basketball.png);
+}
+.ml18-TimeOut_Anims {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_timeout.svg);
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 36px;
+}
+.ie-9 .ml18-TimeOut_Anims,
+.no-svg .ml18-TimeOut_Anims {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_timeout.png);
+}
+.ml18-XYShot_Anims-xyball {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_ball_basketball.svg);
+  background-size: 100%;
+  background-position: 50%;
+  opacity: 0;
+  width: 28px;
+  height: 28px;
+  z-index: 50;
+}
+.ml18-XYShot_Anims-xyball .no-svg {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/animations/icon_ball_basketball.png);
+}
+.ml18-MatchLiveBasketballModule {
+  transition-property: padding-left, padding-right, max-width;
+  background-color: #393939;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  margin: auto;
+  max-width: 451px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-MatchLiveBasketballModule,
+.wc-MyBetsPage_RightColumn-animate .ml18-MatchLiveBasketballModule,
+.wc-Page_RightColumn-animate .ml18-MatchLiveBasketballModule {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml18-MatchLiveBasketballModule {
+  width: 451px;
+}
+.ml18-MatchLiveBasketballModule-narrow {
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 400px;
+}
+.ie-8 .ml18-MatchLiveBasketballModule-narrow {
+  width: 286px;
+}
+.ml18-MatchLiveBasketballModule_Wrapper {
+  overflow: hidden;
+}
+.ml18-MatchLiveBasketballModule_AnimWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-MatchLiveBasketballModule_AnimWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml18-MatchLiveBasketballModule_AnimWrapper,
+.wc-Page_RightColumn-animate .ml18-MatchLiveBasketballModule_AnimWrapper {
+  opacity: 0;
+}
+.ml18-MatchLiveBasketballModule_CourtContainer {
+  width: 100%;
+  font-size: 0;
+  position: relative;
+  border: 1px solid #333;
+}
+.ml18-MatchLiveBasketballModule_CourtContainer:after {
+  padding-top: 45%;
+  display: block;
+  content: '';
+}
+.ml18-MatchLiveBasketballModule_PNGCourtContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(/sports/MatchLiveBasketballModule/assets/basketballCourt.png);
+  background-size: 100%;
+  pointer-events: none;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-MatchLiveBasketballModule_PNGCourtContainer {
+  background-image: url(/sports/MatchLiveBasketballModule/assets/basketballCourtNarrow.png);
+}
+.ml18-MatchLiveBasketballModule_SVGCourtContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+}
+.ml18-BasketballCourt_PNG,
+.ml18-BasketballCourt_SVG {
+  width: 100%;
+  height: 100%;
+  max-height: 181px;
+}
+.ml18-DoublePoints {
+  transition-property: width;
+  width: 70px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-DoublePoints,
+.wc-MyBetsPage_RightColumn-animate .ml18-DoublePoints,
+.wc-Page_RightColumn-animate .ml18-DoublePoints {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-DoublePoints {
+  width: 48px;
+}
+.ml18-Fouls {
+  transition-property: width;
+  width: 65px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-Fouls,
+.wc-MyBetsPage_RightColumn-animate .ml18-Fouls,
+.wc-Page_RightColumn-animate .ml18-Fouls {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-Fouls {
+  width: 48px;
+}
+.ml18-FreeThrows {
+  display: table-cell;
+  vertical-align: bottom;
+  width: auto;
+  font-size: 0;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-FreeThrows {
+  width: 58%;
+}
+.ml18-FreeThrows_ColumnWrapper {
+  width: 45%;
+  display: inline-block;
+  text-align: right;
+  padding-right: 5px;
+}
+.ml18-FreeThrows_ColumnWrapper + .ml18-FreeThrows_ColumnWrapper {
+  text-align: left;
+  padding-right: 0;
+  padding-left: 5px;
+}
+.ml18-FreeThrows_Column {
+  transition-property: min-width;
+  display: inline-block;
+  min-width: 70px;
+  max-width: 100%;
+  text-align: center;
+  padding: 0 10px 6px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-FreeThrows_Column,
+.wc-MyBetsPage_RightColumn-animate .ml18-FreeThrows_Column,
+.wc-Page_RightColumn-animate .ml18-FreeThrows_Column {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-FreeThrows_Column + .ml18-FreeThrows_Column {
+  margin-left: 10px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-FreeThrows_Column {
+  padding: 0 6px 5px;
+  min-width: 54px;
+}
+.ml18-FreeThrows_Count {
+  transition-property: font-size, line-height;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ddd;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-FreeThrows_Count,
+.wc-MyBetsPage_RightColumn-animate .ml18-FreeThrows_Count,
+.wc-Page_RightColumn-animate .ml18-FreeThrows_Count {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-FreeThrows_Count {
+  line-height: 17px;
+  font-size: 14px;
+}
+.ml18-FreeThrows_Percentage {
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+  margin-left: 5px;
+}
+.ml18-PointsAndFouls {
+  transition-property: padding;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-PointsAndFouls,
+.wc-MyBetsPage_RightColumn-animate .ml18-PointsAndFouls,
+.wc-Page_RightColumn-animate .ml18-PointsAndFouls {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-PointsAndFouls {
+  padding: 0;
+}
+.ml18-PointsAndFoulsStyles_Figure {
+  transition-property: font-size, line-height;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 28px;
+  border-bottom: 2px solid #fff;
+  padding: 0 2px 5px;
+  margin-bottom: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-PointsAndFoulsStyles_Figure,
+.wc-MyBetsPage_RightColumn-animate .ml18-PointsAndFoulsStyles_Figure,
+.wc-Page_RightColumn-animate .ml18-PointsAndFoulsStyles_Figure {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-PointsAndFoulsStyles_Figure + .ml18-PointsAndFoulsStyles_Figure {
+  margin-left: 10px;
+}
+.ml18-TripplePoints .ml18-PointsAndFoulsStyles_Figure {
+  display: inline-block;
+  vertical-align: top;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-PointsAndFoulsStyles_Figure {
+  line-height: 17px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+.ml18-PointsAndFoulsStyles_Title {
+  transition-property: font-size;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-PointsAndFoulsStyles_Title,
+.wc-MyBetsPage_RightColumn-animate .ml18-PointsAndFoulsStyles_Title,
+.wc-Page_RightColumn-animate .ml18-PointsAndFoulsStyles_Title {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-PointsAndFoulsStyles_Title {
+  font-size: 10px;
+}
+.ml18-ScoreHeader {
+  padding: 7px 1px 6px;
+  font-size: 0;
+  position: relative;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+}
+.ie-8 .ml18-ScoreHeader,
+.ie-9 .ml18-ScoreHeader {
+  transition-property: padding-top, padding-bottom;
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.wc-InPlayPage_RightColumn-animate .ie-8 .ml18-ScoreHeader,
+.wc-InPlayPage_RightColumn-animate .ie-9 .ml18-ScoreHeader,
+.wc-MyBetsPage_RightColumn-animate .ie-8 .ml18-ScoreHeader,
+.wc-MyBetsPage_RightColumn-animate .ie-9 .ml18-ScoreHeader,
+.wc-Page_RightColumn-animate .ie-8 .ml18-ScoreHeader,
+.wc-Page_RightColumn-animate .ie-9 .ml18-ScoreHeader {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader,
+.ie-9 .ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+.ml18-ScoreHeader_Column {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.ml18-ScoreHeader_Column-left {
+  padding-right: 2px;
+}
+.ie-8 .ml18-ScoreHeader_Column-left,
+.ie-9 .ml18-ScoreHeader_Column-left {
+  display: inline-block;
+  position: relative;
+  padding-right: 59px;
+}
+.ml18-ScoreHeader_Column-right {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 2px;
+}
+.ie-8 .ml18-ScoreHeader_Column-right,
+.ie-9 .ml18-ScoreHeader_Column-right {
+  display: inline-block;
+  position: relative;
+  padding-left: 59px;
+}
+.ml18-ScoreHeader_Team {
+  transition-property: font-size, line-height;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  color: #e4e4e4;
+  line-height: 17px;
+  margin-bottom: 2px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-ScoreHeader_Team,
+.wc-MyBetsPage_RightColumn-animate .ml18-ScoreHeader_Team,
+.wc-Page_RightColumn-animate .ml18-ScoreHeader_Team {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Team {
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.ie-8 .ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Team {
+  padding-right: 0;
+}
+.ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Team {
+  padding-right: 8px;
+  padding-left: 10px;
+  text-align: right;
+}
+.ie-8 .ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Team {
+  padding-left: 0;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_Team {
+  font-size: 12px;
+  line-height: 15px;
+}
+.ie-8 .ml18-ScoreHeader_Column-haslabel.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Team,
+.ie-9 .ml18-ScoreHeader_Column-haslabel.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Team {
+  margin-right: 52px;
+}
+.ie-8 .ml18-ScoreHeader_Column-haslabel.ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Team,
+.ie-9 .ml18-ScoreHeader_Column-haslabel.ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Team {
+  margin-left: 52px;
+}
+.ml18-ScoreHeader_TeamText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ml18-ScoreHeader_TeamBorder {
+  position: absolute;
+  height: 15px;
+  margin-top: 1px;
+}
+.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_TeamBorder {
+  border-left: 3px solid #fff;
+  left: 0;
+}
+.ml18-ScoreHeader_Column-right .ml18-ScoreHeader_TeamBorder {
+  border-right: 3px solid #fff;
+  right: 0;
+}
+.ml18-ScoreHeader_Label {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 4px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  background-color: #d1a354;
+  color: #333;
+}
+.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Label {
+  margin-right: 10px;
+}
+.ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Label {
+  margin-left: 10px;
+}
+.ie-8 .ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Label,
+.ie-9 .ml18-ScoreHeader_Column-left .ml18-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 49px;
+}
+.ie-8 .ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Label,
+.ie-9 .ml18-ScoreHeader_Column-right .ml18-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+.ml18-ScoreHeader_ScoreContainer {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-size: 0;
+}
+.ml18-ScoreHeader_Column-left .ml18-ScoreHeader_ScoreContainer {
+  text-align: right;
+}
+.ie-8 .ml18-ScoreHeader_Column-left .ml18-ScoreHeader_ScoreContainer,
+.ie-9 .ml18-ScoreHeader_Column-left .ml18-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  width: 47px;
+}
+.ie-8 .ml18-ScoreHeader_Column-right .ml18-ScoreHeader_ScoreContainer,
+.ie-9 .ml18-ScoreHeader_Column-right .ml18-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 2px;
+  width: 47px;
+}
+.ie-8 .ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_ScoreContainer,
+.ie-9 .ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_ScoreContainer {
+  top: -2px;
+}
+.ml18-ScoreHeader_Score {
+  transition-property: font-size, line-height;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 7px;
+  min-width: 22px;
+  text-align: center;
+  color: #ffdf1b;
+  background-color: #4d4d4d;
+  border-radius: 1px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-ScoreHeader_Score,
+.wc-MyBetsPage_RightColumn-animate .ml18-ScoreHeader_Score,
+.wc-Page_RightColumn-animate .ml18-ScoreHeader_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_Score {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ie-8 .ml18-ScoreHeader_Score,
+.ie-9 .ml18-ScoreHeader_Score {
+  display: block;
+  width: 100%;
+}
+.ml18-ScoreHeader_Timer {
+  transition-property: font-size, line-height, min-width;
+  margin-top: 1px;
+  font-size: 11px;
+  line-height: 16px;
+  min-width: 48px;
+  text-align: center;
+  border-radius: 0 0 1px 1px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #ffdb99;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-ScoreHeader_Timer,
+.wc-MyBetsPage_RightColumn-animate .ml18-ScoreHeader_Timer,
+.wc-Page_RightColumn-animate .ml18-ScoreHeader_Timer {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml18-ScoreHeader_Timer {
+  left: 0;
+  width: 100%;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_Timer {
+  line-height: 14px;
+  min-width: 40px;
+  font-size: 10px;
+}
+.ml18-ScoreHeader_TimerInnerWrapper {
+  background-color: #94713e;
+  padding: 0 6px 1px;
+  display: none;
+}
+.ml18-ScoreHeader_TimerInnerWrapper.ml18-ScoreHeader_TimerInnerWrapper-show {
+  display: inline-block;
+}
+.ml18-ScoreHeader_AdditionalText {
+  margin-right: 7px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-ScoreHeader_AdditionalText {
+  margin-right: 5px;
+}
+.ml18-ScoreHeader_Timer-empty {
+  display: none;
+}
+.ml18-Stats {
+  padding-top: 9px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-Stats {
+  padding-top: 11px;
+}
+.ml18-Stats_NoStats {
+  margin: 0 auto 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 22px;
+  padding-right: 22px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 15px;
+  color: #999;
+  text-align: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ml18-Timeouts {
+  transition-property: padding, width;
+  display: table-cell;
+  vertical-align: bottom;
+  width: 110px;
+  padding: 0 10px;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-Timeouts,
+.wc-MyBetsPage_RightColumn-animate .ml18-Timeouts,
+.wc-Page_RightColumn-animate .ml18-Timeouts {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-Timeouts {
+  width: 58px;
+  padding: 0;
+}
+.ml18-Timeouts_CounterContainer {
+  margin-bottom: 7px;
+  font-size: 0;
+}
+.ml18-Timeouts_Counter {
+  display: inline-block;
+  vertical-align: top;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+.ml18-Timeouts_Counter + .ml18-Timeouts_Counter {
+  margin-left: 3px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-Timeouts_Counter {
+  width: 4px;
+  height: 4px;
+}
+.ml18-TimeoutsAndThrows {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-TimeoutsAndThrows {
+  margin-bottom: 13px;
+}
+.ml18-TimeoutsAndThrows_Title {
+  transition-property: font-size;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml18-TimeoutsAndThrows_Title,
+.wc-MyBetsPage_RightColumn-animate .ml18-TimeoutsAndThrows_Title,
+.wc-Page_RightColumn-animate .ml18-TimeoutsAndThrows_Title {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml18-MatchLiveBasketballModule-narrow .ml18-TimeoutsAndThrows_Title {
+  font-size: 10px;
+}
+.ml18-TripplePoints {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  font-size: 0;
+}
+.ml18-XYBlob {
+  margin-left: -22px;
+  margin-top: -22px;
+  opacity: 0;
+  left: 100px;
+  top: 100px;
+  z-index: 50;
+}
+.ml18-XYBlob,
+.ml18-XYBlob_Inner1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+.ml18-XYBlob_Inner1 {
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-animation-name: animateInnerBlob1;
+  animation-name: animateInnerBlob1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+  animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+}
+.ml18-XYBlob_Collapse .ml18-XYBlob_Inner1,
+.ml18-XYBlob_Static .ml18-XYBlob_Inner1 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: collapsePoint;
+  animation-name: collapsePoint;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.ml18-XYBlob_Static .ml18-XYBlob_Inner1 {
+  opacity: 0.5;
+}
+.ml18-XYBlob_Inner2 {
+  position: absolute;
+  opacity: 0.2;
+  background: #fff;
+  top: 8px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  -webkit-animation-name: animateInnerBlob2;
+  animation-name: animateInnerBlob2;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+  animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+}
+.ml18-XYBlob_Collapse .ml18-XYBlob_Inner2 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: collapsePoint;
+  animation-name: collapsePoint;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  opacity: 0.1;
+}
+.ml18-XYBlob_Static .ml18-XYBlob_Inner2 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: collapsePoint2;
+  animation-name: collapsePoint2;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.ml18-XYBlob_Inner3 {
+  position: absolute;
+  background: #fff;
+  top: 18px;
+  left: 18px;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  -webkit-animation-name: animateInnerBlob3;
+  animation-name: animateInnerBlob3;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.ml18-XYBlob_Collapse .ml18-XYBlob_Inner3,
+.ml18-XYBlob_Static .ml18-XYBlob_Inner3 {
+  -webkit-animation: none;
+  animation: none;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+@-webkit-keyframes animateInnerBlob1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes animateInnerBlob1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes animateInnerBlob2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes animateInnerBlob2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes animateInnerBlob3 {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes animateInnerBlob3 {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes collapsePoint {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes collapsePoint {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes collapsePoint2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.1;
+  }
+}
+@keyframes collapsePoint2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.1;
+  }
+}
