@@ -9109,10 +9109,7 @@
 .ipe-TennisGridColumn_Cell + .ipe-TennisGridColumn_Cell + .ipe-TennisGridColumn_Cell:empty {
   min-height: 35px;
 }
-.ipe-TennisHeaderLayout_ColumnGames ~ .ipe-TennisHeaderLayout_ColumnWidth55 .ipe-TennisGridColumn_Cell,
-.ipe-TennisHeaderLayout_ColumnSets + .ipe-TennisHeaderLayout_ColumnWidth55 .ipe-TennisGridColumn_Cell {
-  padding-right: 5px;
-}
+
 .ipe-TennisHeaderLayout_ColumnGames .ipe-TennisGridColumn_Cell ~ .ipe-TennisGridColumn_Cell,
 .ipe-TennisHeaderLayout_ColumnSets .ipe-TennisGridColumn_Cell ~ .ipe-TennisGridColumn_Cell {
   color: #ffdf1b;
@@ -9120,7 +9117,7 @@
 .ipe-TennisHeaderLayout {
   font-size: 0;
   line-height: 0;
-  width: 450px;
+  width: 446px;
   height: 111px;
   z-index: 30;
   border: 1px solid #303030;
@@ -9154,7 +9151,7 @@
   background-color: #333;
   padding: 0 9px 0 10px;
   color: #a7a7a7;
-  width: 100%;
+  width: 428px;
 }
 .ipe-TennisHeaderLayout_HeaderCell {
   display: inline-block;
@@ -9222,14 +9219,13 @@
   display: table;
   width: 100%;
   line-height: 25px;
-  height: 20px;
+  height: 18px;
 }
 .ie-8 .ipe-TennisHeaderLayout_Cell {
   min-height: 18px;
 }
 .ipe-TennisHeaderLayout_Cell + .ipe-TennisHeaderLayout_Cell {
   background-color: transparent;
-  height: 34px;
 }
 .ipe-TennisHeaderLayout_Cell + .ipe-TennisHeaderLayout_Cell + .ipe-TennisHeaderLayout_Cell {
   padding-bottom: 1px;

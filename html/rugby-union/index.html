@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../common/marcador.css" />
+  </head>
+  <body>
+    <div class="lv-MatchLiveView ">
+      <div class="lv-MatchLiveView_Container ">
+        <div class="ml8-MatchLiveRugbyUnionModule ">
+          <div class="ml8-ScoreHeader ">
+            <div class="ml8-ScoreHeader_Column ml8-ScoreHeader_Column-left ">
+              <div class="ml8-ScoreHeader_Team ">
+                <div class="ml8-ScoreHeader_TeamBorder " style="border-color: rgb(255, 223, 27);"></div>
+                <div class="ml8-ScoreHeader_TeamText ">Clermont</div>
+              </div>
+              <div class="ml8-ScoreHeader_ScoreContainer "><div class="ml8-ScoreHeader_Score ">16</div></div>
+            </div>
+            <div class="ml8-ScoreHeader_Column ml8-ScoreHeader_Column-right ">
+              <div class="ml8-ScoreHeader_ScoreContainer "><div class="ml8-ScoreHeader_Score ">8</div></div>
+              <div class="ml8-ScoreHeader_Team ">
+                <div class="ml8-ScoreHeader_TeamBorder " style="border-color: rgb(10, 10, 10);"></div>
+                <div class="ml8-ScoreHeader_TeamText ">Lyon</div>
+              </div>
+            </div>
+            <div class="ml8-ScoreHeader_TimerOuterWrapper ">
+              <div class="ml8-ScoreHeader_Timer ">
+                <div class="ml8-ScoreHeader_TimerInnerWrapper ml8-ScoreHeader_TimerInnerWrapper-show ">
+                  <span
+                    class="ml8-ScoreHeader_AdditionalText ml8-ScoreHeader_TextFadeOut ml8-ScoreHeader_Timer-empty "
+                  ></span
+                  ><span class="ml8-ScoreHeader_Clock ">40:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml8-MatchLiveRugbyUnionModule_Constrainer ">
+            <div class="ml8-MatchLiveRugbyUnionModule_MatchLiveWrapper ">
+              <div class="ml8-MatchLiveRugbyUnionModule_PitchContainer ">
+                <div class="ml8-MatchLiveRugbyUnionModule_SVGPitchContainer ">
+                  <svg
+                    class="ml8-RugbyUnionPitch_SVG"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="400"
+                    height="180"
+                    viewBox="0 0 400 180"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect fill="#5C7F26" x="0" y="0" width="400" height="180"></rect>
+                      <path d="M2,2 L42,2 L42,178 L2,178 L2,2 Z" opacity="0.1" fill="#000"></path>
+                      <path d="M358,2 L398,2 L398,178 L358,178 L358,2 Z" opacity="0.1" fill="#000"></path>
+                      <rect fill="#738F3C" x="40" y="2" width="2" height="176"></rect>
+                      <rect fill="#7A993E" x="115" y="2" width="2" height="176"></rect>
+                      <rect fill="#7A993E" x="199" y="2" width="2" height="176"></rect>
+                      <rect fill="#7A993E" x="283" y="2" width="2" height="176"></rect>
+                      <rect fill="#738F3C" x="358" y="2" width="2" height="176"></rect>
+                      <g id="4th-Horizontal-Dashed-Line" fill="#7A993E">
+                        <path
+                          id="4th-Horizontal-Line"
+                          d="M46.5 165h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5z"
+                        ></path>
+                      </g>
+                      <g id="3rd-Horizontal-Dashed-Line" fill="#7A993E">
+                        <path
+                          id="3rd-Horizontal-Line"
+                          d="M46.5 145h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5z"
+                        ></path>
+                      </g>
+                      <g id="2nd-Horizontal-Dashed-Line" fill="#7A993E">
+                        <path
+                          id="2nd-Horizontal-Line"
+                          d="M46.5 35h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5z"
+                        ></path>
+                      </g>
+                      <g id="1st-Horizontal-Dashed-Line" fill="#7A993E">
+                        <path
+                          id="1st-Horizontal-Line"
+                          d="M46.5 15h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5zm12 0h.5v-1h-6v1h5.5z"
+                        ></path>
+                      </g>
+                      <g id="4th-Vertical-Dashed-Line" stroke="#6A902C" stroke-linecap="square" stroke-dasharray="6 8">
+                        <path id="1st-Line-Vertical-B" d="M350.5 144.5v34.01"></path>
+                        <path id="1st-Line-Vertical-A" d="M350.5 2.5v132.01"></path>
+                      </g>
+                      <g id="3rd-Vertical-Dashed-Line" stroke="#6A902C" stroke-linecap="square" stroke-dasharray="6 8">
+                        <path id="1st-Line-Vertical-B" d="M242.5 144.5v34.01"></path>
+                        <path id="1st-Line-Vertical-A" d="M242.5 2.5v132.01"></path>
+                      </g>
+                      <g id="2nd-Vertical-Dashed-Line" stroke="#6A902C" stroke-linecap="square" stroke-dasharray="6 8">
+                        <path id="1st-Line-Vertical-B" d="M158.5 144.5v34.01"></path>
+                        <path id="1st-Line-Vertical-A" d="M158.5 2.5v132.01"></path>
+                      </g>
+                      <g id="1st-Vertical-Dashed-Line" stroke="#6A902C" stroke-linecap="square" stroke-dasharray="6 8">
+                        <path id="1st-Line-Vertical-B" d="M50.5 144.5v34.01"></path>
+                        <path id="1st-Line-Vertical-A" d="M50.5 2.5v132.01"></path>
+                      </g>
+                      <g id="inner-border">
+                        <rect fill="#7a993e" x="0.5" y="0.5" width="399" height="1.5"></rect>
+                        <rect fill="#7a993e" x="398" y="0.5" width="1.5" height="178"></rect>
+                        <rect fill="#7a993e" x="0.5" y="178" width="398" height="1.5"></rect>
+                        <rect fill="#7a993e" x="0.5" y="0.5" width="1.5" height="178"></rect>
+                      </g>
+                      <g id="dark-border">
+                        <rect fill="#333333" x="0" y="0" width="400" height="0.5"></rect>
+                        <rect fill="#333333" x="399.5" y="0" width="1" height="180"></rect>
+                        <rect fill="#333333" x="0" y="179.5" width="400" height="0.5"></rect>
+                        <rect fill="#333333" x="0" y="0" width="0.5" height="180"></rect>
+                      </g>
+                      <g
+                        id="rugby-stand"
+                        transform="scale(-1, 1) translate(-379.0, 79.0)"
+                        stroke="#7A993E"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M20,4 L1,0" stroke-width="1.6"></path>
+                        <path d="M20,3.77 L15,3" stroke-width="3"></path>
+                        <path d="M2,22 L20,19" stroke-width="1.6"></path>
+                        <path d="M15,19.77 L20,19" stroke-width="3"></path>
+                        <path d="M15,3 L15,19"></path>
+                      </g>
+                      <g
+                        id="rugby-stand-copy"
+                        transform="translate(21.0, 79.0)"
+                        stroke="#7A993E"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M20,4 L1,0" id="Stroke-19" stroke-width="1.6"></path>
+                        <path d="M20,3.77 L15,3" id="Stroke-20" stroke-width="3"></path>
+                        <path d="M2,22 L20,19" id="Stroke-21" stroke-width="1.6"></path>
+                        <path d="M15,19.77 L20,19" id="Stroke-22" stroke-width="3"></path>
+                        <path d="M15,3 L15,19" id="Stroke-23"></path>
+                      </g>
+                      <g id="ml8-WideKickRadial" opacity="0">
+                        <path
+                          id="ml8-WideKickRadialOuter"
+                          fill="#254000"
+                          d="M127.84905,99.5918919 C149.24925,72.1067568 162,37.5459459 162,0 C162,-37.5189189 149.2641,-72.0554054 127.8963,-99.5310811 L0,0.0486486486 L127.84905,99.5918919 L127.84905,99.5918919 Z"
+                          opacity="0.22"
+                        ></path>
+                        <path
+                          id="ml8-WideKickRadialCentre"
+                          fill="#254000"
+                          d="M84.13875,65.5594595 C98.2341,47.4635135 106.65,24.7216216 106.65,1.42108547e-14 C106.65,-24.6945946 98.24895,-47.4121622 84.18735,-65.4986486 L0,0.0486486486 L84.13875,65.5594595 L84.13875,65.5594595 Z"
+                          opacity="0.44"
+                        ></path>
+                        <path
+                          id="ml8-WideKickRadialInner"
+                          fill="#254000"
+                          d="M41.52465,32.3797297 C48.4893,23.4445946 52.65,12.2121622 52.65,7.10542736e-15 C52.65,-12.1851351 48.5082,-23.3932432 41.57325,-32.3202703 L0,0.0486486486 L41.52465,32.3797297 L41.52465,32.3797297 Z"
+                          opacity="0.66"
+                        ></path>
+                      </g>
+                      <g id="ml8-NarrowKickRadial" opacity="0">
+                        <path
+                          id="ml8-NarrowKickRadialOuter"
+                          fill="#254000"
+                          d="M0.0401031746,-0.483184783 L152.232944,57.7815435 C159.172087,39.6806087 163,20.0417283 163,-0.5 C163,-21.0417283 159.172087,-40.6819022 152.234238,-58.782837 L0.120309524,-0.546565217 L0.0401031746,-0.483184783 L0.0401031746,-0.483184783 Z"
+                        ></path>
+                        <path
+                          id="ml8-NarrowKickRadialCentre"
+                          fill="#254000"
+                          d="M0.0401031746,-0.483184783 L100.207484,37.8645652 C104.781833,25.9516304 107.30704,13.0246087 107.30704,-0.5 C107.30704,-14.0246087 104.781833,-26.9516304 100.208778,-38.8645652 L0.120309524,-0.546565217 L0.0401031746,-0.483184783 L0.0401031746,-0.483184783 Z"
+                        ></path>
+                        <path
+                          id="ml8-NarrowKickRadialInner"
+                          fill="#254000"
+                          d="M0.0401031746,-0.483184783 L49.466619,18.4391087 C51.7253333,12.5589565 52.9737063,6.17693478 52.9737063,-0.5 C52.9737063,-7.17693478 51.7253333,-13.5589565 49.4692063,-19.4391087 L0.120309524,-0.546565217 L0.0401031746,-0.483184783 L0.0401031746,-0.483184783 Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <div class="ml8-MatchLiveRugbyUnionModule_AnimWrapper ">
+                    <div class="ml8-AnimatedTextBar ">
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H1TextWrapper"
+                        style="opacity: 0;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H1Text "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H1TextBackupWrapper ml8-CommonAnimations_H1TextBackup "
+                      >
+                        <span class="ml8-AnimatedTextBar "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H1TextGhostWrapper "
+                        style="display: none; width: 238px; text-align: center;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H1TextGhost "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H2TextWrapper"
+                        style="opacity: 1; display: block; color: rgb(255, 255, 255); text-align: center; line-height: 16px; left: 80px; top: 79px; width: 238px; font-size: 16px;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H2Text ">Descanso</span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H2TextBackupWrapper"
+                        style="opacity: 0; line-height: 16px; top: 0px; font-size: 16px; display: none;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H2TextBackup "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H2TextGhostWrapper "
+                        style="display: none; width: 238px; text-align: center;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H2TextGhost ">Descanso</span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H3TextWrapper"
+                        style="display: none; opacity: 0;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H3Text "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H3TextBackupWrapper "
+                        style="display: none;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H3TextBackup "></span>
+                      </div>
+                      <div
+                        class="ml8-AnimatedTextBar ml8-CommonAnimations_Asset ml8-CommonAnimations_H3TextGhostWrapper "
+                        style="display: none;"
+                      >
+                        <span class="ml8-AnimatedTextBar ml8-CommonAnimations_H3TextGhost "></span>
+                      </div>
+                      <div
+                        class="ml8-CommonAnimations_Line"
+                        style="opacity: 0; left: 80px; top: 80px; height: 21px; transform: rotateZ(180deg);"
+                      ></div>
+                    </div>
+                    <div
+                      class="ml8-MatchLiveRugbyUnionModule_Asset ml8-MatchLiveRugbyUnionModule_Possession ml8-MatchLiveRugbyUnionModule_Possession1 "
+                    ></div>
+                    <div
+                      class="ml8-MatchLiveRugbyUnionModule_Asset ml8-MatchLiveRugbyUnionModule_Possession ml8-MatchLiveRugbyUnionModule_Possession2 "
+                    ></div>
+                    <div>
+                      <div class="ml8-SuspensionContainer_Home ">
+                        <div class="ml8-Suspension Hidden "></div>
+                        <div class="ml8-Suspension Hidden "></div>
+                        <div class="ml8-Suspension Hidden "></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="ml8-SuspensionContainer_Away ">
+                        <div class="ml8-Suspension Hidden "></div>
+                        <div class="ml8-Suspension Hidden "></div>
+                        <div class="ml8-Suspension Hidden "></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="ml8-XYBlob" style="opacity: 0;">
+                        <div class="ml8-XYBlob_Inner1 "></div>
+                        <div class="ml8-XYBlob_Inner2 "></div>
+                        <div class="ml8-XYBlob_Inner3 "></div>
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml8-TimeBar ">
+            <div class="ml8-TimeBar_Half ">HT</div>
+            <div class="ml8-TimeBar_Inner ">
+              <span class="ml8-TimeBar_Fill " style="width: 46.8514%;"></span>
+              <div>
+                <div class="ml8-TimelineEvent_Team2 ml8-TimelineEvent_Icon11 " style="top: 1px; left: 12.8841%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_AwayContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Lyon</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">11'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon11 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">5 pts - Ensayo</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team1 ml8-TimelineEvent_Icon8 " style="top: -7px; left: 16.398%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_HomeContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Clermont</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">14'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon8 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">3 pts - Penalti</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team2 ml8-TimelineEvent_Icon8 " style="top: 1px; left: 23.4257%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_AwayContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Lyon</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">20'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon8 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">3 pts - Penalti</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team1 ml8-TimelineEvent_Icon8 " style="top: -7px; left: 29.2821%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_HomeContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Clermont</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">25'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon8 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">3 pts - Penalti</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team1 ml8-TimelineEvent_Icon8 " style="top: -7px; left: 33.9673%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_HomeContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Clermont</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">29'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon8 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">3 pts - Penalti</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team1 ml8-TimelineEvent_Icon11 Hidden ">
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+                <div class="ml8-TimelineEvent_Team1 ml8-TimelineEvent_Icon10 " style="top: -7px; left: 37.4811%;">
+                  <div class="ml8-TimelineEventGroup ">
+                    <div class="ml8-TimelineEventGroup_HomeContainer ">
+                      <div class="ml8-TimelineEventGroup_TeamNames ">Clermont</div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">32'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon11 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">5 pts - Ensayo</div>
+                      </div>
+                      <div class="ml8-TimelineEventGroup_EventDetails ">
+                        <div class="ml8-TimelineEventGroup_Time ">32'</div>
+                        <div class="ml8-TimelineEventGroup_Icon ml8-TimelineEventGroup_Icon10 "></div>
+                        <div class="ml8-TimelineEventGroup_Description ">2 pts - Conversión</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml8-TimelineEvent_Nib "></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml8-AllStats ">
+            <div class="ml8-AllStats_Title " style="">Posesión</div>
+            <div class="ml8-PossessionBar_Wrapper ">
+              <div>
+                <div class="ml8-StatsBar_MiniBar ">
+                  <div class="ml8-StatsBar_MiniBarValue ml8-StatsBar_MiniBarValue-1 ">56%</div>
+                  <div class="ml8-StatsBar_MiniBarColumn ">
+                    <div class="ml8-StatsBar_MiniBarSurround " style="background-color: rgb(10, 10, 10);">
+                      <span
+                        class="ml8-StatsBar_MiniBarFill "
+                        style="width: 56%; border-top-right-radius: 0px; border-bottom-right-radius: 0px; background-color: rgb(255, 223, 27);"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="ml8-StatsBar_MiniBarValue ml8-StatsBar_MiniBarValue-2 ">44%</div>
+                </div>
+              </div>
+            </div>
+            <div class="ml8-AllStats_Title ">10 minutos de posesión</div>
+            <div class="ml8-PossessionBar_Wrapper ">
+              <div>
+                <div class="ml8-StatsBar_MiniBar ">
+                  <div class="ml8-StatsBar_MiniBarValue ml8-StatsBar_MiniBarValue-1 ">85%</div>
+                  <div class="ml8-StatsBar_MiniBarColumn ">
+                    <div class="ml8-StatsBar_MiniBarSurround " style="background-color: rgb(10, 10, 10);">
+                      <span
+                        class="ml8-StatsBar_MiniBarFill "
+                        style="width: 85%; border-top-right-radius: 0px; border-bottom-right-radius: 0px; background-color: rgb(255, 223, 27);"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="ml8-StatsBar_MiniBarValue ml8-StatsBar_MiniBarValue-2 ">15%</div>
+                </div>
+              </div>
+            </div>
+            <div class="ml8-StatsLower ">
+              <div class="ml8-Stat ml8-Stat_Fallback ">
+                <div class="ml8-Stat_Text " style="border-color: rgb(255, 223, 27);">1</div>
+                <div class="ml8-Stat_Header ">Ensayos</div>
+              </div>
+              <div class="ml8-DualStat ">
+                <div class="ml8-DualStat_Text " style="border-color: rgb(255, 223, 27);">5:59</div>
+                <div class="ml8-DualStat_Text " style="border-color: rgb(10, 10, 10);">2:26</div>
+                <div class="ml8-DualStat_Header ">Tiempo en las 22 yardas del oponente</div>
+              </div>
+              <div class="ml8-Stat ml8-Stat_Fallback ">
+                <div class="ml8-Stat_Text " style="border-color: rgb(10, 10, 10);">1</div>
+                <div class="ml8-Stat_Header ">Ensayos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ipe-ScoreGridHeaderLayout ">
+      <div class="ipe-ScoreGridHeaderLayout_ExtraData ">40:00</div>
+      <div></div>
+      <div class="ipe-ScoreGridContainer ">
+        <div class="ipe-ScoreGridColumn Hidden ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell "></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_2-3 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="26"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K2-3</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K2-3">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#F0F0F0"
+                    ></path>
+                    <path id="color6" fill="#F0F0F0" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <path id="color2" fill="#C40010" d="M12 12h24v6H12z"></path>
+                    <path id="color3" fill="#C40010" d="M12 18h24v6H12z"></path>
+                    <path id="color4" fill="#F0F0F0" d="M12 24h24v6H12z"></path>
+                    <path id="color5" fill="#F0F0F0" d="M12 30h24v6H12z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_Kit ">
+            <div class="ipe-ScoreGridCell_KitElement tk-TeamKit tk-TeamKit_2-5 ">
+              <svg
+                class="tk-TeamKit_SVG"
+                width="24"
+                height="26"
+                viewBox="0 0 60 45"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>K2-5</title>
+                <defs>
+                  <path
+                    d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                    id="path-1"
+                  ></path>
+                  <mask id="mask-2" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <mask id="mask-3" x="0" y="0" width="48" height="36" fill="#fff">
+                    <use xlink:href="#path-1"></use>
+                  </mask>
+                  <path id="path-4" d="M7 52l5-17h24l5 17H26.4L24 45.81 21.6 52z"></path>
+                  <mask id="mask-5" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                  <mask id="mask-6" x="0" y="0" width="34" height="17" fill="#fff">
+                    <use xlink:href="#path-4"></use>
+                  </mask>
+                </defs>
+                <g id="SVG-Team-Kits-Separated" fill="none" fill-rule="evenodd">
+                  <g id="K2-5">
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997L48 13.685l-6.6 7.588L36 17v19H12V17l-5.387 4.273L0 13.68 11.377 1.238 18 0s2.126 3.79 6 3.714z"
+                      id="color1"
+                      fill="#F0F0F0"
+                    ></path>
+                    <path
+                      d="M24 3.714C27.874 3.64 30 0 30 0l6.554.997 2.887 3.2L36 8H12L8.88 3.97l2.497-2.732L18 0s2.126 3.79 6 3.714zM12 28h24v4H12v-4zm0-8h24v4H12v-4zm0-8h24v4H12v-4zm33.888-.661L48 13.685l-6.6 7.588-2.346-1.857 6.834-8.077zM9.192 19.227l-2.58 2.046L0 13.68l2.37-2.643 6.822 8.19z"
+                      id="color2"
+                      fill="#C40010"
+                    ></path>
+                    <path id="color5" fill="#C40010" d="M7 52l5-16h24l5 16H26.4L24 45.81 21.6 52z"></path>
+                    <g id="hires-detail">
+                      <g id="Outline1">
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-2)"
+                            stroke-width="4"
+                            xlink:href="#path-1"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-3)"
+                            stroke-width="2"
+                            xlink:href="#path-1"
+                          ></use>
+                        </g>
+                        <g id="Shape">
+                          <use
+                            stroke-opacity=".07"
+                            stroke="#FFF"
+                            mask="url(https://www.bet365.com/#mask-5)"
+                            stroke-width="4"
+                            xlink:href="#path-4"
+                          ></use>
+                          <use
+                            stroke="#272727"
+                            mask="url(https://www.bet365.com/#mask-6)"
+                            stroke-width="2"
+                            xlink:href="#path-4"
+                          ></use>
+                        </g>
+                        <path
+                          d="M13 36h22v1H13v-1zm11 1h1v6h-1v-6zM34 7h1v10.818h-1V7zM13 7h1v10.818h-1V7z"
+                          id="shadow"
+                          fill="#000"
+                          opacity=".2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader "></div></div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">Hull KR</div>
+          </div>
+          <div class="ipe-ScoreGridCell ipe-ScoreGridCell_TeamName ">
+            <div class="ipe-ScoreGridCell_TextTeamName ">Wigan</div>
+          </div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">1º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">6</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">14</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">2º</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">0</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">0</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width35 Hidden ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">P</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_Text ">&nbsp;</div></div>
+        </div>
+        <div class="ipe-ScoreGridColumn ipe-ScoreGridColumn_Width40 ">
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextHeader ">Total</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">6</div></div>
+          <div class="ipe-ScoreGridCell "><div class="ipe-ScoreGridCell_TextTotal ">14</div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

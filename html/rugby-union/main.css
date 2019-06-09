@@ -1,0 +1,1942 @@
+body, input {
+    font-family: Verdana,Geneva,Arial,sans-serif;
+}
+
+.ml8-AnimatedTextBar {
+  position: relative;
+  z-index: 1;
+}
+.ml8-Anims_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml8-Anims_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml8-CommonAnimations_Asset {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  z-index: 10;
+}
+.ml8-CommonAnimations_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml8-CommonAnimations_Conversion {
+  background-size: contain;
+  background-position: 50%;
+  top: 25px;
+  width: 25px;
+  height: 35px;
+  z-index: 2;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_kick.svg);
+}
+.ml8-CommonAnimations_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-CommonAnimations_H1TextWrapper {
+  transition-property: font-size, line-height;
+  color: #a0e06c;
+  white-space: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H1TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H1TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H1TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H1TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H1TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H1TextWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H1TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H1TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H1TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextWrapper {
+  line-height: 18px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H1TextWrapper {
+  font-size: 11px;
+  line-height: 14px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H1TextWrapper {
+  line-height: 13px;
+}
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H1TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml8-CommonAnimations_H2TextBackupWrapper,
+.ml8-CommonAnimations_H2TextGhostWrapper,
+.ml8-CommonAnimations_H2TextWrapper {
+  transition-property: font-size, line-height;
+  color: #fff;
+  white-space: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H2TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H2TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H2TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H2TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H2TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H2TextWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H2TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H2TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H2TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H2TextBackupWrapper,
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H2TextGhostWrapper,
+.ml8-AnimatedTextBar_ThreeLines .ml8-CommonAnimations_H2TextWrapper {
+  line-height: 20px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H2TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H2TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextBackupWrapper,
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextGhostWrapper,
+.ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AnimatedTextBar_MatchStatus .ml8-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml8-CommonAnimations_H3TextBackupWrapper,
+.ml8-CommonAnimations_H3TextGhostWrapper,
+.ml8-CommonAnimations_H3TextWrapper {
+  transition-property: font-size, line-height;
+  white-space: normal;
+  color: #a0e06c;
+  font-size: 11px;
+  line-height: 15px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H3TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H3TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml8-CommonAnimations_H3TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H3TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H3TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-CommonAnimations_H3TextWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H3TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H3TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml8-CommonAnimations_H3TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H3TextBackupWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H3TextGhostWrapper,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-CommonAnimations_H3TextWrapper {
+  font-size: 10px;
+  line-height: 12px;
+}
+.ml8-Kick_Posts {
+  background-size: contain;
+  background-position: 50%;
+  width: 25px;
+  height: 60px;
+  z-index: 1;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
+}
+.ie-9 .ml8-Kick_Posts {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
+}
+.ml8-Kick_Ball {
+  background-size: contain;
+  background-position: 50% 0;
+  width: 20px;
+  height: 50px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
+}
+.ie-9 .ml8-Kick_Ball {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
+}
+.ml8-Kick_Flash {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.ml8-KickAwarded_Conversion {
+  background-size: contain;
+  background-position: 50%;
+  width: 25px;
+  height: 35px;
+  z-index: 2;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.svg);
+}
+.ie-9 .ml8-KickAwarded_Conversion {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.png);
+}
+.ml8-Lineout_ArrowStraight {
+  width: 18%;
+  height: 40%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.ml8-Lineout_Arrow,
+.ml8-Lineout_ArrowStraight {
+  position: absolute;
+  height: 100%;
+  background-size: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.svg);
+}
+.ie-9 .ml8-Lineout_Arrow,
+.ie-9 .ml8-Lineout_ArrowStraight {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.png);
+}
+.ml8-PlayerKick_NarrowKickRadial {
+  height: 60%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-narrow.png);
+}
+.ml8-PlayerKick_NarrowKickRadial,
+.ml8-PlayerKick_WideKickRadial {
+  width: 30%;
+  position: absolute;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+.ml8-PlayerKick_WideKickRadial {
+  height: 83%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-wide.png);
+}
+.ml8-PointBase_Ball {
+  background-size: contain;
+  background-position: 50% 0;
+  width: 20px;
+  height: 50px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
+}
+.ie-9 .ml8-PointBase_Ball {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
+}
+.ml8-PointBase {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.ml8-PointBase_Posts {
+  background-size: contain;
+  background-position: 50%;
+  width: 25px;
+  height: 60px;
+  z-index: 1;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
+}
+.ie-9 .ml8-PointBase_Posts {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
+}
+.ml8-RedCard_RedCard {
+  background-size: 14px;
+  width: 20px;
+  height: 38px;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/redcard.svg);
+}
+.ie-9 .ml8-RedCard_RedCard {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/redcard.png);
+}
+.ml8-SinBin_YellowCard {
+  background-size: 14px;
+  width: 20px;
+  height: 38px;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.svg);
+}
+.ie-9 .ml8-SinBin_YellowCard {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.png);
+}
+.ml8-SinBinReturn_SinBinReturned {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.svg);
+}
+.ie-9 .ml8-SinBinReturn_SinBinReturned {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.png);
+}
+.ml8-Try_Try {
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  z-index: 2;
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.svg);
+}
+.ie-9 .ml8-Try_Try {
+  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.png);
+}
+.ml8-Try_Flash {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.ml8-MatchLiveRugbyUnionModule {
+  transition-property: padding-left, padding-right, max-width;
+  background-color: #393939;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  margin: auto;
+  max-width: 400px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-MatchLiveRugbyUnionModule,
+.wc-MyBetsPage_RightColumn-animate .ml8-MatchLiveRugbyUnionModule,
+.wc-Page_RightColumn-animate .ml8-MatchLiveRugbyUnionModule {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml8-MatchLiveRugbyUnionModule {
+  width: 450px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow {
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 286px;
+}
+.ie-8 .ml8-MatchLiveRugbyUnionModule-narrow {
+  width: 286px;
+}
+.ml8-MatchLiveRugbyUnionModule_Wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.ml8-MatchLiveRugbyUnionModule_MatchLiveWrapper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #383838;
+}
+.ml8-MatchLiveRugbyUnionModule_Constrainer {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.ml8-MatchLiveRugbyUnionModule_AnimWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-MatchLiveRugbyUnionModule_AnimWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-MatchLiveRugbyUnionModule_AnimWrapper,
+.wc-Page_RightColumn-animate .ml8-MatchLiveRugbyUnionModule_AnimWrapper {
+  opacity: 0;
+}
+.ml8-MatchLiveRugbyUnionModule_PitchContainer {
+  width: 100%;
+  font-size: 0;
+  position: relative;
+  border: 1px solid #333;
+}
+.ml8-MatchLiveRugbyUnionModule_PitchContainer:after {
+  padding-top: 45%;
+  display: block;
+  content: '';
+}
+.ml8-MatchLiveRugbyUnionModule_PNGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: 100%;
+  pointer-events: none;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitch.png);
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-MatchLiveRugbyUnionModule_PNGPitchContainer {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitchNarrow.png);
+}
+.ml8-MatchLiveRugbyUnionModule_SVGPitchContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+}
+.ml8-MatchLiveRugbyUnionModule_Possession {
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  background-color: #000;
+  display: block;
+  border: 1px solid #7a993e;
+  position: absolute;
+  top: 0;
+}
+.ie-8 .ml8-MatchLiveRugbyUnionModule_Possession {
+  opacity: 0.2;
+}
+.ml8-MatchLiveRugbyUnionModule_Possession1 {
+  left: 0;
+}
+.ml8-MatchLiveRugbyUnionModule_Possession2 {
+  right: 0;
+}
+.ml8-AllStats {
+  border-top: 1px solid #474747;
+  padding-top: 11px;
+  margin: 0 1px;
+}
+.ml8-AllStats_Title {
+  transition-property: line-height;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+  text-align: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-AllStats_Title,
+.wc-MyBetsPage_RightColumn-animate .ml8-AllStats_Title,
+.wc-Page_RightColumn-animate .ml8-AllStats_Title {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-AllStats_Title {
+  line-height: 12px;
+}
+.ml8-DualStat {
+  display: table-cell;
+  font-size: 0;
+}
+.ml8-DualStat,
+.ml8-DualStat_Text {
+  vertical-align: top;
+  text-align: center;
+}
+.ml8-DualStat_Text {
+  transition-property: margin-left, line-height;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 24px;
+  padding: 0 10px 5px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 5px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-DualStat_Text,
+.wc-MyBetsPage_RightColumn-animate .ml8-DualStat_Text,
+.wc-Page_RightColumn-animate .ml8-DualStat_Text {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-DualStat_Text {
+  line-height: 17px;
+}
+.ml8-DualStat_Text + .ml8-DualStat_Text {
+  margin-left: 21px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-DualStat_Text + .ml8-DualStat_Text {
+  margin-left: 11px;
+}
+.ml8-DualStat_Header {
+  transition-property: line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-DualStat_Header,
+.wc-MyBetsPage_RightColumn-animate .ml8-DualStat_Header,
+.wc-Page_RightColumn-animate .ml8-DualStat_Header {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-DualStat_Header {
+  line-height: 12px;
+}
+.ml8-ModalController {
+  height: 26px;
+  width: 100%;
+  position: relative;
+}
+.ml8-ModalController_Wrapper {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+.ml8-ModalController_Icon {
+  font-size: 11px;
+  color: #999;
+  line-height: 26px;
+  height: 26px;
+  vertical-align: middle;
+  padding: 0 10px;
+  display: inline-block;
+}
+.ml8-ModalController_Icon:before {
+  content: ' ';
+  width: 20px;
+  height: 29px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 -32px;
+  background-image: url(/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.svg);
+  vertical-align: top;
+  opacity: 0.5;
+}
+.no-svg .ml8-ModalController_Icon:before {
+  background-image: url(/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.png);
+}
+.ml8-RugbyUnionPitch_SVG {
+  width: 100%;
+  height: 100%;
+}
+.ml8-RugbyUnionScoreUpdate {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ie-9 .ml8-RugbyUnionScoreUpdate {
+  display: block;
+}
+.ml8-RugbyUnionScoreUpdate_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #c60;
+}
+.ml8-RugbyUnionScoreUpdate_OuterWrapper {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ie-9 .ml8-RugbyUnionScoreUpdate_OuterWrapper {
+  display: table;
+  text-align: left;
+}
+.ml8-RugbyUnionScoreUpdate_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding-left: 10px;
+}
+.ie-9 .ml8-RugbyUnionScoreUpdate_ScoreWrapper {
+  display: table-cell;
+}
+.ml8-RugbyUnionScoreUpdate_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ie-9 .ml8-RugbyUnionScoreUpdate_ScoreWrapper-score1 {
+  text-align: right;
+}
+.ml8-RugbyUnionScoreUpdate_Score {
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.ie-9 .ml8-RugbyUnionScoreUpdate_Score {
+  display: inline-block;
+  height: 48px;
+}
+.ml8-RugbyUnionScoreUpdate_ScoreMain {
+  color: #ffdf1b;
+}
+.ml8-RugbyUnionScoreUpdate_ScoreMain,
+.ml8-RugbyUnionScoreUpdate_ScoreOriginal {
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 45px;
+}
+.ml8-RugbyUnionScoreUpdate_ScoreOriginal {
+  color: #537ba3;
+}
+.ml8-ScoreHeader {
+  padding: 7px 1px 6px;
+  font-size: 0;
+  position: relative;
+  display:flex;
+}
+.ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ie-8 .ml8-ScoreHeader,
+.ie-9 .ml8-ScoreHeader {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.ie-8 .ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader,
+.ie-9 .ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+.ml8-ScoreHeader_Column {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.ml8-ScoreHeader_Column-left {
+  padding-right: 2px;
+}
+.ie-8 .ml8-ScoreHeader_Column-left,
+.ie-9 .ml8-ScoreHeader_Column-left {
+  display: inline-block;
+  position: relative;
+  padding-right: 38px;
+}
+.ml8-ScoreHeader_Column-right {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 2px;
+}
+.ie-8 .ml8-ScoreHeader_Column-right,
+.ie-9 .ml8-ScoreHeader_Column-right {
+  display: inline-block;
+  position: relative;
+  padding-left: 38px;
+}
+.ml8-ScoreHeader_Team {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  color: #e4e4e4;
+  line-height: 17px;
+  margin-bottom: 2px;
+}
+.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Team {
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Team {
+  padding-right: 8px;
+  padding-left: 10px;
+  text-align: right;
+}
+.ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_Team {
+  font-size: 12px;
+  line-height: 15px;
+}
+.ie-8 .ml8-ScoreHeader_Column-haslabel.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Team,
+.ie-9 .ml8-ScoreHeader_Column-haslabel.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Team {
+  margin-right: 62px;
+}
+.ie-8 .ml8-ScoreHeader_Column-haslabel.ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Team,
+.ie-9 .ml8-ScoreHeader_Column-haslabel.ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Team {
+  margin-left: 62px;
+}
+.ml8-ScoreHeader_TeamText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ml8-ScoreHeader_TeamBorder {
+  position: absolute;
+  height: 15px;
+  margin-top: 1px;
+}
+.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_TeamBorder {
+  border-left: 3px solid #fff;
+  left: 0;
+}
+.ml8-ScoreHeader_Column-right .ml8-ScoreHeader_TeamBorder {
+  border-right: 3px solid #fff;
+  right: 0;
+}
+.ml8-ScoreHeader_Label {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 4px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  background-color: #000;
+  color: #fff;
+}
+.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Label {
+  margin-right: 10px;
+}
+.ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Label {
+  margin-left: 10px;
+}
+.ie-8 .ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Label,
+.ie-9 .ml8-ScoreHeader_Column-left .ml8-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 38px;
+}
+.ie-8 .ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Label,
+.ie-9 .ml8-ScoreHeader_Column-right .ml8-ScoreHeader_Label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 38px;
+}
+.ml8-ScoreHeader_ScoreContainer {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-size: 0;
+}
+.ml8-ScoreHeader_Column-left .ml8-ScoreHeader_ScoreContainer {
+  text-align: right;
+}
+.ie-8 .ml8-ScoreHeader_Column-left .ml8-ScoreHeader_ScoreContainer,
+.ie-9 .ml8-ScoreHeader_Column-left .ml8-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  width: 36px;
+}
+.ie-8 .ml8-ScoreHeader_Column-right .ml8-ScoreHeader_ScoreContainer,
+.ie-9 .ml8-ScoreHeader_Column-right .ml8-ScoreHeader_ScoreContainer {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 2px;
+  width: 36px;
+}
+.ie-8 .ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_ScoreContainer,
+.ie-9 .ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_ScoreContainer {
+  top: -2px;
+}
+.ml8-ScoreHeader_Score {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 7px;
+  min-width: 22px;
+  text-align: center;
+  color: #ffdf1b;
+  background-color: #4d4d4d;
+  border-radius: 1px;
+}
+.ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_Score {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ie-8 .ml8-ScoreHeader_Score,
+.ie-9 .ml8-ScoreHeader_Score {
+  display: block;
+  width: 100%;
+}
+.ml8-ScoreHeader_Timer {
+  margin-top: 1px;
+  font-size: 11px;
+  line-height: 16px;
+  min-width: 48px;
+  text-align: center;
+  padding: 0 6px 1px;
+  border-radius: 0 0 1px 1px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 10;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #b0e166;
+}
+.ie-8 .ml8-ScoreHeader_Timer {
+  left: 0;
+  width: 100%;
+}
+.ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_Timer {
+  line-height: 14px;
+  min-width: 40px;
+  font-size: 10px;
+}
+.ml8-ScoreHeader_AdditionalText {
+  margin-right: 7px;
+}
+.ml8-MatchLiveRugbyLeagueModule-narrow .ml8-ScoreHeader_AdditionalText {
+  margin-right: 5px;
+}
+.ml8-ScoreHeader_TimerInnerWrapper {
+  background-color: #27380d;
+  padding: 0 6px 1px;
+  display: none;
+}
+.ml8-ScoreHeader_TimerInnerWrapper.ml8-ScoreHeader_TimerInnerWrapper-show {
+  display: inline-block;
+}
+.ml8-ScoreHeader_Timer-empty {
+  display: none;
+}
+.ml8-ScoreUpdate {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ie-9 .ml8-ScoreUpdate {
+  display: block;
+}
+.ml8-ScoreUpdate_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml8-ScoreUpdate_OuterWrapper {
+  transition-property: height;
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-ScoreUpdate_OuterWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml8-ScoreUpdate_OuterWrapper,
+.wc-Page_RightColumn-animate .ml8-ScoreUpdate_OuterWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml8-ScoreUpdate_OuterWrapper {
+  display: table;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdate_OuterWrapper {
+  height: 38px;
+}
+.ml8-ScoreUpdate_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-flex: 1;
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  padding-left: 10px;
+}
+.ie-9 .ml8-ScoreUpdate_ScoreWrapper {
+  display: table-cell;
+  text-align: left;
+}
+.ml8-ScoreUpdate_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ie-9 .ml8-ScoreUpdate_ScoreWrapper-score1 {
+  text-align: right;
+}
+.ml8-ScoreUpdate_Score {
+  transition-property: min-width;
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ml8-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ml8-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdate_Score {
+  min-width: 30px;
+}
+.ie-9 .ml8-ScoreUpdate_Score {
+  transition-property: height;
+  display: inline-block;
+  height: 48px;
+}
+.wc-InPlayPage_RightColumn-animate .ie-9 .ml8-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ie-9 .ml8-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ie-9 .ml8-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdate_Score {
+  height: 38px;
+}
+.ml8-ScoreUpdate_ScoreMain {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 45px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-ScoreUpdate_ScoreMain,
+.wc-MyBetsPage_RightColumn-animate .ml8-ScoreUpdate_ScoreMain,
+.wc-Page_RightColumn-animate .ml8-ScoreUpdate_ScoreMain {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdate_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml8-ScoreUpdate_ScoreOriginal {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-ScoreUpdate_ScoreOriginal,
+.wc-MyBetsPage_RightColumn-animate .ml8-ScoreUpdate_ScoreOriginal,
+.wc-Page_RightColumn-animate .ml8-ScoreUpdate_ScoreOriginal {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdate_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml8-ScoreUpdateFallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: left;
+}
+.ml8-ScoreUpdateFallback_Title {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold, HelveticaNeueW01-75Bold, HelveticaNeue,
+    Helvetica Neue, Roboto Bold, Roboto, TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  text-align: center;
+  line-height: 15px;
+  white-space: normal;
+  color: #dbe681;
+}
+.ml8-ScoreUpdateFallback_OuterWrapper {
+  display: table;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 47.5%;
+  margin-top: -24px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdateFallback_OuterWrapper {
+  height: 38px;
+  margin-top: -19px;
+}
+.ml8-ScoreUpdateFallback_ScoreWrapper {
+  display: table-cell;
+  padding-left: 10px;
+}
+.ml8-ScoreUpdateFallback_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  text-align: right;
+}
+.ml8-ScoreUpdateFallback_Score {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  min-width: 40px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdateFallback_Score {
+  height: 38px;
+  min-width: 30px;
+}
+.ml8-ScoreUpdateFallback_ScoreMain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #ffdf1b;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdateFallback_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml8-ScoreUpdateFallback_ScoreOriginal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI, Roboto, Droid Sans, Verdana, Arial,
+    Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+  color: #ffdf1b;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-ScoreUpdateFallback_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml8-ScoreUpdateFallback-transparent {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+}
+.ml8-Stat {
+  display: table-cell;
+  vertical-align: top;
+  width: 25%;
+  padding: 0 5px;
+  text-align: right;
+}
+.ml8-DualStat ~ .ml8-Stat {
+  text-align: left;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-DualStat ~ .ml8-Stat,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-Stat,
+.ml8-Stat_Text {
+  text-align: center;
+}
+.ml8-Stat_Text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ddd;
+  min-width: 24px;
+  padding: 0 2px 5px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 5px;
+}
+.ml8-Stat_Text + .ml8-Stat_Text {
+  margin-left: 21px;
+}
+.ml8-DualStat .ml8-Stat_Text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ml8-Stat_Header {
+  transition-property: line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-Stat_Header,
+.wc-MyBetsPage_RightColumn-animate .ml8-Stat_Header,
+.wc-Page_RightColumn-animate .ml8-Stat_Header {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-Stat_Header {
+  line-height: 12px;
+}
+.ml8-StatsBar_MiniBar {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow
+  .ml8-PossessionBar_Wrapper
+  ~ .ml8-PossessionBar_Wrapper
+  .ml8-StatsBar_MiniBar {
+  margin-bottom: 9px;
+}
+.ml8-StatsBar_MiniBarValue {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+}
+.ml8-StatsBar_MiniBarValue-1 {
+  transition-property: padding-right;
+  padding-right: 8px;
+  text-align: right;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-StatsBar_MiniBarValue-1,
+.wc-MyBetsPage_RightColumn-animate .ml8-StatsBar_MiniBarValue-1,
+.wc-Page_RightColumn-animate .ml8-StatsBar_MiniBarValue-1 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-StatsBar_MiniBarValue-1 {
+  padding-right: 5px;
+}
+.ml8-StatsBar_MiniBarValue-2 {
+  transition-property: padding-right;
+  padding-left: 8px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-StatsBar_MiniBarValue-2,
+.wc-MyBetsPage_RightColumn-animate .ml8-StatsBar_MiniBarValue-2,
+.wc-Page_RightColumn-animate .ml8-StatsBar_MiniBarValue-2 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-StatsBar_MiniBarValue-2 {
+  padding-left: 5px;
+}
+.ml8-StatsBar_MiniBarColumn {
+  transition-property: width;
+  display: table-cell;
+  vertical-align: middle;
+  width: 261px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-StatsBar_MiniBarColumn,
+.wc-MyBetsPage_RightColumn-animate .ml8-StatsBar_MiniBarColumn,
+.wc-Page_RightColumn-animate .ml8-StatsBar_MiniBarColumn {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-StatsBar_MiniBarColumn {
+  width: 181px;
+}
+.ml8-StatsBar_MiniBarSurround {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  font-size: 0;
+  height: 5px;
+  border-radius: 2px;
+}
+.ml8-StatsBar_MiniBarSurround:before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  display: block;
+  background-color: #393939;
+  width: 3px;
+  height: 5px;
+  z-index: 10;
+}
+.ie-8 .ml8-StatsBar_MiniBarSurround:before {
+  z-index: 0;
+}
+.ml8-StatsBar_MiniBarFill {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: #fff;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-right: 1px solid #393939;
+  z-index: 20;
+}
+.ie-8 .ml8-StatsBar_MiniBarFill {
+  z-index: 0;
+}
+.ml8-StatsLower {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.ml8-StatsUpper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  max-width: 640px;
+  padding: 2px 11px 9px;
+  min-height: 71px;
+  border-bottom: 1px solid #a7a7a7;
+}
+.no-w3cflexbox .ml8-StatsUpper {
+  display: table;
+  width: 100%;
+}
+.ml8-StatsUpper_Wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  margin-top: 6px;
+}
+.ml8-StatsUpper_Two .ml8-StatsUpper_Wrapper {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ml8-TabController .ml8-StatsUpper {
+  display: none;
+}
+.ml8-StatsUpper_ScoreboardWrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ml8-Summary {
+  min-height: 66px;
+  background-color: #bbb;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ml8-Summary.ml8-Summary:empty {
+  min-height: 0;
+}
+.ml8-Suspension {
+  display: block;
+  float: left;
+  height: 14px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #537ba3;
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-left: 11px;
+  padding-right: 3px;
+  background-repeat: no-repeat;
+  background-size: 6px 8px;
+  background-position: 3px 3px;
+  line-height: 14px;
+  margin-top: 4px;
+  border-radius: 3px;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.svg);
+}
+.ml8-SuspensionContainer_Away .ml8-Suspension {
+  float: right;
+}
+.ie-8 .ml8-Suspension,
+.ie-9 .ml8-Suspension {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.png);
+}
+.ml8-SuspensionContainer_Away,
+.ml8-SuspensionContainer_Home {
+  transition-property: width;
+  height: 14px;
+  width: 37%;
+  display: block;
+  font-size: 0;
+  margin-top: 1px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-SuspensionContainer_Away,
+.wc-InPlayPage_RightColumn-animate .ml8-SuspensionContainer_Home,
+.wc-MyBetsPage_RightColumn-animate .ml8-SuspensionContainer_Away,
+.wc-MyBetsPage_RightColumn-animate .ml8-SuspensionContainer_Home,
+.wc-Page_RightColumn-animate .ml8-SuspensionContainer_Away,
+.wc-Page_RightColumn-animate .ml8-SuspensionContainer_Home {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-SuspensionContainer_Away,
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-SuspensionContainer_Home {
+  width: 33%;
+}
+.ml8-SuspensionContainer_Home {
+  float: left;
+  margin-left: 24px;
+}
+.ml8-SuspensionContainer_Away {
+  float: right;
+  margin-right: 24px;
+}
+.ml8-TimeBar {
+  transition-property: margin-bottom;
+  margin: 17px 1px 18px;
+  height: 8px;
+  background-color: #585858;
+  border-radius: 1px;
+  position: relative;
+  transition: opacity 0.15s ease-in, visibility 0.15s ease-in;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-TimeBar,
+.wc-MyBetsPage_RightColumn-animate .ml8-TimeBar,
+.wc-Page_RightColumn-animate .ml8-TimeBar {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-TimeBar {
+  margin-bottom: 16px;
+  height: 6px;
+}
+.ml8-PitchAndEvents-eventsvisible ~ .ml8-TimeBar {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
+}
+.ml8-TimeBar_Fill {
+  display: block;
+  width: 0;
+  height: 8px;
+  background-color: #678f2b;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-TimeBar_Fill {
+  height: 6px;
+}
+.ml8-TimeBar_Half {
+  transition-property: width, font-size, line-height, margin;
+  line-height: 16px;
+  font-size: 11px;
+  width: 25px;
+  text-align: center;
+  color: #c7c7c7;
+  background-color: #585858;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.07);
+  border-radius: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -7px 0 0 -12.5px;
+  z-index: 5;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-TimeBar_Half,
+.wc-MyBetsPage_RightColumn-animate .ml8-TimeBar_Half,
+.wc-Page_RightColumn-animate .ml8-TimeBar_Half {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-TimeBar_Half {
+  width: 22px;
+  font-size: 10px;
+  line-height: 14px;
+  margin: -6px 0 0 -12.5px;
+}
+.ml8-TimelineEvent_Team1,
+.ml8-TimelineEvent_Team2 {
+  position: absolute;
+  height: 15px;
+}
+.ml8-TimelineEvent_Team1:before,
+.ml8-TimelineEvent_Team2:before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 15px;
+  background-size: 11px auto;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon4:before,
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon5:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon4:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon5:before {
+  width: 7px;
+  height: 11px;
+  background-size: 7px 11px;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
+  top: 1px;
+}
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon4:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon4:before {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
+}
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon10:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon10:before {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
+}
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon8:before,
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon9:before,
+.ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon11:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon8:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon9:before,
+.ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon11:before {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
+}
+.ml8-TimelineEvent_Team1 {
+  top: -7px;
+  margin-top: -3px;
+}
+.ml8-TimelineEvent_Team2 {
+  transition-property: margin-top;
+  bottom: -5px;
+  margin-top: 3px;
+}
+.wc-InPlayPage_RightColumn-animate .ml8-TimelineEvent_Team2,
+.wc-MyBetsPage_RightColumn-animate .ml8-TimelineEvent_Team2,
+.wc-Page_RightColumn-animate .ml8-TimelineEvent_Team2 {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml8-MatchLiveRugbyUnionModule-narrow .ml8-TimelineEvent_Team2 {
+  margin-top: 1px;
+}
+.ml8-TimelineEvent_EventDetails {
+  position: absolute;
+  top: 100%;
+  left: -50px;
+  padding: 6px 10px 7px;
+  background-color: #ddd;
+  border-radius: 2px;
+  min-width: 248px;
+  max-width: 266px;
+  font-size: 13px;
+  color: #333;
+  margin-top: 7px;
+  opacity: 1;
+  visibility: hidden;
+  overflow: auto;
+}
+.ml8-TimelineEvent_EventDetails:before {
+  display: block;
+  top: -5px;
+  left: 52px;
+}
+.ml8-TimelineEvent_EventDetails:before,
+.ml8-TimelineEvent_Nib {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ddd;
+}
+.ml8-TimelineEvent_Nib {
+  display: none;
+  top: 100%;
+  margin-top: 3px;
+  left: -5px;
+  z-index: 99;
+}
+.ml8-TimelineEvent-hastooltip .ml8-TimelineEvent_Nib {
+  display: block;
+}
+.ml8-TimelineEventGroup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 10px;
+  min-width: 180px;
+  float: left;
+  background-color: #ddd;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #333;
+  margin-top: 7px;
+  opacity: 0;
+  visibility: hidden;
+}
+.ie-8 .ml8-TimelineEventGroup {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
+}
+.ml8-TimelineEventGroup.ml8-TimelineEventGroup_Tooltip {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99;
+}
+.ml8-TimelineEventGroup_Icon {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 6px;
+  z-index: 25;
+  width: 11px;
+  height: 15px;
+  background-size: 11px auto;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -2px;
+}
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4,
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon5 {
+  width: 10px;
+  height: 14px;
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
+  top: -3px;
+  background-size: 10px 14px;
+}
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4,
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon5 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card.png);
+  top: auto;
+}
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
+}
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card.png);
+  top: auto;
+}
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon8,
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon9,
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon11 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
+}
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon8,
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon9,
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon11 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.png);
+}
+.ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon10 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
+}
+.ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon10 {
+  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.png);
+}
+.ml8-TimelineEventGroup_AwayContainer + .ml8-TimelineEventGroup_HomeContainer,
+.ml8-TimelineEventGroup_HomeContainer + .ml8-TimelineEventGroup_AwayContainer {
+  margin-top: 9px;
+}
+.ml8-TimelineEventGroup_TeamNames {
+  font-size: 13px;
+  color: #333;
+  line-height: 16px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.ml8-TimelineEventGroup_EventDetails {
+  line-height: 18px;
+  white-space: nowrap;
+}
+.ml8-TimelineEventGroup_Description,
+.ml8-TimelineEventGroup_Time {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 11px;
+  color: #666;
+}
+.ml8-TimelineEventGroup_Time {
+  margin-right: 4px;
+}
+.ml8-TimelineEventGroup_MarginFix {
+  margin-left: 0;
+  margin-right: 0;
+}
+.ml8-XYBlob {
+  margin-left: -22px;
+  margin-top: -22px;
+  opacity: 0;
+  left: 100px;
+  top: 100px;
+  z-index: 50;
+}
+.ml8-XYBlob,
+.ml8-XYBlob_Inner1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+.ml8-XYBlob_Inner1 {
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-animation-name: ml8-XYBlob_AnimateInnerXYBlob1;
+  animation-name: ml8-XYBlob_AnimateInnerXYBlob1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+  animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+}
+.ml8-XYBlob_Collapse .ml8-XYBlob_Inner1,
+.ml8-XYBlob_Static .ml8-XYBlob_Inner1 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: collapsePoint;
+  animation-name: collapsePoint;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.ml8-XYBlob_Static .ml8-XYBlob_Inner1 {
+  opacity: 0.5;
+}
+.ml8-XYBlob_Inner2 {
+  position: absolute;
+  opacity: 0.2;
+  background: #fff;
+  top: 8px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  -webkit-animation-name: ml8-XYBlob_AnimateInnerXYBlob2;
+  animation-name: ml8-XYBlob_AnimateInnerXYBlob2;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+  animation-timing-function: cubic-bezier(0, 0, 0.115, 0.99);
+}
+.ml8-XYBlob_Collapse .ml8-XYBlob_Inner2 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: ml8-XYBlob_CollapsePoint;
+  animation-name: ml8-XYBlob_CollapsePoint;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  opacity: 0.1;
+}
+.ml8-XYBlob_Static .ml8-XYBlob_Inner2 {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: ml8-XYBlob_CollapsePoint2;
+  animation-name: ml8-XYBlob_CollapsePoint2;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.ml8-XYBlob_Inner3 {
+  position: absolute;
+  background: #fff;
+  top: 18px;
+  left: 18px;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  -webkit-animation-name: ml8-XYBlob_AnimateInnerXYBlob3;
+  animation-name: ml8-XYBlob_AnimateInnerXYBlob3;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.ml8-XYBlob_Collapse .ml8-XYBlob_Inner3,
+.ml8-XYBlob_Static .ml8-XYBlob_Inner3 {
+  -webkit-animation: none;
+  animation: none;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+@-webkit-keyframes ml8-XYBlob_AnimateInnerXYBlob1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes ml8-XYBlob_AnimateInnerXYBlob1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes ml8-XYBlob_AnimateInnerXYBlob2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes ml8-XYBlob_AnimateInnerXYBlob2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes ml8-XYBlob_AnimateInnerXYBlob3 {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes ml8-XYBlob_AnimateInnerXYBlob3 {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes ml8-XYBlob_CollapsePoint {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes ml8-XYBlob_CollapsePoint {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes ml8-XYBlob_CollapsePoint2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.1;
+  }
+}
+@keyframes ml8-XYBlob_CollapsePoint2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.1;
+  }
+}
