@@ -40,7 +40,7 @@ body, input {
   width: 25px;
   height: 35px;
   z-index: 2;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_kick.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/animations/icon_kick.svg);
 }
 .ml8-CommonAnimations_Line {
   width: 3px;
@@ -178,10 +178,10 @@ body, input {
   -webkit-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
 }
 .ie-9 .ml8-Kick_Posts {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
 }
 .ml8-Kick_Ball {
   background-size: contain;
@@ -191,10 +191,10 @@ body, input {
   -webkit-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
 }
 .ie-9 .ml8-Kick_Ball {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
 }
 .ml8-Kick_Flash {
   width: 100%;
@@ -210,10 +210,10 @@ body, input {
   width: 25px;
   height: 35px;
   z-index: 2;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.svg);
 }
 .ie-9 .ml8-KickAwarded_Conversion {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_kick_rugbyunion.png);
 }
 .ml8-Lineout_ArrowStraight {
   width: 18%;
@@ -229,15 +229,15 @@ body, input {
   background-size: 100%;
   background-position: 50%;
   background-repeat: no-repeat;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.svg);
 }
 .ie-9 .ml8-Lineout_Arrow,
 .ie-9 .ml8-Lineout_ArrowStraight {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/arrow-straight.png);
 }
 .ml8-PlayerKick_NarrowKickRadial {
   height: 60%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-narrow.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-narrow.png);
 }
 .ml8-PlayerKick_NarrowKickRadial,
 .ml8-PlayerKick_WideKickRadial {
@@ -252,7 +252,7 @@ body, input {
 }
 .ml8-PlayerKick_WideKickRadial {
   height: 83%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-wide.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/kick-radial-wide.png);
 }
 .ml8-PointBase_Ball {
   background-size: contain;
@@ -262,10 +262,10 @@ body, input {
   -webkit-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.svg);
 }
 .ie-9 .ml8-PointBase_Ball {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_ball_rugbyunion.png);
 }
 .ml8-PointBase {
   width: 100%;
@@ -284,48 +284,48 @@ body, input {
   -webkit-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.svg);
 }
 .ie-9 .ml8-PointBase_Posts {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_rugby_post.png);
 }
 .ml8-RedCard_RedCard {
   background-size: 14px;
   width: 20px;
   height: 38px;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/redcard.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/redcard.svg);
 }
 .ie-9 .ml8-RedCard_RedCard {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/redcard.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/redcard.png);
 }
 .ml8-SinBin_YellowCard {
   background-size: 14px;
   width: 20px;
   height: 38px;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.svg);
 }
 .ie-9 .ml8-SinBin_YellowCard {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/yellowcard.png);
 }
 .ml8-SinBinReturn_SinBinReturned {
   background-size: contain;
   background-position: 50%;
   width: 37px;
   height: 37px;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.svg);
 }
 .ie-9 .ml8-SinBinReturn_SinBinReturned {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/Assets/animations/icon_suspension_return.png);
 }
 .ml8-Try_Try {
   background-size: contain;
   width: 35px;
   height: 35px;
   z-index: 2;
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.svg);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.svg);
 }
 .ie-9 .ml8-Try_Try {
-  background-image: url(/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.png);
+  background-image: url(https://www.bet365.com/sports/matchLiveRugbyUnionModule/assets/animations/icon_try_rugbyunion.png);
 }
 .ml8-Try_Flash {
   width: 100%;
@@ -431,10 +431,10 @@ body, input {
   left: 0;
   background-size: 100%;
   pointer-events: none;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitch.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitch.png);
 }
 .ml8-MatchLiveRugbyUnionModule-narrow .ml8-MatchLiveRugbyUnionModule_PNGPitchContainer {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitchNarrow.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/rugbyUnionPitchNarrow.png);
 }
 .ml8-MatchLiveRugbyUnionModule_SVGPitchContainer {
   position: absolute;
@@ -561,12 +561,12 @@ body, input {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: 0 -32px;
-  background-image: url(/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.svg);
+  background-image: url(https://www.bet365.com/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.svg);
   vertical-align: top;
   opacity: 0.5;
 }
 .no-svg .ml8-ModalController_Icon:before {
-  background-image: url(/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.png);
+  background-image: url(https://www.bet365.com/SportsUI/styles/images/MatchLiveLib/ui/menu_sprites.png);
 }
 .ml8-RugbyUnionPitch_SVG {
   width: 100%;
@@ -1392,14 +1392,14 @@ body, input {
   line-height: 14px;
   margin-top: 4px;
   border-radius: 3px;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.svg);
 }
 .ml8-SuspensionContainer_Away .ml8-Suspension {
   float: right;
 }
 .ie-8 .ml8-Suspension,
 .ie-9 .ml8-Suspension {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/animations/icon_sinbin.png);
 }
 .ml8-SuspensionContainer_Away,
 .ml8-SuspensionContainer_Home {
@@ -1517,16 +1517,16 @@ body, input {
   width: 7px;
   height: 11px;
   background-size: 7px 11px;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
   top: 1px;
 }
 .ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon4:before,
 .ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon4:before {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
 }
 .ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon10:before,
 .ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon10:before {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
 }
 .ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon8:before,
 .ml8-TimelineEvent_Team1.ml8-TimelineEvent_Icon9:before,
@@ -1534,7 +1534,7 @@ body, input {
 .ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon8:before,
 .ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon9:before,
 .ml8-TimelineEvent_Team2.ml8-TimelineEvent_Icon11:before {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
 }
 .ml8-TimelineEvent_Team1 {
   top: -7px;
@@ -1637,37 +1637,37 @@ body, input {
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon5 {
   width: 10px;
   height: 14px;
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card_TL.svg);
   top: -3px;
   background-size: 10px 14px;
 }
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4,
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon5 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Red_Card.png);
   top: auto;
 }
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card_TL.svg);
 }
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon4 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Yellow_Card.png);
   top: auto;
 }
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon8,
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon9,
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon11 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.svg);
 }
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon8,
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon9,
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon11 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_White.png);
 }
 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon10 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.svg);
 }
 .ie-8 .ml8-TimelineEventGroup_Icon.ml8-TimelineEventGroup_Icon10 {
-  background-image: url(/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.png);
+  background-image: url(https://www.bet365.com/sports/MatchLiveRugbyUnionModule/assets/IconsSummary_Sprite/Rugby_Ball_Yellow.png);
 }
 .ml8-TimelineEventGroup_AwayContainer + .ml8-TimelineEventGroup_HomeContainer,
 .ml8-TimelineEventGroup_HomeContainer + .ml8-TimelineEventGroup_AwayContainer {
