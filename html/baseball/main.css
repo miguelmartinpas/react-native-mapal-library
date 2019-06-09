@@ -1012,7 +1012,7 @@ body, input {
 }
 .baseball {
   transition-property: max-width;
-  max-width: 449px;
+  max-width: 450px;
   position: relative;
 }
 .wc-InPlayPage_RightColumn-animate .baseball,
@@ -2429,7 +2429,7 @@ body, input {
   height: 43px;
 }
 .inningsStats-row:last-child {
-  height: 42px;
+  height: 38px;
 }
 .inningsStats-col {
   transition-property: width, padding;
