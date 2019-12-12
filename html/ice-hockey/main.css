@@ -1,0 +1,1846 @@
+body,
+input {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+.tk-TeamKit_SVG {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.ml17-CommonAnimations_Asset {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.ml17-CommonAnimations_Icon {
+  opacity: 0;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  z-index: 1;
+}
+.ml17-CommonAnimations_Line {
+  width: 3px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  opacity: 0;
+}
+.ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-CommonAnimations_H1TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #666;
+  white-space: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H1TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H1TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H1TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H1TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H1TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H1TextWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H1TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H1TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H1TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml17-CommonAnimations_H1TextBackupWrapper,
+  .ml17-CommonAnimations_H1TextGhostWrapper,
+  .ml17-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml17-CommonAnimations_H1TextBackupWrapper,
+  .ml17-CommonAnimations_H1TextGhostWrapper,
+  .ml17-CommonAnimations_H1TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H1TextWrapper {
+  line-height: 18px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H1TextWrapper {
+  font-size: 11px;
+  line-height: 14px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_ThreeLines
+  .ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_ThreeLines
+  .ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_ThreeLines
+  .ml17-CommonAnimations_H1TextWrapper {
+  line-height: 13px;
+}
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H1TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H1TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H1TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H1TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml17-CommonAnimations_H2TextBackupWrapper,
+.ml17-CommonAnimations_H2TextGhostWrapper,
+.ml17-CommonAnimations_H2TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #537ba3;
+  white-space: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H2TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H2TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H2TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H2TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H2TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H2TextWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H2TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H2TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H2TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml17-CommonAnimations_H2TextBackupWrapper,
+  .ml17-CommonAnimations_H2TextGhostWrapper,
+  .ml17-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml17-CommonAnimations_H2TextBackupWrapper,
+  .ml17-CommonAnimations_H2TextGhostWrapper,
+  .ml17-CommonAnimations_H2TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H2TextBackupWrapper,
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H2TextGhostWrapper,
+.ml17-AnimatedTextBar_ThreeLines .ml17-CommonAnimations_H2TextWrapper {
+  line-height: 20px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-CommonAnimations_H2TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H2TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H2TextBackupWrapper,
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H2TextGhostWrapper,
+.ml17-AnimatedTextBar_MatchStatus .ml17-CommonAnimations_H2TextWrapper {
+  font-size: 16px;
+  line-height: 22px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H2TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H2TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-AnimatedTextBar_MatchStatus
+  .ml17-CommonAnimations_H2TextWrapper {
+  font-size: 13px;
+  line-height: 16px;
+}
+.ml17-CommonAnimations_H3TextBackupWrapper,
+.ml17-CommonAnimations_H3TextGhostWrapper,
+.ml17-CommonAnimations_H3TextWrapper {
+  transition-property: font-size, line-height;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #537ba3;
+  white-space: normal;
+  font-size: 11px;
+  line-height: 15px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H3TextBackupWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H3TextGhostWrapper,
+.wc-InPlayPage_RightColumn-animate .ml17-CommonAnimations_H3TextWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H3TextBackupWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H3TextGhostWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-CommonAnimations_H3TextWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H3TextBackupWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H3TextGhostWrapper,
+.wc-Page_RightColumn-animate .ml17-CommonAnimations_H3TextWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+@media (max-device-width: 1024px) {
+  .ml17-CommonAnimations_H3TextBackupWrapper,
+  .ml17-CommonAnimations_H3TextGhostWrapper,
+  .ml17-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml17-CommonAnimations_H3TextBackupWrapper,
+  .ml17-CommonAnimations_H3TextGhostWrapper,
+  .ml17-CommonAnimations_H3TextWrapper {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-CommonAnimations_H3TextBackupWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H3TextGhostWrapper,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-CommonAnimations_H3TextWrapper {
+  font-size: 10px;
+  line-height: 12px;
+}
+.ml17-Foul_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_foul.svg);
+}
+.ie-8 .ml17-Foul_Anims,
+.ie-9 .ml17-Foul_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_foul.png);
+}
+.ml17-Goal_Anims {
+  background-size: contain;
+  width: 45px;
+  height: 50px;
+  z-index: 2;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/net.svg);
+}
+.ie-8 .ml17-Goal_Anims,
+.ie-9 .ml17-Goal_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/net.png);
+}
+.ml17-Goal_AnimsPuck {
+  background-size: contain;
+  width: 45px;
+  height: 50px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/goalPuck.svg);
+}
+.ie-8 .ml17-Goal_AnimsPuck,
+.ie-9 .ml17-Goal_AnimsPuck {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/goalPuck@1x.png);
+}
+.ml17-Goal_AnimsFlash {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  border-radius: 28px;
+}
+.ml17-MatchInfo_AnimsIntro {
+  position: relative;
+  width: 95%;
+  left: 2.5%;
+  height: 100%;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+}
+@media (max-device-width: 1024px) {
+  .ml17-MatchInfo_AnimsIntro {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml17-MatchInfo_AnimsIntro {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+.ml17-MatchInfo_IntroTopRow {
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ie-8 .ml17-MatchInfo_IntroTopRow,
+.ie-9 .ml17-MatchInfo_IntroTopRow {
+  display: table;
+}
+.ml17-MatchInfo_IntroHomeTeamWrapper {
+  transition-property: font-size, line-height;
+  width: 50%;
+  color: #777;
+  font-size: 13px;
+  line-height: 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamWrapper,
+.wc-Page_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-MatchInfo_IntroHomeTeamWrapper,
+.ie-9 .ml17-MatchInfo_IntroHomeTeamWrapper {
+  display: table-cell;
+  text-align: right;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-MatchInfo_IntroHomeTeamWrapper {
+  font-size: 11px;
+  line-height: 13px;
+}
+.ml17-MatchInfo_IntroHomeTeamName {
+  transition-property: padding-right;
+  padding-right: 10px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamName,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamName,
+.wc-Page_RightColumn-animate .ml17-MatchInfo_IntroHomeTeamName {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-MatchInfo_IntroHomeTeamName {
+  padding-right: 6px;
+}
+.ml17-MatchInfo_IntroVersus {
+  transition-property: font-size;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #777;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchInfo_IntroVersus,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchInfo_IntroVersus,
+.wc-Page_RightColumn-animate .ml17-MatchInfo_IntroVersus {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-MatchInfo_IntroVersus,
+.ie-9 .ml17-MatchInfo_IntroVersus {
+  display: table-cell;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-MatchInfo_IntroVersus {
+  font-size: 13px;
+}
+.ml17-MatchInfo_IntroAwayTeamWrapper {
+  transition-property: font-size, line-height;
+  width: 50%;
+  color: #777;
+  font-size: 13px;
+  line-height: 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamWrapper,
+.wc-Page_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-MatchInfo_IntroAwayTeamWrapper,
+.ie-9 .ml17-MatchInfo_IntroAwayTeamWrapper {
+  display: table-cell;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-MatchInfo_IntroAwayTeamWrapper {
+  font-size: 11px;
+  line-height: 13px;
+}
+.ml17-MatchInfo_IntroAwayTeamName {
+  transition-property: padding-left;
+  padding-left: 10px;
+  white-space: normal;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamName,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamName,
+.wc-Page_RightColumn-animate .ml17-MatchInfo_IntroAwayTeamName {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-MatchInfo_IntroAwayTeamName {
+  padding-left: 6px;
+}
+.ml17-PulledKeeper_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 45px;
+  height: 50px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/pulledKeeper.svg);
+}
+.ie-8 .ml17-PulledKeeper_Anims,
+.ie-9 .ml17-PulledKeeper_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/pulledKeeper.png);
+}
+.ml17-RedCard_Anims {
+  background-size: contain;
+  width: 47px;
+  height: 47px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_redcard.svg);
+}
+.ie-8 .ml17-RedCard_Anims,
+.ie-9 .ml17-RedCard_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_redcard.png);
+}
+.ml17-Shot_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 50px;
+  height: 50px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/shot.svg);
+}
+.ie-9 .ml17-Shot_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/shot.png);
+}
+.ml17-Suspended_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_suspension.svg);
+}
+.ie-8 .ml17-Suspended_Anims,
+.ie-9 .ml17-Suspended_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_suspension.png);
+}
+.ml17-Suspension_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 37px;
+  height: 37px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_suspension.svg);
+}
+.ie-8 .ml17-Suspension_Anims,
+.ie-9 .ml17-Suspension_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_suspension.png);
+}
+.ml17-TimeOut_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 36px;
+  height: 36px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/timeOut.svg);
+}
+.ie-8 .ml17-TimeOut_Anims,
+.ie-9 .ml17-TimeOut_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/timeOut.png);
+}
+.ml17-TimePenalty_Anims {
+  background-size: contain;
+  background-position: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyMan.svg);
+}
+.ie-8 .ml17-TimePenalty_Anims,
+.ie-9 .ml17-TimePenalty_Anims {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyMan.png);
+}
+.ml17-MatchLiveIceHockeyModule {
+  transition-property: padding-left, padding-right, max-width;
+  background-color: #393939;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  max-width: 400px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchLiveIceHockeyModule,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchLiveIceHockeyModule,
+.wc-Page_RightColumn-animate .ml17-MatchLiveIceHockeyModule {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-MatchLiveIceHockeyModule {
+  width: 400px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow {
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 286px;
+}
+.ie-8 .ml17-MatchLiveIceHockeyModule-narrow {
+  width: 286px;
+}
+.ml17-MatchLiveIceHockeyModule_NoScoreHeader {
+  padding-top: 0;
+}
+.ml17-MatchLiveIceHockeyModule_Wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+  min-height: 147px;
+}
+.ie-8 .ml17-MatchLiveIceHockeyModule_Wrapper,
+.ie-9 .ml17-MatchLiveIceHockeyModule_Wrapper {
+  display: block;
+}
+.ml17-MatchLiveIceHockeyModule_MatchLiveWrapper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.ml17-MatchLiveIceHockeyModule_Constrainer {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding: 0 5px;
+}
+.ml17-MatchLiveIceHockeyModule_AnimWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-MatchLiveIceHockeyModule_AnimWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-MatchLiveIceHockeyModule_AnimWrapper,
+.wc-Page_RightColumn-animate .ml17-MatchLiveIceHockeyModule_AnimWrapper {
+  opacity: 0;
+}
+.ml17-MatchLiveIceHockeyModule_PitchContainer {
+  position: relative;
+  border: 1px solid #333;
+  border-radius: 31px;
+}
+.ie-8 .ml17-MatchLiveIceHockeyModule_PitchContainer {
+  border: none;
+}
+.ml17-MatchLiveIceHockeyModule_PNGPitchContainer {
+  transition-property: height;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/IceHockeyPitch.png);
+  background-color: #f3fbff;
+  border-radius: 30px;
+  width: 100%;
+  height: 179px;
+  z-index: 1;
+}
+.wc-InPlayPage_RightColumn-animate
+  .ml17-MatchLiveIceHockeyModule_PNGPitchContainer,
+.wc-MyBetsPage_RightColumn-animate
+  .ml17-MatchLiveIceHockeyModule_PNGPitchContainer,
+.wc-Page_RightColumn-animate .ml17-MatchLiveIceHockeyModule_PNGPitchContainer {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-MatchLiveIceHockeyModule_PNGPitchContainer {
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/iceHockeyPitchIE8.png', sizingMethod='scale')";
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-MatchLiveIceHockeyModule_PNGPitchContainer {
+  min-width: 276px;
+  height: 124px;
+}
+.ml17-MatchLiveIceHockeyModule_SVGPitchContainer {
+  transition-property: height;
+  width: 100%;
+  height: 179px;
+  z-index: 1;
+}
+.wc-InPlayPage_RightColumn-animate
+  .ml17-MatchLiveIceHockeyModule_SVGPitchContainer,
+.wc-MyBetsPage_RightColumn-animate
+  .ml17-MatchLiveIceHockeyModule_SVGPitchContainer,
+.wc-Page_RightColumn-animate .ml17-MatchLiveIceHockeyModule_SVGPitchContainer {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-MatchLiveIceHockeyModule_SVGPitchContainer {
+  height: 124px;
+}
+.ml17-MatchLiveIceHockeyModule_PitchPng,
+.ml17-MatchLiveIceHockeyModule_PitchSvg {
+  width: 100%;
+  height: 100%;
+  max-height: 181px;
+}
+.ml17-AllStats {
+  transition-property: padding-top;
+  padding-top: 9px;
+  margin: 0 2px;
+  border-top: 1px solid #474747;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-AllStats,
+.wc-MyBetsPage_RightColumn-animate .ml17-AllStats,
+.wc-Page_RightColumn-animate .ml17-AllStats {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-AllStats {
+  padding-top: 11px;
+}
+.ml17-IceHockeyTimeline {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin-top: 17px;
+  margin-bottom: 18px;
+  height: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.ie-8 .ml17-IceHockeyTimeline,
+.ie-9 .ml17-IceHockeyTimeline {
+  display: table;
+  width: 100%;
+}
+.ml17-MatchLiveIceHockey-narrow .ml17-IceHockeyTimeline {
+  margin-bottom: 16px;
+}
+.ml17-IceHockeyTimeline_Third {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 33.33%;
+  background-color: #585858;
+  border-radius: 1px;
+  position: relative;
+}
+.ie-8 .ml17-IceHockeyTimeline_Third,
+.ie-9 .ml17-IceHockeyTimeline_Third {
+  display: table-cell;
+}
+.ml17-IceHockeyTimeline_Third.ml17-IceHockeyTimeline_Third-middle {
+  border-left: 4px solid #383838;
+  border-right: 4px solid #383838;
+}
+.ie-8 .ml17-IceHockeyTimeline_Third.ml17-IceHockeyTimeline_Third-middle {
+  border-left: 0;
+  border-right: 0;
+}
+.ml17-IceHockeyTimeline_Border {
+  width: 4px;
+  background-color: #383838;
+}
+.ml17-IceHockeyTimeline_Fill {
+  height: 8px;
+  background-color: #3882a3;
+  position: relative;
+  border-radius: 1px;
+}
+.ml17-IceHockeyTimeline_Powerplay {
+  height: 8px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/PowerPlay.svg);
+  border-radius: 1px;
+}
+.ie-8 .ml17-IceHockeyTimeline_Powerplay {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/PowerPlay.png);
+}
+.ml17-IceHockeyTimeline_Event {
+  display: block;
+  width: 15px;
+  height: 7px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/HockeyPuck.svg);
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  position: absolute;
+  margin-left: -7.5px;
+}
+.ie-8 .ml17-IceHockeyTimeline_Event {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/HockeyPuck.png);
+}
+.ml17-IceHockeyTimeline_Event-top {
+  top: -4px;
+}
+.ml17-IceHockeyTimeline_Event-bottom {
+  bottom: -5px;
+  margin-top: 5px;
+}
+.ml17-IceHockeyTimelineEvent_Nib {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  height: 0;
+  margin-top: 2px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ddd;
+  z-index: 1;
+}
+.ml17-IceHockeyTimeline_Event:hover .ml17-IceHockeyTimelineEvent_Nib,
+.ml17-IceHockeyTimeline_Powerplay:hover .ml17-IceHockeyTimelineEvent_Nib {
+  display: block;
+}
+.ml17-IceHockeyTimeline_Powerplay-small .ml17-IceHockeyTimelineEvent_Nib {
+  left: 0;
+}
+.ml17-IceHockeyTimelineTooltip {
+  position: absolute;
+  top: 14px;
+  margin-left: -3px;
+  padding: 6px 10px 7px;
+  background-color: #ddd;
+  border-radius: 2px;
+  min-width: 248px;
+  max-width: 266px;
+  font-size: 13px;
+  color: #333;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+.ml17-IceHockeyTimeline_Event:hover .ml17-IceHockeyTimelineTooltip,
+.ml17-IceHockeyTimeline_Powerplay:hover .ml17-IceHockeyTimelineTooltip {
+  opacity: 1;
+  visibility: visible;
+}
+.ml17-IceHockeyTimelineTooltipText {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 18px;
+  overflow: hidden;
+}
+.ie-8 .ml17-IceHockeyTimelineTooltipText,
+.ie-9 .ml17-IceHockeyTimelineTooltipText {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ie-8 .ml17-IceHockeyTimelineTooltipText.ml17-IceHockeyTimelineTooltipText_Puck,
+.ie-9 .ml17-IceHockeyTimelineTooltipText.ml17-IceHockeyTimelineTooltipText_Puck,
+.ml17-IceHockeyTimelineTooltipText_Team {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.ml17-IceHockeyTimelineTooltipText_Team {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+.ie-8 .ml17-IceHockeyTimelineTooltipText_Team,
+.ie-9 .ml17-IceHockeyTimelineTooltipText_Team {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ie-8
+  .ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Team,
+.ie-9
+  .ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Team {
+  display: inline;
+  width: auto;
+}
+.ml17-IceHockeyTimelineTooltipText_Type {
+  display: block;
+  color: #cf5269;
+  font-size: 11px;
+  padding: 0 10px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Type {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/HockeyPuck.svg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 0 8px 0 20px;
+  color: #666;
+}
+.ie-8
+  .ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Type {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/HockeyPuck.png);
+}
+.ie-8 .ml17-IceHockeyTimelineTooltipText_Type,
+.ie-9 .ml17-IceHockeyTimelineTooltipText_Type {
+  display: table-cell;
+  vertical-align: middle;
+  width: 60px;
+}
+.ie-8
+  .ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Type,
+.ie-9
+  .ml17-IceHockeyTimelineTooltipText_Puck
+  .ml17-IceHockeyTimelineTooltipText_Type {
+  display: inline-block;
+  width: auto;
+}
+.ml17-IceHockeyTimelineTooltipText_Time {
+  display: block;
+  color: #666;
+  font-size: 11px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.ie-8 .ml17-IceHockeyTimelineTooltipText_Time,
+.ie-9 .ml17-IceHockeyTimelineTooltipText_Time {
+  display: table-cell;
+  vertical-align: middle;
+  width: 80px;
+}
+.ml17-PulledKeeperStatusFallback {
+  display: none;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/pulledKeeperStatus.png', sizingMethod='scale') progid:DXImageTransform.Microsoft.BasicImage(mirror=1)";
+  height: 41px;
+  width: 41px;
+  top: 39%;
+  left: 0.6%;
+}
+.ml17-PulledKeeperStatusFallback.ml17-AwayPulled {
+  left: 89.4%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/pulledKeeperStatus.png', sizingMethod='scale')";
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-PulledKeeperStatusFallback {
+  height: 28px;
+  width: 28px;
+}
+.ml17-ScoreHeaderIceHockey {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 7px 1px 6px;
+}
+.ml17-ScoreHeaderIceHockey_TeamContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.ml17-ScoreHeaderIceHockey_Team1Container {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ml17-ScoreHeaderIceHockey_Team2Container {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ml17-ScoreHeaderIceHockey_Team1Name {
+  padding: 0 3px 2px 10px;
+  text-align: right;
+}
+.ml17-ScoreHeaderIceHockey_Team2Name {
+  padding: 0 10px 2px 3px;
+}
+.ml17-ScoreHeaderIceHockey_Team {
+  transition-property: font-size, line-height;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  color: #e4e4e4;
+  line-height: 17px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreHeaderIceHockey_Team,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreHeaderIceHockey_Team,
+.wc-Page_RightColumn-animate .ml17-ScoreHeaderIceHockey_Team {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreHeaderIceHockey_Team {
+  font-size: 12px;
+  padding-top: 3px;
+  margin-bottom: 2px;
+}
+.ml17-ScoreHeaderIceHockey_TeamText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ml17-ScoreHeaderIceHockey_TeamBorder {
+  position: absolute;
+  height: 15px;
+  margin-top: 1px;
+}
+.ml17-ScoreHeaderIceHockey_ScoreContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 34px;
+}
+.ml17-ScoreHeaderIceHockey_TeamScore {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  line-height: 24px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffdf1b;
+  padding: 2px 4px 0;
+  background-color: #4d4d4d;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreHeaderIceHockey_TeamScore,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreHeaderIceHockey_TeamScore,
+.wc-Page_RightColumn-animate .ml17-ScoreHeaderIceHockey_TeamScore {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreHeaderIceHockey_TeamScore {
+  font-size: 15px;
+}
+.ml17-ScoreHeaderIceHockey_TeamScore-width1 {
+  width: 20px;
+  padding: 0 7px;
+}
+.ml17-ScoreHeaderIceHockey_TeamScore-width2 {
+  width: 30px;
+}
+.ml17-ScoreHeaderIceHockey_TeamScore-width3 {
+  width: 41px;
+}
+.ml17-ScoreHeaderIceHockey_TeamColourBar {
+  height: 3px;
+}
+.ml17-ScoreHeaderIceHockey_ScoreDivider {
+  min-width: 3px;
+}
+.ml17-ScoreHeaderIceHockey_PowerplayContainer {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  margin-top: 2px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-ScoreHeaderIceHockey_PowerplayContainer {
+  line-height: 14px;
+  font-size: 10px;
+}
+.ml17-ScoreHeaderIceHockey_Powerplay1Container {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ml17-ScoreHeaderIceHockey_Powerplay2Container {
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.ml17-ScoreHeaderIceHockey_TeamPowerplay {
+  font-size: 11px;
+  color: #f0f0f0;
+  background-color: #cf5269;
+  padding: 0 5px;
+}
+.ml17-ScoreHeaderIceHockey_TimerOuterWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.ml17-ScoreHeaderIceHockey_Text,
+.ml17-ScoreHeaderIceHockey_Timer {
+  margin-top: 2px;
+  font-size: 11px;
+  line-height: 16px;
+  min-width: 48px;
+  text-align: center;
+  padding: 0 6px 1px;
+  border-radius: 0 0 1px 1px;
+  background-color: #5f85c2;
+  color: #fff;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreHeaderIceHockey_Text,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreHeaderIceHockey_Timer {
+  line-height: 14px;
+  min-width: 40px;
+  font-size: 10px;
+}
+.ml17-ScoreHeaderIceHockey_AdditionalText {
+  margin-right: 7px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-ScoreHeaderIceHockey_AdditionalText {
+  margin-right: 5px;
+}
+.ml17-ScoreHeaderIceHockey_ClockFadeOut,
+.ml17-ScoreHeaderIceHockey_TextFadeOut,
+.ml17-ScoreHeaderIceHockey_Timer-empty {
+  display: none;
+}
+.ml17-ScoreUpdate {
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ie-9 .ml17-ScoreUpdate {
+  display: block;
+}
+.ml17-ScoreUpdate_Title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold,
+    HelveticaNeueW01-75Bold, HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto,
+    TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 15px;
+  white-space: normal;
+  color: #15c3e4;
+}
+.ml17-ScoreUpdate_OuterWrapper {
+  transition-property: height;
+  position: absolute;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  left: 50%;
+  top: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreUpdate_OuterWrapper,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreUpdate_OuterWrapper,
+.wc-Page_RightColumn-animate .ml17-ScoreUpdate_OuterWrapper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-8 .ml17-ScoreUpdate_OuterWrapper,
+.ie-9 .ml17-ScoreUpdate_OuterWrapper {
+  display: table;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreUpdate_OuterWrapper {
+  height: 38px;
+}
+.ml17-ScoreUpdate_ScoreWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-flex: 1;
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  padding-left: 10px;
+}
+.ie-9 .ml17-ScoreUpdate_ScoreWrapper {
+  display: table-cell;
+}
+.ml17-ScoreUpdate_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.ie-9 .ml17-ScoreUpdate_ScoreWrapper-score1 {
+  text-align: right;
+}
+.ml17-ScoreUpdate_Score {
+  transition-property: min-width;
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ml17-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreUpdate_Score {
+  min-width: 30px;
+}
+.ie-9 .ml17-ScoreUpdate_Score {
+  transition-property: height;
+  display: inline-block;
+  height: 48px;
+}
+.wc-InPlayPage_RightColumn-animate .ie-9 .ml17-ScoreUpdate_Score,
+.wc-MyBetsPage_RightColumn-animate .ie-9 .ml17-ScoreUpdate_Score,
+.wc-Page_RightColumn-animate .ie-9 .ml17-ScoreUpdate_Score {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ie-9 .ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreUpdate_Score {
+  height: 38px;
+}
+.ml17-ScoreUpdate_ScoreMain {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI,
+    Roboto, Droid Sans, Verdana, Arial, Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #537ba3;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreUpdate_ScoreMain,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreUpdate_ScoreMain,
+.wc-Page_RightColumn-animate .ml17-ScoreUpdate_ScoreMain {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreUpdate_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml17-ScoreUpdate_ScoreOriginal {
+  transition-property: font-size, line-height;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI,
+    Roboto, Droid Sans, Verdana, Arial, Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  padding-right: 2px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 48px;
+  color: #537ba3;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-ScoreUpdate_ScoreOriginal,
+.wc-MyBetsPage_RightColumn-animate .ml17-ScoreUpdate_ScoreOriginal,
+.wc-Page_RightColumn-animate .ml17-ScoreUpdate_ScoreOriginal {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-ScoreUpdate_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml17-ScoreUpdateFallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: left;
+}
+.ml17-ScoreUpdateFallback_Title {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  font-family: HelveticaNeueBold, HelveticaNeue-Bold, Helvetica Neue Bold,
+    HelveticaNeueW01-75Bold, HelveticaNeue, Helvetica Neue, Roboto Bold, Roboto,
+    TeXGyreHerosBold, Helvetica, Tahoma, Verdana, Geneva, Arial, sans-serif;
+  font-weight: 700;
+  font-smoothing: grayscale;
+  font-size: 18px;
+  text-align: center;
+  line-height: 15px;
+  white-space: normal;
+  color: #15c3e4;
+}
+.ml17-ScoreUpdateFallback_OuterWrapper {
+  display: table;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 47.5%;
+  margin-top: -24px;
+}
+.ml17-MatchLiveIceHockeyModule_Narrow .ml17-ScoreUpdateFallback_OuterWrapper {
+  height: 38px;
+  margin-top: -19px;
+}
+.ml17-ScoreUpdateFallback_ScoreWrapper {
+  display: table-cell;
+  padding-left: 10px;
+}
+.ml17-ScoreUpdateFallback_ScoreWrapper-score1 {
+  padding-right: 10px;
+  padding-left: 0;
+  text-align: right;
+}
+.ml17-ScoreUpdateFallback_Score {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  min-width: 40px;
+}
+.ml17-MatchLiveIceHockeyModule_Narrow .ml17-ScoreUpdateFallback_Score {
+  height: 38px;
+  min-width: 30px;
+}
+.ml17-ScoreUpdateFallback_ScoreMain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI,
+    Roboto, Droid Sans, Verdana, Arial, Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #537ba3;
+}
+.ml17-MatchLiveIceHockeyModule_Narrow .ml17-ScoreUpdateFallback_ScoreMain {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml17-ScoreUpdateFallback_ScoreOriginal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-right: 2px;
+  font-family: Helvetica Neue, Helvetica, HelveticaNeueW01-55Roma, Segoe UI,
+    Roboto, Droid Sans, Verdana, Arial, Lucida Grande, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+  color: #537ba3;
+}
+.ml17-MatchLiveIceHockeyModule_Narrow .ml17-ScoreUpdateFallback_ScoreOriginal {
+  font-size: 20px;
+  line-height: 38px;
+}
+.ml17-ScoreUpdateFallback-transparent {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.ml17-ShootOutGrid {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.ml17-ShootOutGrid_AnimsShootOutGrid {
+  margin-top: 25px;
+}
+.ml17-ShootOutGrid_AnimsPending {
+  -webkit-animation: 1.5s borderBlink step-end infinite;
+  animation: 1.5s borderBlink step-end infinite;
+  color: currentColor;
+  border-bottom-style: solid;
+}
+.ml17-ShootOutGrid_AnimsMissed {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyMiss.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ie-8 .ml17-ShootOutGrid_AnimsMissed,
+.ie-9 .ml17-ShootOutGrid_AnimsMissed {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyMiss.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ml17-ShootOutGrid_AnimsScored {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyPuck.svg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ie-8 .ml17-ShootOutGrid_AnimsScored,
+.ie-9 .ml17-ShootOutGrid_AnimsScored {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/penaltyPuck.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.ml17-ShootOutGrid_Anims {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  top: 27px;
+  height: 13%;
+  overflow: hidden;
+  padding: 0 2px;
+  position: absolute;
+}
+.ml17-ShootOutGrid_AnimsShootOutHome {
+  vertical-align: top;
+  width: 50%;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: top;
+  -ms-flex-align: top;
+  align-items: top;
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutHome {
+  text-align: right;
+  float: left;
+}
+.ml17-ShootOutGrid_AnimsShootOutAway {
+  vertical-align: top;
+  width: 50%;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutAway {
+  direction: rtl;
+  text-align: left;
+  float: right;
+}
+.ml17-ShootOutGrid_AnimsShootOutAwayPen,
+.ml17-ShootOutGrid_AnimsShootOutHomePen {
+  background-color: #b5d2ff;
+  -webkit-flex: 0 0 12%;
+  -ms-flex: 0 0 12%;
+  flex: 0 0 12%;
+  width: 12%;
+}
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutAwayPen,
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutHomePen {
+  display: inline-block;
+  height: 22px;
+}
+.ml17-ShootOutGrid_AnimsShootOutTotalAway,
+.ml17-ShootOutGrid_AnimsShootOutTotalHome {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-weight: 400;
+  color: #40647e;
+  background: none !important;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: normal;
+  position: relative;
+  -webkit-flex: 0 0 12%;
+  -ms-flex: 0 0 12%;
+  flex: 0 0 12%;
+  width: 12%;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 700;
+}
+@media (max-device-width: 1024px) {
+  .ml17-ShootOutGrid_AnimsShootOutTotalAway,
+  .ml17-ShootOutGrid_AnimsShootOutTotalHome {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+@media (max-device-width: 2048px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-device-width: 2048px) and (min-resolution: 2dppx) {
+  .ml17-ShootOutGrid_AnimsShootOutTotalAway,
+  .ml17-ShootOutGrid_AnimsShootOutTotalHome {
+    font-family: Helvetica Neue, HelveticaNeueW01-55Roma, Roboto, Droid Sans,
+      Segoe UI, Verdana, Arial, Lucida Grande, sans-serif;
+  }
+}
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutTotalAway,
+.ie-8 .ml17-ShootOutGrid_AnimsShootOutTotalHome {
+  display: inline-block;
+}
+.ml17-ShootOutGrid_AnimsShootOutHomePen {
+  margin-right: 8px;
+}
+.ml17-ShootOutGrid_AnimsShootOutAwayPen {
+  margin-left: 8px;
+}
+.ml17-SingleSplitStatsBar_Value {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  padding-right: 5px;
+}
+.ml17-SingleSplitStatsBar_Value + .ml17-SingleSplitStatsBar_Value {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.ml17-SingleSplitStatsBar_Prefix {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 28px;
+  padding: 0 2px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.ml17-SingleSplitStatsBar_Value .ml17-SingleSplitStatsBar_Prefix {
+  vertical-align: bottom;
+  margin-bottom: 4px;
+  padding: 0;
+  border: none;
+  min-width: 0;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SingleSplitStatsBar_Prefix {
+  line-height: 17px;
+  padding-bottom: 4px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-SingleSplitStatsBar_Value
+  .ml17-SingleSplitStatsBar_Prefix {
+  margin-bottom: 3px;
+  padding: 0;
+}
+.ml17-SingleSplitStatsBar_Text {
+  transition-property: line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-SingleSplitStatsBar_Text,
+.wc-MyBetsPage_RightColumn-animate .ml17-SingleSplitStatsBar_Text,
+.wc-Page_RightColumn-animate .ml17-SingleSplitStatsBar_Text {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-SingleSplitStatsBar_Value .ml17-SingleSplitStatsBar_Text {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 4px;
+  position: relative;
+  top: -1px;
+  margin-left: 5px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SingleSplitStatsBar_Text {
+  line-height: 12px;
+}
+.ml17-SingleSplitStatsBar_Surround {
+  height: 4px;
+  border-radius: 2px;
+  background-color: #666;
+  overflow: hidden;
+}
+.ml17-SingleSplitStatsBar_Fill {
+  height: 4px;
+  width: 0;
+  background-color: #fff;
+  float: right;
+}
+.ml17-SingleSplitStatsBar_Value
+  + .ml17-SingleSplitStatsBar_Value
+  .ml17-SingleSplitStatsBar_Fill {
+  float: none;
+}
+.ml17-SplitStatsBar {
+  transition-property: width;
+  display: table;
+  table-layout: fixed;
+  width: 310px;
+  margin: 0 auto;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-SplitStatsBar,
+.wc-MyBetsPage_RightColumn-animate .ml17-SplitStatsBar,
+.wc-Page_RightColumn-animate .ml17-SplitStatsBar {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SplitStatsBar {
+  width: 237px;
+}
+.ml17-SplitStatsBar_Title {
+  transition-property: margin-bottom, font-size, line-height;
+  text-align: center;
+  margin-top: 4px;
+  padding-bottom: 21px;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-SplitStatsBar_Title,
+.wc-MyBetsPage_RightColumn-animate .ml17-SplitStatsBar_Title,
+.wc-Page_RightColumn-animate .ml17-SplitStatsBar_Title {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SplitStatsBar_Title {
+  margin-bottom: 15px;
+  line-height: 12px;
+  font-size: 10px;
+}
+.ml17-SingleSplitStatsBar_Value .ml17-SplitStatsBar_Title {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 4px;
+}
+.ml17-Stat_Text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ddd;
+  min-width: 28px;
+  padding: 0 2px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.ml17-SingleSplitStatsBar_Value .ml17-Stat_Text {
+  vertical-align: bottom;
+  margin-bottom: 4px;
+  padding: 0;
+  border: none;
+  min-width: 0;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-Stat_Text {
+  line-height: 17px;
+  padding-bottom: 4px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-SingleSplitStatsBar_Value
+  .ml17-Stat_Text {
+  margin-bottom: 3px;
+  padding: 0;
+}
+.ml17-Stat_Header {
+  transition-property: font-size, line-height;
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-Stat_Header,
+.wc-MyBetsPage_RightColumn-animate .ml17-Stat_Header,
+.wc-Page_RightColumn-animate .ml17-Stat_Header {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-SingleSplitStatsBar_Value .ml17-Stat_Header {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 4px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-Stat_Header {
+  line-height: 12px;
+  font-size: 10px;
+}
+.ml17-StatsUpper {
+  transition-property: margin-bottom;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-StatsUpper,
+.wc-MyBetsPage_RightColumn-animate .ml17-StatsUpper,
+.wc-Page_RightColumn-animate .ml17-StatsUpper {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-StatsUpper {
+  margin-bottom: 7px;
+}
+.ml17-StatsUpper_ShotsColumn {
+  transition-property: padding-left, padding-right;
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 19px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-StatsUpper_ShotsColumn,
+.wc-MyBetsPage_RightColumn-animate .ml17-StatsUpper_ShotsColumn,
+.wc-Page_RightColumn-animate .ml17-StatsUpper_ShotsColumn {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-StatsUpper_PenaltiesColumn ~ .ml17-StatsUpper_ShotsColumn {
+  padding-left: 0;
+  padding-right: 19px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-StatsUpper_ShotsColumn {
+  padding-left: 0;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-StatsUpper_PenaltiesColumn
+  ~ .ml17-StatsUpper_ShotsColumn {
+  padding-right: 0;
+}
+.ml17-StatsUpper_PenaltiesColumn {
+  transition-property: padding-left, padding-right;
+  display: table-cell;
+  vertical-align: top;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-StatsUpper_PenaltiesColumn,
+.wc-MyBetsPage_RightColumn-animate .ml17-StatsUpper_PenaltiesColumn,
+.wc-Page_RightColumn-animate .ml17-StatsUpper_PenaltiesColumn {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-StatsUpper_PenaltiesColumn {
+  padding-left: 5px;
+  padding-right: 2px;
+}
+.ml17-MatchLiveIceHockeyModule-narrow
+  .ml17-StatsUpper_PenaltiesColumn
+  ~ .ml17-StatsUpper_PenaltiesColumn {
+  padding-right: 5px;
+  padding-left: 2px;
+}
+.ml17-SuspensionContainer_Away,
+.ml17-SuspensionContainer_Home {
+  transition-property: width;
+  height: 14px;
+  width: 37%;
+  display: block;
+  font-size: 0;
+  margin-top: 1px;
+}
+.wc-InPlayPage_RightColumn-animate .ml17-SuspensionContainer_Away,
+.wc-InPlayPage_RightColumn-animate .ml17-SuspensionContainer_Home,
+.wc-MyBetsPage_RightColumn-animate .ml17-SuspensionContainer_Away,
+.wc-MyBetsPage_RightColumn-animate .ml17-SuspensionContainer_Home,
+.wc-Page_RightColumn-animate .ml17-SuspensionContainer_Away,
+.wc-Page_RightColumn-animate .ml17-SuspensionContainer_Home {
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition-duration: 0.65s;
+}
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SuspensionContainer_Away,
+.ml17-MatchLiveIceHockeyModule-narrow .ml17-SuspensionContainer_Home {
+  width: 33%;
+}
+.ie-8 .ml17-SuspensionContainer_Away,
+.ie-8 .ml17-SuspensionContainer_Home {
+  position: relative;
+  z-index: 1;
+}
+.ml17-SuspensionContainer_Home {
+  float: left;
+  margin-left: 24px;
+}
+.ml17-SuspensionContainer_Away {
+  float: right;
+  margin-right: 24px;
+}
+.ml17-SuspensionContainer_Suspension {
+  display: block;
+  float: left;
+  height: 14px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #537ba3;
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-left: 11px;
+  padding-right: 3px;
+  background-repeat: no-repeat;
+  background-size: 6px 8px;
+  background-position: 3px 3px;
+  line-height: 14px;
+  margin-top: 4px;
+  border-radius: 3px;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_sinbin.svg);
+}
+.ml17-SuspensionContainer_Away .ml17-SuspensionContainer_Suspension {
+  float: right;
+}
+.ie-8 .ml17-SuspensionContainer_Suspension,
+.ie-9 .ml17-SuspensionContainer_Suspension {
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveIceHockeyModule/assets/animations/icon_sinbin.png);
+}
+.ml17-TabController {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.ml17-TabController,
+.ml17-TabController_Wrapper {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+.ml17-TabController_Wrapper {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ml17-TabController_Tab {
+  padding: 0 5px;
+  font-size: 11px;
+  color: #bbb;
+  line-height: 12px;
+  padding-top: 11px;
+  height: 36px;
+}
+.ml17-TabController_TabStats:before {
+  width: 20px;
+  background-position: 5px -10px;
+}
+.ml17-TabController_TabScoreboard:before,
+.ml17-TabController_TabStats:before {
+  content: " ";
+  height: 29px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(https://www.bet365.es/sports-assets/sports/MatchLiveLib/ui/menu_sprites.svg);
+  vertical-align: top;
+  opacity: 0.5;
+}
+.ml17-TabController_TabScoreboard:before {
+  width: 21px;
+  background-position: 1px -98px;
+}
