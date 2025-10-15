@@ -16,7 +16,7 @@
     "@storybook/addon-actions": "^4.1.18",
     "@storybook/addon-links": "^4.1.18",
     "@storybook/react-native": "^4.1.18",
-    "expo": "^32.0.0",
+    "expo": "^48.0.0",
     "prop-types": "^15.7.2",
     "react": "16.6.3",
     "react-native": "0.57.8",
